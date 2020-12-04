@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/05/main05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/04/main04.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +18,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1l2zUSC64Amrmr9JooLaJAdj0H6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -22,11 +30,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/03" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/05" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -42,6 +52,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/05" />
       <recent name="$PROJECT_DIR$/03" />
       <recent name="$PROJECT_DIR$/02" />
     </key>
@@ -65,8 +76,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.main04.js" />
-        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (2)" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
       </list>
     </recent_temporary>
@@ -81,7 +92,7 @@
       <updated>1606809989305</updated>
       <workItem from="1606809990394" duration="1794000" />
       <workItem from="1606898250012" duration="1864000" />
-      <workItem from="1606975767622" duration="3934000" />
+      <workItem from="1606975767622" duration="4638000" />
     </task>
     <servers />
   </component>
@@ -95,12 +106,6 @@
           <url>file://$PROJECT_DIR$/02/main.js</url>
           <line>26</line>
           <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/04/main04.js</url>
-          <line>20</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
