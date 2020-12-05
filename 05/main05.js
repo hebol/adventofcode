@@ -1,61 +1,22 @@
 const utils = require('../utils');
-//let arrayList = utils.readFileNoFilter('invalid.txt');
-let arrayList = utils.readFileNoFilter();
+let arrayList = utils.readFile();
 
 console.log('Data is:', arrayList);
 
-var validFields = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid', 'cid'];
-
-var count = 0;
-var current = {};
-
-function validate(obj) {
-  var result;
-  const byr  = parseInt(obj.byr);
-  const iyr  = parseInt(obj.iyr);
-  const eyr  = parseInt(obj.eyr);
-  result = (byr >= 1920 && byr <= 2002 && obj.byr.length === 4) &&
-    (iyr >= 2010 && iyr <= 2020 && obj.iyr.length === 4) &&
-    (eyr >= 2020 && eyr <= 2030 && obj.eyr.length === 4)
-
-  var data = obj.hgt.match(/^(\d+)(in|cm)$/);
-  result = result && data;
-  if (result && data && data[2] === 'cm') {
-    result = parseInt(data[1]) >= 150 && parseInt(data[1]) <= 193;
-  }
-  if (result && data && data[2] === 'in') {
-    result = parseInt(data[1]) >= 59 && parseInt(data[1]) <= 76;
-  }
-  result = result && obj.hcl.match(/^#[a-f0-9]{6}$/)
-  result = result && ['amb', 'blu', 'brn', 'gry', 'grn', 'hzl', 'oth'].indexOf(obj.ecl) >= 0
-
-  result = result && obj.pid.match(/^[0-9]{9}$/)
-  return result;
-}
-
-while (arrayList.length > 0) {
-  const aLine = arrayList.shift();
-  if (aLine.length > 0) {
-    aLine.split(' ').filter(part => part.length > 0).forEach(part => {
-      var data = part.split(':')
-      current[data[0]] = data[1];
-    });
+let data = arrayList.map(entry => entry.replaceAll(/[BR]/g, '1').replaceAll(/[FL]/g, '0'));
+data = data.map(entry => {return {row: entry.substring(0,7), col: entry.substring(7)}});
+data = data.map(entry => {return {row: parseInt(entry.row, 2), col: parseInt(entry.col, 2)}});
+data = data.map(entry => entry.row * 8 + entry.col);
+console.log('Result', data, Math.max(...data));
+data = data.sort((a,b) => a-b);
+console.log('Result', data);
+data.reduce((rest, now) => {
+  if (rest === -1) {
+    return now;
   } else {
-    var ok = false;
-    switch (Object.keys(current).length) {
-      case 8:
-        ok = true;
-        break;
-      case 7:
-        if (!current.hasOwnProperty('cid')) {
-          ok = true;
-        }
-        break;
+    if (now > rest + 1) {
+      console.log('Found it!!', rest + 1);
     }
-    if (ok && validate(current)) {
-      count++
-    }
-    current = {}
+    return now;
   }
-}
-console.log('Found', count, 'valid');
+}, -1);
