@@ -3,19 +3,24 @@ const fs = require('fs');
 module.exports = {
   readFile: (name) => {
     const rawData = fs.readFileSync(name || './input.txt');
-    const stringData = new String(rawData);
+    const stringData = String(rawData);
     var arrayList = stringData.split('\n');
     return arrayList.filter(entry => entry && entry.trim().length >= 0);
   },
   readFileNoFilter: (name) => {
     const rawData = fs.readFileSync(name || './input.txt');
-    const stringData = new String(rawData);
-    var arrayList = stringData.split('\n');
-    return arrayList;
+    const stringData = String(rawData);
+    return stringData.split('\n');
   },
-  processMultiLine: (name, handler) => {
+  processLine: (handler, name) => {
     const rawData = fs.readFileSync(name || './input.txt');
-    const stringData = new String(rawData);
+    const stringData = String(rawData);
+    var arrayList = stringData.split('\n');
+    return arrayList.filter(entry => entry.length).map(handler);
+  },
+  processMultiLine: (handler, name) => {
+    const rawData = fs.readFileSync(name || './input.txt');
+    const stringData = String(rawData);
     var arrayList = stringData.split('\n');
     let sum = [];
     let currentData = [];
@@ -30,5 +35,6 @@ module.exports = {
       }
     }
     return sum;
-  }
+  },
+  sumArray: (array) => { return array.reduce((rest, entry) => rest + entry, 0);}
 };

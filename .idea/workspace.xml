@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/06/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/04/main04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/main05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/main06.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,17 +64,17 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.js (3)">
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/04/main04.js" working-dir="$PROJECT_DIR$/04">
       <method v="2" />
     </configuration>
     <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/05/main05.js" working-dir="$PROJECT_DIR$/05">
       <method v="2" />
     </configuration>
-    <configuration name="main.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/03/main.js" working-dir="$PROJECT_DIR$/03">
+    <configuration name="main06.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/06/main06.js" working-dir="$PROJECT_DIR$/06">
       <method v="2" />
     </configuration>
-    <configuration name="main.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/06/main.js" working-dir="$PROJECT_DIR$/06">
+    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02/main.js" working-dir="$PROJECT_DIR$/02">
       <method v="2" />
     </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/01/main.js" working-dir="$PROJECT_DIR$/01">
@@ -80,11 +82,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main.js (3)" />
         <item itemvalue="Node.js.main.js" />
-        <item itemvalue="Node.js.main.js (2)" />
-        <item itemvalue="Node.js.main05.js" />
+        <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.main04.js" />
+        <item itemvalue="Node.js.main05.js" />
+        <item itemvalue="Node.js.main06.js" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +103,7 @@
       <workItem from="1606975767622" duration="6340000" />
       <workItem from="1607146403284" duration="5130000" />
       <workItem from="1607234826926" duration="6000" />
-      <workItem from="1607234881808" duration="2159000" />
+      <workItem from="1607234881808" duration="3262000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -127,7 +129,13 @@
       <option name="presentableId" value="LOCAL−00004" />
       <updated>1607234738756</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL−00005" summary="Created process function which made solution much simpler!">
+      <created>1607237515549</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1607237515549</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,7 +146,8 @@
     <MESSAGE value="Not so beautiful code..." />
     <MESSAGE value="Day 6..sigh!" />
     <MESSAGE value="Added data from day6 and prepare day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added data from day6 and prepare day 7" />
+    <MESSAGE value="Created process function which made solution much simpler!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created process function which made solution much simpler!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

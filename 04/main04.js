@@ -1,8 +1,5 @@
 const utils = require('../utils');
-//let arrayList = utils.readFileNoFilter('invalid.txt');
 let arrayList = utils.readFileNoFilter();
-
-console.log('Data is:', arrayList);
 
 var validFields = ['byr', 'iyr', 'eyr', 'hgt', 'hcl', 'ecl', 'pid', 'cid'];
 
@@ -36,7 +33,7 @@ function validate(obj) {
 while (arrayList.length > 0) {
   const aLine = arrayList.shift();
   if (aLine.length > 0) {
-    aLine.split(' ').filter(part => part.length > 0).forEach(part => {
+    aLine.split(' ').filter(part => part.length).forEach(part => {
       var data = part.split(':')
       current[data[0]] = data[1];
     });
@@ -59,3 +56,4 @@ while (arrayList.length > 0) {
   }
 }
 console.log('Found', count, 'valid');
+//Found 153 valid
