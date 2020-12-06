@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/inputt2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07/main07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/06/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +47,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -80,10 +81,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.main.js (3)" />
+        <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.main.js (2)" />
         <item itemvalue="Node.js.main05.js" />
         <item itemvalue="Node.js.main04.js" />
-        <item itemvalue="Node.js.main.js (2)" />
-        <item itemvalue="Node.js.main.js" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +99,9 @@
       <workItem from="1606809990394" duration="1794000" />
       <workItem from="1606898250012" duration="1864000" />
       <workItem from="1606975767622" duration="6340000" />
-      <workItem from="1607146403284" duration="5044000" />
+      <workItem from="1607146403284" duration="5130000" />
+      <workItem from="1607234826926" duration="6000" />
+      <workItem from="1607234881808" duration="2159000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -118,7 +121,13 @@
       <option name="presentableId" value="LOCAL−00003" />
       <updated>1607234235932</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL−00004" summary="Added data from day6 and prepare day 7">
+      <created>1607234738756</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1607234738756</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,7 +137,8 @@
     <MESSAGE value="Prepare for tomorrow and cleanup" />
     <MESSAGE value="Not so beautiful code..." />
     <MESSAGE value="Day 6..sigh!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6..sigh!" />
+    <MESSAGE value="Added data from day6 and prepare day 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added data from day6 and prepare day 7" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
