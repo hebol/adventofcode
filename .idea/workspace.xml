@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/06/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/test1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06/test3.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/05/main05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06/inputt2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07/main07.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +35,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/06" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/07" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -54,6 +51,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/07" />
       <recent name="$PROJECT_DIR$/06" />
       <recent name="$PROJECT_DIR$/05" />
       <recent name="$PROJECT_DIR$/03" />
@@ -100,7 +98,7 @@
       <workItem from="1606809990394" duration="1794000" />
       <workItem from="1606898250012" duration="1864000" />
       <workItem from="1606975767622" duration="6340000" />
-      <workItem from="1607146403284" duration="4587000" />
+      <workItem from="1607146403284" duration="5044000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -114,7 +112,13 @@
       <option name="presentableId" value="LOCAL−00002" />
       <updated>1607146341252</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL−00003" summary="Day 6..sigh!">
+      <created>1607234235932</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1607234235932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +127,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prepare for tomorrow and cleanup" />
     <MESSAGE value="Not so beautiful code..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Not so beautiful code..." />
+    <MESSAGE value="Day 6..sigh!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6..sigh!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
