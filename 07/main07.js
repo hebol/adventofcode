@@ -7,10 +7,6 @@ const bags = {
   createColor: (color, children) => {
     bags.colors[color] = bags.colors[color] || {color:color}
 
-      if (Array.isArray(color)) {
-        console.log('SNAFU?');
-      }
-
     if (children) {
       const childList = {};
       children.forEach(entry => {
@@ -57,17 +53,12 @@ do {
 
 const answer1 = Object.values(bags.colors).filter(entry => entry.gold);
 
-// 144
-console.log('has gold', answer1.length);
-
-const gold = bags.colors['shiny gold'];
-console.log(gold);
+console.log('Bags that can contain "Shiny gold"', answer1.length);
 
 const processBag = (aBag) => {
   return 1 + aBag.childrenRaw.reduce((rest, subBag) => {
-    console.log('Will have', subBag.count, subBag.color, 'bags');
     return rest + subBag.count * processBag(bags.colors[subBag.color]);
   }, 0)
 }
 
-console.log('Bag count', processBag(gold) - 1);
+console.log('Bag count in Shiny gold', processBag(bags.colors['shiny gold']) - 1);
