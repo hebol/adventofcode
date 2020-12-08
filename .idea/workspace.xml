@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/08/main08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/07/main07.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +35,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/07" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/08" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/08" />
       <recent name="$PROJECT_DIR$/07" />
       <recent name="$PROJECT_DIR$/06" />
       <recent name="$PROJECT_DIR$/05" />
       <recent name="$PROJECT_DIR$/03" />
-      <recent name="$PROJECT_DIR$/02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/01" />
@@ -100,7 +101,7 @@
       <workItem from="1606975767622" duration="6340000" />
       <workItem from="1607146403284" duration="5130000" />
       <workItem from="1607234826926" duration="6000" />
-      <workItem from="1607234881808" duration="9561000" />
+      <workItem from="1607234881808" duration="9918000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -150,7 +151,13 @@
       <option name="presentableId" value="LOCAL−00008" />
       <updated>1607330357018</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL−00009" summary="Added correct answer">
+      <created>1607342089441</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1607342089441</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +172,7 @@
     <MESSAGE value="Added line parsers" />
     <MESSAGE value="Solved it...not so beautiful" />
     <MESSAGE value="Small, small cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small, small cleanup" />
+    <MESSAGE value="Added correct answer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added correct answer" />
   </component>
 </project>
