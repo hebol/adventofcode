@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/09/main09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main08.js">
+  <component name="RunManager" selected="Node.js.main07.js">
     <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/04/main04.js" working-dir="$PROJECT_DIR$/04">
       <method v="2" />
     </configuration>
@@ -78,8 +78,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main07.js" />
+        <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.main04.js" />
@@ -168,7 +168,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1607404049103</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Empty start">
+      <created>1607489326097</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1607489326097</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,6 +191,7 @@
     <MESSAGE value="Small, small cleanup" />
     <MESSAGE value="Added correct answer" />
     <MESSAGE value="Added testdata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testdata" />
+    <MESSAGE value="Empty start" />
+    <option name="LAST_COMMIT_MESSAGE" value="Empty start" />
   </component>
 </project>
