@@ -1,7 +1,5 @@
 const utils = require('../utils');
 
-//pale cyan bags contain 5 dull gray bags, 3 posh olive bags, 2 striped silver bags.
-
 const bags = {
   colors: {},
   createColor: (color, children) => {
@@ -34,8 +32,6 @@ utils.processLine(line => {
   bags.createColor(match[1], children);
 })
 
-//console.log('Data is:', bags.colors);
-
 const containGoldDirectly = Object.values(bags.colors).filter(entry => {
   return Object.values(entry.children).filter(entry => entry.color === 'shiny gold').length > 0;
 })
@@ -53,7 +49,8 @@ do {
 
 const answer1 = Object.values(bags.colors).filter(entry => entry.gold);
 
-console.log('Bags that can contain "Shiny gold"', answer1.length);
+//144
+console.log('Bags that can contain "shiny gold"', answer1.length);
 
 const processBag = (aBag) => {
   return 1 + aBag.childrenRaw.reduce((rest, subBag) => {
@@ -61,4 +58,5 @@ const processBag = (aBag) => {
   }, 0)
 }
 
+// 5956
 console.log('Bag count in Shiny gold', processBag(bags.colors['shiny gold']) - 1);

@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/07/main07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/08/main08.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/07" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/08" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,24 +51,24 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/08" />
       <recent name="$PROJECT_DIR$/07" />
       <recent name="$PROJECT_DIR$/06" />
       <recent name="$PROJECT_DIR$/05" />
       <recent name="$PROJECT_DIR$/03" />
-      <recent name="$PROJECT_DIR$/02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main07.js">
+  <component name="RunManager" selected="Node.js.main08.js">
     <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/04/main04.js" working-dir="$PROJECT_DIR$/04">
       <method v="2" />
     </configuration>
-    <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/05/main05.js" working-dir="$PROJECT_DIR$/05">
+    <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07/main07.js" working-dir="$PROJECT_DIR$/07">
       <method v="2" />
     </configuration>
-    <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07/main07.js" working-dir="$PROJECT_DIR$/07">
+    <configuration name="main08.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/08/main08.js" working-dir="$PROJECT_DIR$/08">
       <method v="2" />
     </configuration>
     <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/02/main.js" working-dir="$PROJECT_DIR$/02">
@@ -79,11 +79,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.main04.js" />
-        <item itemvalue="Node.js.main05.js" />
       </list>
     </recent_temporary>
   </component>
@@ -100,7 +100,8 @@
       <workItem from="1606975767622" duration="6340000" />
       <workItem from="1607146403284" duration="5130000" />
       <workItem from="1607234826926" duration="6000" />
-      <workItem from="1607234881808" duration="8987000" />
+      <workItem from="1607234881808" duration="9918000" />
+      <workItem from="1607403665083" duration="2243000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -144,7 +145,31 @@
       <option name="presentableId" value="LOCAL−00007" />
       <updated>1607330248728</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL−00008" summary="Small, small cleanup">
+      <created>1607330357018</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1607330357018</updated>
+    </task>
+    <task id="LOCAL−00009" summary="Added correct answer">
+      <created>1607342089441</created>
+      <option name="number" value="LOCAL−00009" />
+      <option name="presentableId" value="LOCAL−00009" />
+      <updated>1607342089441</updated>
+    </task>
+    <task id="LOCAL−00010" summary="Added testdata">
+      <created>1607403926600</created>
+      <option name="number" value="LOCAL−00010" />
+      <option name="presentableId" value="LOCAL−00010" />
+      <updated>1607403926600</updated>
+    </task>
+    <task id="LOCAL−00011" summary="Added testdata">
+      <created>1607404049103</created>
+      <option name="number" value="LOCAL−00011" />
+      <option name="presentableId" value="LOCAL−00011" />
+      <updated>1607404049103</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +183,9 @@
     <MESSAGE value="Created process function which made solution much simpler!" />
     <MESSAGE value="Added line parsers" />
     <MESSAGE value="Solved it...not so beautiful" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved it...not so beautiful" />
+    <MESSAGE value="Small, small cleanup" />
+    <MESSAGE value="Added correct answer" />
+    <MESSAGE value="Added testdata" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added testdata" />
   </component>
 </project>
