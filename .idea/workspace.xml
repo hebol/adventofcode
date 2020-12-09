@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Något uppsnyggad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/09/main09.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,7 +181,13 @@
       <option name="presentableId" value="LOCAL−00013" />
       <updated>1607490350301</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL−00014" summary="Dag 9 klar">
+      <created>1607498089092</created>
+      <option name="number" value="LOCAL−00014" />
+      <option name="presentableId" value="LOCAL−00014" />
+      <updated>1607498089092</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +206,8 @@
     <MESSAGE value="Added testdata" />
     <MESSAGE value="Empty start" />
     <MESSAGE value="Testdata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testdata" />
+    <MESSAGE value="Dag 9 klar" />
+    <MESSAGE value="Något uppsnyggad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Något uppsnyggad" />
   </component>
 </project>
