@@ -4,7 +4,7 @@ const lines = [];
 
 utils.processLine(line => {
   lines.push(parseInt(line));
-}, 'input.txt');
+}, 'test1.txt');
 
 lines.sort((a,b) => a-b);
 
@@ -68,3 +68,31 @@ console.log('Answer 2', stepGroups.reduce((rest,entry) => combinations(entry) * 
 
 start, 1, 1, 1, end
  */
+const calculateCombinations = array => {
+  const alternatives = [1, 2, 3];
+
+  function extractRestFromArray(steps, array) {
+    let sum = 0, numSteps = 0;
+    array.forEach(step => {
+      if (sum !== steps) {
+        sum += step;
+        numSteps += 1;
+      }
+    }, []);
+    return sum === steps ? array.slice().splice(numSteps) : null;
+  }
+
+  const result = alternatives.reduce((rest, entry) => {
+    const tail = extractRestFromArray(entry, array);
+    let result = rest + (tail ? 1 : 0);
+    result += (tail && tail.length && calculateCombinations(tail) - 1);
+//    console.log('Post =>', {entry, rest, array, tail, result});
+    return result;
+  }, 0);
+  return result;
+}
+
+const alternatives = [[1],[1,2,1],[1,2],[1,1],[1,1,1],[1,1,1,1],[1,1,1,1,1],[1,1,1,1,1,1]];
+alternatives.forEach(entry => {
+  console.log(JSON.stringify(entry), '=>', calculateCombinations(entry));
+});

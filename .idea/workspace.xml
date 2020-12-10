@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/11/main11.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/10/main10.js" afterDir="false" />
     </list>
@@ -32,9 +33,9 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.4.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/10" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/11" />
       <recent name="$PROJECT_DIR$/10" />
       <recent name="$PROJECT_DIR$/09" />
       <recent name="$PROJECT_DIR$/08" />
       <recent name="$PROJECT_DIR$/07" />
-      <recent name="$PROJECT_DIR$/06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/01" />
@@ -205,7 +206,13 @@
       <option name="presentableId" value="LOCAL−00017" />
       <updated>1607579383618</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL−00018" summary="2 solevd!">
+      <created>1607579696541</created>
+      <option name="number" value="LOCAL−00018" />
+      <option name="presentableId" value="LOCAL−00018" />
+      <updated>1607579696541</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,6 +236,7 @@
     <MESSAGE value="Nytt data" />
     <MESSAGE value="10 data" />
     <MESSAGE value="Step 1 complete..not2!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Step 1 complete..not2!" />
+    <MESSAGE value="2 solevd!" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 solevd!" />
   </component>
 </project>
