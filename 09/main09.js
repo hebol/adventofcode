@@ -1,81 +1,43 @@
 const utils = require('../utils');
 
-const code = {
-  lines: [],
-  visited: {},
-  acc : 0,
-  ptr: 0,
-  reset: () => {
-    code.visited = {};
-    code.acc = 0;
-    code.ptr = 0;
-    code.lines = JSON.parse(code.orgLines);
-  }
-};
+const lines = [];
 
 utils.processLine(line => {
-  const match = line.match(/^([a-z]{3}) ([+\-][0-9]+)$/);
-  code.lines.push({op: match[1], arg: parseInt(match[2])});
+  lines.push(parseInt(line));
 }, 'input.txt');
-code.orgLines = JSON.stringify(code.lines);
 
-console.log('There are', code.lines.length, 'rows');
+console.log('There are', lines.length, 'rows');
 
-function runProgram(ignoreNormalExit) {
-  let doContinue = true;
-  let answer2 = false;
-  while (doContinue) {
-    switch (code.lines[code.ptr].op) {
-      case 'nop':
-        code.ptr++;
-        break;
-      case 'acc':
-        code.acc += code.lines[code.ptr].arg;
-        code.ptr++;
-        break;
-      case 'jmp':
-        code.ptr += code.lines[code.ptr].arg;
-        break;
-      default:
-        console.log('Would run unknown', code.lines[code.ptr], '@', code.ptr);
-        break;
+function findPair(array, target) {
+  return array.filter(number => array.indexOf(target - number) >= 0 && 2*number !== target).length;
+}
+
+//Hittade inget par för  258585477
+const process = preamble => {
+  for (var i = preamble ; i < lines.length ; i++) {
+    if (!findPair(lines.slice(i - preamble, i), lines[i])) {
+      console.log('Hittade inget par för ', lines[i]);
+      return lines[i];
     }
-    if (code.visited.hasOwnProperty(code.ptr)) {
-      !ignoreNormalExit && console.log('Exited on repeated line', code.ptr + 1, '!')
-      doContinue = false;
-    } else {
-      if (code.ptr === code.lines.length) {
-        console.log('Exited on last line', code.ptr + 1, '!')
-        doContinue = false;
-        answer2 = true;
+  }
+}
+
+const sum = process(25);
+
+function findSum(aSum) {
+  for (var i = 0 ; i < lines.length - 1 ; i++) {
+    let currentSum = 0;
+    for (var j = i ; j < lines.length ; j++) {
+      currentSum += lines[j];
+      if (currentSum === aSum) {
+        let solution = lines.slice(i, j + 1);
+        const min = Math.min(...solution);
+        const max = Math.max(...solution);
+        console.log('Lösning 2 hittad', solution, {min, max});
+        return min+max;
       }
-      code.visited[code.ptr] = true;
     }
   }
-  return {ptr: code.ptr + 1, acc: code.acc, answer2}
 }
-
-console.log('Acc value when ending', runProgram());
-
-
-function toggleLine(arr, i) {
-  switch (arr[i].op) {
-    case 'nop':
-      arr[i].op = 'jmp';
-      break;
-    case 'jmp':
-      arr[i].op = 'nop';
-      break;
-  }
-}
-
-
-for (let i = 0 ; i < code.lines.length ; i++) {
-  code.reset();
-  toggleLine(code.lines, i);
-  const result = runProgram(true);
-  if (result.answer2) {
-    console.log('Switch line', i + 1, 'to', code.lines[i], 'acc', code.acc);
-    break;
-  }
-}
+//Lösning 2 36981213
+console.log('Lösning 2', findSum(sum));
