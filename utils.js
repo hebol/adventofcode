@@ -1,4 +1,9 @@
 const fs = require('fs');
+const moment = require('moment');
+
+if (require.main.path.split('/').pop() != moment().date()) {
+  console.log('==> Not todays problem!');
+}
 
 module.exports = {
   readFile: (name) => {
