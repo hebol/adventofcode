@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/09/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09/main09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/04/main04.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/08/main08.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/08" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/09" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,17 +55,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/09" />
       <recent name="$PROJECT_DIR$/08" />
       <recent name="$PROJECT_DIR$/07" />
       <recent name="$PROJECT_DIR$/06" />
       <recent name="$PROJECT_DIR$/05" />
-      <recent name="$PROJECT_DIR$/03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main08.js">
+  <component name="RunManager" selected="Node.js.main04.js">
     <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/04/main04.js" working-dir="$PROJECT_DIR$/04">
       <method v="2" />
     </configuration>
@@ -79,11 +83,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main04.js" />
         <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (1)" />
-        <item itemvalue="Node.js.main04.js" />
       </list>
     </recent_temporary>
   </component>
@@ -101,7 +105,7 @@
       <workItem from="1607146403284" duration="5130000" />
       <workItem from="1607234826926" duration="6000" />
       <workItem from="1607234881808" duration="9918000" />
-      <workItem from="1607403665083" duration="2243000" />
+      <workItem from="1607403665083" duration="7533000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -169,7 +173,13 @@
       <option name="presentableId" value="LOCAL−00011" />
       <updated>1607404049103</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL−00012" summary="Solved!">
+      <created>1607406000787</created>
+      <option name="number" value="LOCAL−00012" />
+      <option name="presentableId" value="LOCAL−00012" />
+      <updated>1607406000787</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +196,19 @@
     <MESSAGE value="Small, small cleanup" />
     <MESSAGE value="Added correct answer" />
     <MESSAGE value="Added testdata" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added testdata" />
+    <MESSAGE value="Solved!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved!" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/04/main04.js</url>
+          <line>9</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

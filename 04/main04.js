@@ -30,12 +30,14 @@ function validate(obj) {
   return result;
 }
 
+let caseIndex = 0, okCase = [], keys = {};
 while (arrayList.length > 0) {
   const aLine = arrayList.shift();
   if (aLine.length > 0) {
     aLine.split(' ').filter(part => part.length).forEach(part => {
       var data = part.split(':')
       current[data[0]] = data[1];
+      keys[data[0]] = true;
     });
   } else {
     var ok = false;
@@ -51,8 +53,10 @@ while (arrayList.length > 0) {
     }
     if (ok && validate(current)) {
       count++
+      okCase.push(caseIndex);
     }
-    current = {}
+    current = {};
+    caseIndex++;
   }
 }
 console.log('Found', count, 'valid');
