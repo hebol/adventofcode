@@ -4,7 +4,7 @@ const lines = [];
 
 utils.processLine(line => {
   lines.push(parseInt(line));
-}, 'test1.txt');
+}, 'input.txt');
 
 lines.sort((a,b) => a-b);
 
@@ -28,8 +28,6 @@ lines.forEach(entry => {
 console.log('Answer1', steps[1]* steps[3], steps);
 console.log(diffSteps)
 
-const diffStepCopy = diffSteps.slice();
-let oneLen = 0;
 let stepGroups = [[]];
 diffSteps.forEach(entry => {
   if (entry === 3) {
@@ -56,18 +54,12 @@ console.log('Answer 2', stepGroups.reduce((rest,entry) => combinations(entry) * 
 // wrong 21134460321792
 
 /*
-1 => 1 => 1
-2 => 2 => 2, 1+1
-3 => 4 => 3, 1+2, 2+1, 1+1+1
-4 => 7 => 1+3, 2+2, 3+1, 1+1+2, 2+1+1, 1+2+1, 1+1+1+1
-
-0, 1, 2, 5
-
-0, 2, 5
-0, 1, 2, 5
-
-start, 1, 1, 1, end
+1 => 1 <= 1
+2 => 2 <= 2, 1+1
+3 => 4 <= 3, 1+2, 2+1, 1+1+1
+4 => 7 <= 1+3, 2+2, 3+1, 1+1+2, 2+1+1, 1+2+1, 1+1+1+1
  */
+
 const calculateCombinations = array => {
   const alternatives = [1, 2, 3];
 
@@ -82,14 +74,13 @@ const calculateCombinations = array => {
     return sum === steps ? array.slice().splice(numSteps) : null;
   }
 
-  const result = alternatives.reduce((rest, entry) => {
+  return  alternatives.reduce((rest, entry) => {
     const tail = extractRestFromArray(entry, array);
     let result = rest + (tail ? 1 : 0);
     result += (tail && tail.length && calculateCombinations(tail) - 1);
 //    console.log('Post =>', {entry, rest, array, tail, result});
     return result;
   }, 0);
-  return result;
 }
 
 const alternatives = [[1],[1,2,1],[1,2],[1,1],[1,1,1],[1,1,1,1],[1,1,1,1,1],[1,1,1,1,1,1]];

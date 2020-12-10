@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleaning up..">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/11/main11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/10/main10.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main11.js">
+  <component name="RunManager" selected="Node.js.main10.js">
     <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07/main07.js" working-dir="$PROJECT_DIR$/07">
       <method v="2" />
     </configuration>
@@ -81,8 +79,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
+        <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main09.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main08.js" />
@@ -219,7 +217,13 @@
       <option name="presentableId" value="LOCAL−00019" />
       <updated>1607599273108</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL−00020" summary="Preparing for day 11">
+      <created>1607600618477</created>
+      <option name="number" value="LOCAL−00020" />
+      <option name="presentableId" value="LOCAL−00020" />
+      <updated>1607600618477</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,18 +249,7 @@
     <MESSAGE value="Step 1 complete..not2!" />
     <MESSAGE value="2 solevd!" />
     <MESSAGE value="Preparing for day 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Preparing for day 11" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/utils.js</url>
-          <line>4</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Cleaning up.." />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleaning up.." />
   </component>
 </project>
