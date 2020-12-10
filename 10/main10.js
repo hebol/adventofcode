@@ -4,7 +4,7 @@ const lines = [];
 
 utils.processLine(line => {
   lines.push(parseInt(line));
-}, 'test1.txt');
+}, 'input.txt');
 
 lines.sort((a,b) => a-b);
 
@@ -45,7 +45,7 @@ const map = {
   '[1]': 1,
   '[1,1]': 2,
   '[1,1,1]': 4,
-  '[1,1,1,1]': 6
+  '[1,1,1,1]': 7
 }
 
 function combinations(entry) {
@@ -59,7 +59,7 @@ console.log('Answer 2', stepGroups.reduce((rest,entry) => combinations(entry) * 
 1 => 1 => 1
 2 => 2 => 2, 1+1
 3 => 4 => 3, 1+2, 2+1, 1+1+1
-4 => 6 => 1+3, 2+2, 3+1, 1+1+2, 2+1+1, 1+2+1
+4 => 7 => 1+3, 2+2, 3+1, 1+1+2, 2+1+1, 1+2+1, 1+1+1+1
 
 0, 1, 2, 5
 
