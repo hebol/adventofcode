@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Något uppsnyggad">
-      <change afterPath="$PROJECT_DIR$/10/main10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/10/test1.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/10/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/10/main10.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -188,7 +188,19 @@
       <option name="presentableId" value="LOCAL−00014" />
       <updated>1607498089092</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL−00015" summary="Nytt data">
+      <created>1607576848339</created>
+      <option name="number" value="LOCAL−00015" />
+      <option name="presentableId" value="LOCAL−00015" />
+      <updated>1607576848339</updated>
+    </task>
+    <task id="LOCAL−00016" summary="10 data">
+      <created>1607576860430</created>
+      <option name="number" value="LOCAL−00016" />
+      <option name="presentableId" value="LOCAL−00016" />
+      <updated>1607576860430</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +221,8 @@
     <MESSAGE value="Testdata" />
     <MESSAGE value="Dag 9 klar" />
     <MESSAGE value="Något uppsnyggad" />
-    <option name="LAST_COMMIT_MESSAGE" value="Något uppsnyggad" />
+    <MESSAGE value="Nytt data" />
+    <MESSAGE value="10 data" />
+    <option name="LAST_COMMIT_MESSAGE" value="10 data" />
   </component>
 </project>
