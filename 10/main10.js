@@ -10,7 +10,7 @@ lines.sort((a,b) => a-b);
 
 lines.push(Math.max(...lines) + 3);
 
-console.log('There are', lines.length, 'rows', lines);
+console.log('There are', lines.length, 'rows');
 const steps = {
   1: 0,
   2: 0,
@@ -25,8 +25,9 @@ lines.forEach(entry => {
   current = entry;
 })
 
+//Answer1 2272 { '1': 71, '2': 0, '3': 32 }
+
 console.log('Answer1', steps[1]* steps[3], steps);
-console.log(diffSteps)
 
 let stepGroups = [[]];
 diffSteps.forEach(entry => {
@@ -37,7 +38,7 @@ diffSteps.forEach(entry => {
   }
 })
 stepGroups = stepGroups.filter(entry => entry.length);
-console.log(stepGroups)
+//console.log(stepGroups)
 
 const map = {
   '[1]': 1,
@@ -51,8 +52,7 @@ function combinations(entry) {
 }
 
 console.log('Answer 2', stepGroups.reduce((rest,entry) => combinations(entry) * rest, 1));
-// wrong 21134460321792
-
+// Answer 2 84627647627264
 /*
 1 => 1 <= 1
 2 => 2 <= 2, 1+1
@@ -83,7 +83,8 @@ const calculateCombinations = array => {
   }, 0);
 }
 
-const alternatives = [[1],[1,2,1],[1,2],[1,1],[1,1,1],[1,1,1,1],[1,1,1,1,1],[1,1,1,1,1,1]];
+//const alternatives = [[1],[1,2,1],[1,2],[1,1],[1,1,1],[1,1,1,1],[1,1,1,1,1],[1,1,1,1,1,1]];
+const alternatives = [];
 alternatives.forEach(entry => {
   console.log(JSON.stringify(entry), '=>', calculateCombinations(entry));
 });
