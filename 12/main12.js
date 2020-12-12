@@ -43,7 +43,6 @@ function doProcess(dir, steps, stepsProcessor, turner) {
       stepsProcessor(direction, steps);
       break;
   }
-  //console.log({dir, steps, x, y, direction});
 }
 
 utils.processLine(line => {
@@ -63,7 +62,6 @@ utils.processLine(line => {
   doProcess(match[1], parseInt(match[2]), (dir, steps) => {
     x2 += x * steps;
     y2 += y * steps;
-    //console.log({dir, steps, x, y, x2, y2})
   }, (steps) => {
     while (steps > 0) {
       steps -= 90;
