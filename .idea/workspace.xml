@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11/test1-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11/test2-1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/12/main12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/12/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/11/main11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/12/main12.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,11 +62,8 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main11.js">
+  <component name="RunManager" selected="Node.js.main12.js">
     <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07/main07.js" working-dir="$PROJECT_DIR$/07">
-      <method v="2" />
-    </configuration>
-    <configuration name="main08.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/08/main08.js" working-dir="$PROJECT_DIR$/08">
       <method v="2" />
     </configuration>
     <configuration name="main09.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/09/main09.js" working-dir="$PROJECT_DIR$/09">
@@ -80,13 +75,16 @@
     <configuration name="main11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/11/main11.js" working-dir="$PROJECT_DIR$/11">
       <method v="2" />
     </configuration>
+    <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/12/main12.js" working-dir="$PROJECT_DIR$/12">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main12.js" />
         <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
         <item itemvalue="Node.js.main09.js" />
         <item itemvalue="Node.js.main07.js" />
-        <item itemvalue="Node.js.main08.js" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +236,13 @@
       <option name="presentableId" value="LOCAL−00022" />
       <updated>1607662940393</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL−00023" summary="Prepare for 12">
+      <created>1607749153482</created>
+      <option name="number" value="LOCAL−00023" />
+      <option name="presentableId" value="LOCAL−00023" />
+      <updated>1607749153482</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,6 +270,7 @@
     <MESSAGE value="Preparing for day 11" />
     <MESSAGE value="Cleaning up.." />
     <MESSAGE value="Day 11 with data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 11 with data" />
+    <MESSAGE value="Prepare for 12" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare for 12" />
   </component>
 </project>
