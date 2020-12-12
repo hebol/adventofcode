@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/12/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/12/main12.js" afterDir="false" />
     </list>
@@ -242,7 +241,13 @@
       <option name="presentableId" value="LOCAL−00023" />
       <updated>1607749153482</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL−00024" summary="With data">
+      <created>1607749537273</created>
+      <option name="number" value="LOCAL−00024" />
+      <option name="presentableId" value="LOCAL−00024" />
+      <updated>1607749537273</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +276,7 @@
     <MESSAGE value="Cleaning up.." />
     <MESSAGE value="Day 11 with data" />
     <MESSAGE value="Prepare for 12" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare for 12" />
+    <MESSAGE value="With data" />
+    <option name="LAST_COMMIT_MESSAGE" value="With data" />
   </component>
 </project>
