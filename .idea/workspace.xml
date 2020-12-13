@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/14/main14.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/13/main13.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/14" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/14" />
       <recent name="$PROJECT_DIR$/13" />
       <recent name="$PROJECT_DIR$/12" />
       <recent name="$PROJECT_DIR$/11" />
       <recent name="$PROJECT_DIR$/10" />
-      <recent name="$PROJECT_DIR$/09" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/01" />
@@ -277,7 +277,13 @@
       <option name="presentableId" value="LOCAL−00029" />
       <updated>1607879231150</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL−00030" summary="Solved problem!">
+      <created>1607880560954</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1607880560954</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -295,7 +301,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day 6..sigh!" />
     <MESSAGE value="Added data from day6 and prepare day 7" />
     <MESSAGE value="Created process function which made solution much simpler!" />
     <MESSAGE value="Added line parsers" />
@@ -320,6 +325,7 @@
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Test data for 13 ready" />
     <MESSAGE value="13 ready and special thanks to wolfram!" />
-    <option name="LAST_COMMIT_MESSAGE" value="13 ready and special thanks to wolfram!" />
+    <MESSAGE value="Solved problem!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved problem!" />
   </component>
 </project>
