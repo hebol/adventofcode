@@ -271,7 +271,13 @@
       <option name="presentableId" value="LOCAL−00028" />
       <updated>1607835955373</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL−00029" summary="13 ready and special thanks to wolfram!">
+      <created>1607879231150</created>
+      <option name="number" value="LOCAL−00029" />
+      <option name="presentableId" value="LOCAL−00029" />
+      <updated>1607879231150</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -289,7 +295,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Not so beautiful code..." />
     <MESSAGE value="Day 6..sigh!" />
     <MESSAGE value="Added data from day6 and prepare day 7" />
     <MESSAGE value="Created process function which made solution much simpler!" />
@@ -314,6 +319,7 @@
     <MESSAGE value="Day 12 solved!" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Test data for 13 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Test data for 13 ready" />
+    <MESSAGE value="13 ready and special thanks to wolfram!" />
+    <option name="LAST_COMMIT_MESSAGE" value="13 ready and special thanks to wolfram!" />
   </component>
 </project>
