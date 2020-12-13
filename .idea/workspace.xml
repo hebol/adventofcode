@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/13/main13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/13/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/12/main12.js" afterDir="false" />
     </list>
@@ -34,7 +36,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/12" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/13" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,20 +53,17 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/13" />
       <recent name="$PROJECT_DIR$/12" />
       <recent name="$PROJECT_DIR$/11" />
       <recent name="$PROJECT_DIR$/10" />
       <recent name="$PROJECT_DIR$/09" />
-      <recent name="$PROJECT_DIR$/08" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main12.js">
-    <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/07/main07.js" working-dir="$PROJECT_DIR$/07">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main13.js">
     <configuration name="main09.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/09/main09.js" working-dir="$PROJECT_DIR$/09">
       <method v="2" />
     </configuration>
@@ -77,13 +76,16 @@
     <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/12/main12.js" working-dir="$PROJECT_DIR$/12">
       <method v="2" />
     </configuration>
+    <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/13/main13.js" working-dir="$PROJECT_DIR$/13">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main13.js" />
         <item itemvalue="Node.js.main12.js" />
         <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
         <item itemvalue="Node.js.main09.js" />
-        <item itemvalue="Node.js.main07.js" />
       </list>
     </recent_temporary>
   </component>
@@ -253,11 +255,28 @@
       <option name="presentableId" value="LOCAL−00025" />
       <updated>1607752339737</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL−00026" summary="Cleanup">
+      <created>1607752751457</created>
+      <option name="number" value="LOCAL−00026" />
+      <option name="presentableId" value="LOCAL−00026" />
+      <updated>1607752751457</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Prepare for tomorrow and cleanup" />
@@ -284,6 +303,7 @@
     <MESSAGE value="Prepare for 12" />
     <MESSAGE value="With data" />
     <MESSAGE value="Day 12 solved!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 12 solved!" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
 </project>

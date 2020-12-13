@@ -12,11 +12,7 @@ function turn(number) {
   while (newIndex < 0) {
     newIndex += 4;
   }
-  const newDir = directions[newIndex];
-  if (!newDir) {
-    console.log('SNAFU!', {number, index, newIndex, newDir});
-  }
-  return newDir;
+  return directions[newIndex];
 }
 
 function doProcess(dir, steps, stepsProcessor, turner) {
