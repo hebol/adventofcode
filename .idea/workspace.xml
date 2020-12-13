@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/13/main13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/13/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/12/main12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/13/main13.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,7 +259,19 @@
       <option name="presentableId" value="LOCAL−00026" />
       <updated>1607752751457</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL−00027" summary="Test data for 13 ready">
+      <created>1607835940576</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1607835940576</updated>
+    </task>
+    <task id="LOCAL−00028" summary="Test data for 13 ready">
+      <created>1607835955373</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1607835955373</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,7 +289,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Prepare for tomorrow and cleanup" />
     <MESSAGE value="Not so beautiful code..." />
     <MESSAGE value="Day 6..sigh!" />
     <MESSAGE value="Added data from day6 and prepare day 7" />
@@ -304,6 +313,7 @@
     <MESSAGE value="With data" />
     <MESSAGE value="Day 12 solved!" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="Test data for 13 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test data for 13 ready" />
   </component>
 </project>
