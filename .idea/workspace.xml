@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/14/main14.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/14/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/14/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,7 +283,13 @@
       <option name="presentableId" value="LOCAL−00030" />
       <updated>1607880560954</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL−00031" summary="Prepare for tomorrow">
+      <created>1607883422489</created>
+      <option name="number" value="LOCAL−00031" />
+      <option name="presentableId" value="LOCAL−00031" />
+      <updated>1607883422489</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,7 +307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added data from day6 and prepare day 7" />
     <MESSAGE value="Created process function which made solution much simpler!" />
     <MESSAGE value="Added line parsers" />
     <MESSAGE value="Solved it...not so beautiful" />
@@ -326,6 +331,7 @@
     <MESSAGE value="Test data for 13 ready" />
     <MESSAGE value="13 ready and special thanks to wolfram!" />
     <MESSAGE value="Solved problem!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved problem!" />
+    <MESSAGE value="Prepare for tomorrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare for tomorrow" />
   </component>
 </project>
