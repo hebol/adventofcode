@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Data for 14">
-      <change afterPath="$PROJECT_DIR$/14/test2.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/14/main14.js" afterDir="false" />
-    </list>
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +31,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.11" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/14" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/15" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,20 +48,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/15" />
       <recent name="$PROJECT_DIR$/14" />
       <recent name="$PROJECT_DIR$/13" />
       <recent name="$PROJECT_DIR$/12" />
       <recent name="$PROJECT_DIR$/11" />
-      <recent name="$PROJECT_DIR$/10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main14.js">
-    <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/10/main10.js" working-dir="$PROJECT_DIR$/10">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main15.js">
     <configuration name="main11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/11/main11.js" working-dir="$PROJECT_DIR$/11">
       <method v="2" />
     </configuration>
@@ -78,13 +72,16 @@
     <configuration name="main14.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/14/main14.js" working-dir="$PROJECT_DIR$/14">
       <method v="2" />
     </configuration>
+    <configuration name="main15.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/15/main15.js" working-dir="$PROJECT_DIR$/15">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main15.js" />
         <item itemvalue="Node.js.main14.js" />
         <item itemvalue="Node.js.main13.js" />
         <item itemvalue="Node.js.main12.js" />
         <item itemvalue="Node.js.main11.js" />
-        <item itemvalue="Node.js.main10.js" />
       </list>
     </recent_temporary>
   </component>
@@ -103,7 +100,8 @@
       <workItem from="1607234826926" duration="6000" />
       <workItem from="1607234881808" duration="9918000" />
       <workItem from="1607403665083" duration="2243000" />
-      <workItem from="1607932930475" duration="2501000" />
+      <workItem from="1607932930475" duration="2985000" />
+      <workItem from="1608008318794" duration="4958000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -297,7 +295,13 @@
       <option name="presentableId" value="LOCAL−00032" />
       <updated>1607922279567</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL−00033" summary="Not pretty but working...">
+      <created>1607935627730</created>
+      <option name="number" value="LOCAL−00033" />
+      <option name="presentableId" value="LOCAL−00033" />
+      <updated>1607935627730</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +320,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added line parsers" />
     <MESSAGE value="Solved it...not so beautiful" />
     <MESSAGE value="Small, small cleanup" />
     <MESSAGE value="Added correct answer" />
@@ -341,6 +344,7 @@
     <MESSAGE value="Solved problem!" />
     <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Data for 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Data for 14" />
+    <MESSAGE value="Not pretty but working..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Not pretty but working..." />
   </component>
 </project>
