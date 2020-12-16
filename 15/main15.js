@@ -1,7 +1,7 @@
 const utils = require('../utils');
 let spokenNumbers = 0;
 let lastSpoken = {};
-let lastNumber;
+let lastNumber = -1;
 
 const speakNumber = num => {
   lastNumber = num;
@@ -34,15 +34,9 @@ function processNumber() {
   spokenCount() === 2020 && console.log('Answer 1', lastNumber);
 }
 
-let firstChar = '';
-
+utils.setupWatchdog(1000000);
 while (spokenCount() < 30000000) {
-  if (spokenCount() % 100000 === 0) {
-    if (Number(spokenCount()).toString()[0] !== firstChar) {
-      firstChar = Number(spokenCount()).toString()[0];
-      console.log({spokenCount: spokenCount()});
-    }
-  }
+  utils.watchdog();
   processNumber();
 }
 

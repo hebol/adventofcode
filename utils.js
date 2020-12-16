@@ -1,9 +1,12 @@
 const fs = require('fs');
 const moment = require('moment');
 
-if (require.main.path.split('/').pop() != moment().date()) {
+if (require.main.path.split('/').pop() !== moment().date()) {
   console.log('==> Not todays problem!');
 }
+
+let theInterval = 10000;
+let now = new Date();
 
 module.exports = {
   readFile: (name) => {
@@ -41,5 +44,22 @@ module.exports = {
     }
     return sum;
   },
-  sumArray: (array) => { return array.reduce((rest, entry) => rest + entry, 0);}
+  sumArray: (array) => { return array.reduce((rest, entry) => rest + entry, 0);},
+  setupWatchdog: (interval) => {
+    theInterval = interval || theInterval;
+    now = new Date();
+  },
+  watchdog: (count) => {
+    if (count) {
+      if (theInterval && (count % theInterval === 0)) {
+        console.log(new Date(), count);
+      }
+    } else {
+      const newNow = new Date();
+      if (newNow.getTime() - 10000 > now.getTime()) {
+        console.log(new Date(), count);
+        now = newNow;
+      }
+    }
+  }
 };

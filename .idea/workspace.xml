@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/17/main17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/17/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/15/main15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +38,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/17" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,21 +55,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/17" />
       <recent name="$PROJECT_DIR$/16" />
       <recent name="$PROJECT_DIR$/15" />
       <recent name="$PROJECT_DIR$/14" />
       <recent name="$PROJECT_DIR$/13" />
-      <recent name="$PROJECT_DIR$/12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main16.js">
-    <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/12/main12.js" working-dir="$PROJECT_DIR$/12">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main17.js">
     <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/13/main13.js" working-dir="$PROJECT_DIR$/13">
       <method v="2" />
     </configuration>
@@ -79,13 +79,16 @@
     <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/16/main16.js" working-dir="$PROJECT_DIR$/16">
       <method v="2" />
     </configuration>
+    <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/17/main17.js" working-dir="$PROJECT_DIR$/17">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main17.js" />
+        <item itemvalue="Node.js.main15.js" />
         <item itemvalue="Node.js.main16.js" />
         <item itemvalue="Node.js.main15.js" />
-        <item itemvalue="Node.js.main15.js" />
         <item itemvalue="Node.js.main14.js" />
-        <item itemvalue="Node.js.main13.js" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +112,7 @@
       <workItem from="1608017954615" duration="1265000" />
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
-      <workItem from="1608117833430" duration="2497000" />
+      <workItem from="1608117833430" duration="3959000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -333,7 +336,13 @@
       <option name="presentableId" value="LOCAL−00037" />
       <updated>1608122384560</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL−00038" summary="Cleanup">
+      <created>1608130903651</created>
+      <option name="number" value="LOCAL−00038" />
+      <option name="presentableId" value="LOCAL−00038" />
+      <updated>1608130903651</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
