@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/16/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/16/main16.js" afterDir="false" />
     </list>
@@ -33,7 +34,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="14.4.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/16" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -83,9 +84,9 @@
       <list>
         <item itemvalue="Node.js.main16.js" />
         <item itemvalue="Node.js.main15.js" />
+        <item itemvalue="Node.js.main15.js" />
         <item itemvalue="Node.js.main14.js" />
         <item itemvalue="Node.js.main13.js" />
-        <item itemvalue="Node.js.main12.js" />
       </list>
     </recent_temporary>
   </component>
@@ -106,8 +107,9 @@
       <workItem from="1607403665083" duration="2243000" />
       <workItem from="1607932930475" duration="2985000" />
       <workItem from="1608008318794" duration="4958000" />
-      <workItem from="1608017954615" duration="511000" />
-      <workItem from="1608094157837" duration="1467000" />
+      <workItem from="1608017954615" duration="1265000" />
+      <workItem from="1608101707381" duration="79000" />
+      <workItem from="1608101805712" duration="1341000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -313,11 +315,11 @@
       <option name="presentableId" value="LOCAL−00034" />
       <updated>1608018058913</updated>
     </task>
-    <task id="LOCAL−00035" summary="Start data">
-      <created>1608095103099</created>
+    <task id="LOCAL−00035" summary="Some cleanup and prepare for tomorrow">
+      <created>1608018518880</created>
       <option name="number" value="LOCAL−00035" />
       <option name="presentableId" value="LOCAL−00035" />
-      <updated>1608095103099</updated>
+      <updated>1608018518880</updated>
     </task>
     <option name="localTasksCounter" value="36" />
     <servers />
@@ -362,7 +364,7 @@
     <MESSAGE value="Data for 14" />
     <MESSAGE value="Not pretty but working..." />
     <MESSAGE value="Solved 15 not cleaned up..." />
-    <MESSAGE value="Start data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start data" />
+    <MESSAGE value="Some cleanup and prepare for tomorrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some cleanup and prepare for tomorrow" />
   </component>
 </project>
