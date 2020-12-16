@@ -13,8 +13,8 @@ const startNumbers = utils.readFile('input.txt').pop().split(',').map(entry => p
 
 console.log('Start', startNumbers);
 
-var index = 0;
 startNumbers.forEach(entry => {
+  let index = 0;
   speakNumber(entry);
   if (index < startNumbers.length - 1) {
     lastSpoken[entry] = index++;

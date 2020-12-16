@@ -4,7 +4,6 @@
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/15/main15.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/16/main16.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +109,7 @@
       <workItem from="1608017954615" duration="1265000" />
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
-      <workItem from="1608117833430" duration="1852000" />
+      <workItem from="1608117833430" duration="2497000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -328,7 +327,13 @@
       <option name="presentableId" value="LOCAL−00036" />
       <updated>1608103227895</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL−00037" summary="Cleanup">
+      <created>1608122384560</created>
+      <option name="number" value="LOCAL−00037" />
+      <option name="presentableId" value="LOCAL−00037" />
+      <updated>1608122384560</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -362,7 +367,6 @@
     <MESSAGE value="Prepare for 12" />
     <MESSAGE value="With data" />
     <MESSAGE value="Day 12 solved!" />
-    <MESSAGE value="Cleanup" />
     <MESSAGE value="Test data for 13 ready" />
     <MESSAGE value="13 ready and special thanks to wolfram!" />
     <MESSAGE value="Solved problem!" />
@@ -372,6 +376,7 @@
     <MESSAGE value="Solved 15 not cleaned up..." />
     <MESSAGE value="Some cleanup and prepare for tomorrow" />
     <MESSAGE value="Part1 ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part1 ok" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
 </project>
