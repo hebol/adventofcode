@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/17/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/17/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17/main17.js" beforeDir="false" afterPath="$PROJECT_DIR$/17/main17.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="714000" />
+      <workItem from="1608133011932" duration="4570000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -346,7 +346,13 @@
       <option name="presentableId" value="LOCAL−00039" />
       <updated>1608132938983</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL−00040" summary="Added data for 17">
+      <created>1608182260151</created>
+      <option name="number" value="LOCAL−00040" />
+      <option name="presentableId" value="LOCAL−00040" />
+      <updated>1608182260151</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +371,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Added testdata" />
     <MESSAGE value="Empty start" />
     <MESSAGE value="Testdata" />
     <MESSAGE value="Dag 9 klar" />
@@ -390,6 +395,7 @@
     <MESSAGE value="Part1 ok" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Prepare for tomorrow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare for tomorrow" />
+    <MESSAGE value="Added data for 17" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added data for 17" />
   </component>
 </project>
