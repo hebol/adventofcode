@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/17/main17.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/17/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/15/main15.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/17/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/17/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,7 +109,8 @@
       <workItem from="1608017954615" duration="1265000" />
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
-      <workItem from="1608117833430" duration="3959000" />
+      <workItem from="1608117833430" duration="4029000" />
+      <workItem from="1608133011932" duration="714000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -342,7 +340,13 @@
       <option name="presentableId" value="LOCAL−00038" />
       <updated>1608130903651</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL−00039" summary="Prepare for tomorrow">
+      <created>1608132938983</created>
+      <option name="number" value="LOCAL−00039" />
+      <option name="presentableId" value="LOCAL−00039" />
+      <updated>1608132938983</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,13 +383,13 @@
     <MESSAGE value="Test data for 13 ready" />
     <MESSAGE value="13 ready and special thanks to wolfram!" />
     <MESSAGE value="Solved problem!" />
-    <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Data for 14" />
     <MESSAGE value="Not pretty but working..." />
     <MESSAGE value="Solved 15 not cleaned up..." />
     <MESSAGE value="Some cleanup and prepare for tomorrow" />
     <MESSAGE value="Part1 ok" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="Prepare for tomorrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare for tomorrow" />
   </component>
 </project>
