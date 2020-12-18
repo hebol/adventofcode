@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/18/main18.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/18/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/18/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +110,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="7138000" />
+      <workItem from="1608133011932" duration="7785000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -364,7 +364,13 @@
       <option name="presentableId" value="LOCAL−00042" />
       <updated>1608203046686</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL−00043" summary="Added tomorrows dir">
+      <created>1608207210484</created>
+      <option name="number" value="LOCAL−00043" />
+      <option name="presentableId" value="LOCAL−00043" />
+      <updated>1608207210484</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -383,7 +389,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Testdata" />
     <MESSAGE value="Dag 9 klar" />
     <MESSAGE value="Något uppsnyggad" />
     <MESSAGE value="Nytt data" />
@@ -408,7 +413,8 @@
     <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Added data for 17" />
     <MESSAGE value="Cleanup and fix date test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup and fix date test" />
+    <MESSAGE value="Added tomorrows dir" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tomorrows dir" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
