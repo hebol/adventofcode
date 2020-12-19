@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Solved and cleaned up">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/18/main18.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/18/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/18/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +111,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="7785000" />
+      <workItem from="1608133011932" duration="11599000" />
     </task>
     <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
       <created>1607071438843</created>
@@ -370,7 +371,13 @@
       <option name="presentableId" value="LOCAL−00043" />
       <updated>1608207210484</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL−00044" summary="18 data">
+      <created>1608267732539</created>
+      <option name="number" value="LOCAL−00044" />
+      <option name="presentableId" value="LOCAL−00044" />
+      <updated>1608267732539</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -389,7 +396,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dag 9 klar" />
     <MESSAGE value="Något uppsnyggad" />
     <MESSAGE value="Nytt data" />
     <MESSAGE value="10 data" />
@@ -414,7 +420,8 @@
     <MESSAGE value="Added data for 17" />
     <MESSAGE value="Cleanup and fix date test" />
     <MESSAGE value="Added tomorrows dir" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added tomorrows dir" />
+    <MESSAGE value="18 data" />
+    <option name="LAST_COMMIT_MESSAGE" value="18 data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
