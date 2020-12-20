@@ -57,7 +57,6 @@ let corners = tiles.filter(tile => tile.matchCount === 6);
 const answer1 = corners.reduce((rest, tile) => rest*tile.number, 1);
 
 let sideLen = Math.sqrt(tiles.length);
-console.log({tileCount:tiles.length, sideLen});
 console.log({answer1});
 
 function flipRowsH(rows) {
@@ -200,15 +199,6 @@ function stripBorder(tile) {
 }
 
 Object.values(positions).forEach(stripBorder);
-
-/*
-for (let row = 0; row < sideLen ; row++) {
-  for (let col = 0; col < sideLen; col++) {
-    printTile(positions[row + '_' + col]);
-  }
-}
- */
-
 let totalMap = []
 
 for (let row = 0; row < sideLen ; row++) {
@@ -222,10 +212,6 @@ for (let row = 0; row < sideLen ; row++) {
   partRows.forEach(row => totalMap.push(row));
 }
 
-totalMap = flipRowsV(totalMap);
-totalMap = rotateRowsL(totalMap);
-//console.log({totalMap});
-
 const monster = utils.readFile('monster.txt');
 
 const monsterH = monster.length;
@@ -238,7 +224,6 @@ for (let row = 0 ; row < monster.length ; row++) {
     }
   }
 }
-//console.log({monster, monsterMap});
 
 function isMonsterAt(row, col) {
   return monsterMap.find(entry => totalMap[row + entry[0]][col + entry[1]] === '.') === undefined;

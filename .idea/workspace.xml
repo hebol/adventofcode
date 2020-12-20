@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/20/map1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/20/map2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/20/main20.js" beforeDir="false" afterPath="$PROJECT_DIR$/20/main20.js" afterDir="false" />
     </list>
@@ -112,13 +110,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="40324000" />
-    </task>
-    <task id="LOCAL−00002" summary="Not so beautiful code...">
-      <created>1607146341252</created>
-      <option name="number" value="LOCAL−00002" />
-      <option name="presentableId" value="LOCAL−00002" />
-      <updated>1607146341252</updated>
+      <workItem from="1608133011932" duration="41095000" />
     </task>
     <task id="LOCAL−00003" summary="Day 6..sigh!">
       <created>1607234235932</created>
@@ -408,7 +400,13 @@
       <option name="presentableId" value="LOCAL−00050" />
       <updated>1608450100980</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL−00051" summary="Answer2 ready!">
+      <created>1608456323813</created>
+      <option name="number" value="LOCAL−00051" />
+      <option name="presentableId" value="LOCAL−00051" />
+      <updated>1608456323813</updated>
+    </task>
+    <option name="localTasksCounter" value="52" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +425,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Preparing for day 11" />
     <MESSAGE value="Cleaning up.." />
     <MESSAGE value="Day 11 with data" />
     <MESSAGE value="Prepare for 12" />
@@ -452,7 +449,8 @@
     <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Day 20 data" />
     <MESSAGE value="Total map created!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Total map created!" />
+    <MESSAGE value="Answer2 ready!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Answer2 ready!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
