@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/20/monster.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20/map1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/20/map2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/20/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/20/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/20/main20.js" beforeDir="false" afterPath="$PROJECT_DIR$/20/main20.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,13 +112,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="35019000" />
-    </task>
-    <task id="LOCAL−00001" summary="Prepare for tomorrow and cleanup">
-      <created>1607071438843</created>
-      <option name="number" value="LOCAL−00001" />
-      <option name="presentableId" value="LOCAL−00001" />
-      <updated>1607071438843</updated>
+      <workItem from="1608133011932" duration="40324000" />
     </task>
     <task id="LOCAL−00002" summary="Not so beautiful code...">
       <created>1607146341252</created>
@@ -408,7 +402,13 @@
       <option name="presentableId" value="LOCAL−00049" />
       <updated>1608441305138</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL−00050" summary="Total map created!">
+      <created>1608450100979</created>
+      <option name="number" value="LOCAL−00050" />
+      <option name="presentableId" value="LOCAL−00050" />
+      <updated>1608450100980</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +427,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="2 solevd!" />
     <MESSAGE value="Preparing for day 11" />
     <MESSAGE value="Cleaning up.." />
     <MESSAGE value="Day 11 with data" />
@@ -452,7 +451,8 @@
     <MESSAGE value="Day 19 ready with cleanup" />
     <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Day 20 data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 20 data" />
+    <MESSAGE value="Total map created!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Total map created!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

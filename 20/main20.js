@@ -30,14 +30,14 @@ utils.processMultiLine(parts => {
   };
   calculateSideNumbers(tile);
   tiles.push(tile);
-}, 'test1.txt');
+}, 'input.txt');
 
 const printTile = tile => {
   console.log('Tile' + tile.number);
-  console.log('        (' + tile.numbers[0] + ')');
+  console.log('       (' + tile.numbers[0] + ')');
   console.log('(' + tile.numbers[3] + ')' + tile.rows[0] + '(' + tile.numbers[1] + ')');
-  tile.rows.slice(1).forEach(row => console.log(row.padStart(16, ' ')));
-  console.log('        (' + tile.numbers[2] + ')');
+  tile.rows.slice(1).forEach(row => console.log(row.padStart(14, ' ')));
+  console.log('       (' + tile.numbers[2] + ')');
   console.log('');
 }
 
@@ -60,44 +60,54 @@ let sideLen = Math.sqrt(tiles.length);
 console.log({tileCount:tiles.length, sideLen});
 console.log({answer1});
 
-const positions = {};
-const firstCorner = corners.pop();
-const cornerSides = firstCorner.numbers.filter(num => getCount(num) === 1)
+function flipRowsH(rows) {
+  return rows.reverse();
+}
 
 const flipTileH = tile => {
-  const result = JSON.parse(JSON.stringify(tile));
-  result.rows = result.rows.reverse();
-  calculateSideNumbers(result);
-  return result;
+  tile.rows = flipRowsH(tile.rows);
+  calculateSideNumbers(tile);
+  return tile;
+}
+
+function flipRowsV(rows) {
+  return rows.map(row => row.split('').reverse().join(''));
 }
 
 const flipTileV = tile => {
-  const result = JSON.parse(JSON.stringify(tile));
-  result.rows = result.rows.map(row => row.split('').reverse().join(''));
-  calculateSideNumbers(result);
-  return result;
+  tile.rows = flipRowsV(tile.rows);
+  calculateSideNumbers(tile);
+  return tile;
 }
 
 function findDirection(tile, num) {
   return ['n', 'e', 's', 'w'][tile.numbers.indexOf(num)];
 }
 
-function rotateTileR(tile) {
+function rotateRowsR(rows) {
   const newRows = [];
-  for (let col = 0 ; col < tile.rows[0].length ; col++) {
-    newRows.push(tile.rows.map(row => row[col]).reverse().join(''))
+  for (let col = 0; col < rows[0].length; col++) {
+    newRows.push(rows.map(row => row[col]).reverse().join(''))
   }
-  tile.rows = newRows;
+  return newRows;
+}
+
+function rotateTileR(tile) {
+  tile.rows = rotateRowsR(tile.rows);
   calculateSideNumbers(tile);
   return tile;
 }
 
-function rotateTileL(tile) {
+function rotateRowsL(rows) {
   const newRows = [];
-  for (let col = tile.rows[0].length - 1 ; col >= 0 ; col--) {
-    newRows.push(tile.rows.map(row => row[col]).join(''))
+  for (let col = rows[0].length - 1; col >= 0; col--) {
+    newRows.push(rows.map(row => row[col]).join(''))
   }
-  tile.rows = newRows;
+  return newRows;
+}
+
+function rotateTileL(tile) {
+  tile.rows = rotateRowsL(tile.rows);
   calculateSideNumbers(tile);
   return tile;
 }
@@ -131,9 +141,12 @@ function flipTileMatching(tile, north, west) {
   return result;
 }
 
+const positions = {};
+const firstCorner = corners[0];
+const cornerSides = firstCorner.numbers.filter(num => getCount(num) === 1)
+
 const topLeft = flipTileMatching( firstCorner, cornerSides[0], cornerSides[1])
 
-console.log({cornerSides});
 positions['0_0'] = topLeft;
 
 function findTileWithNumberIgnoring(num, tileNum) {
@@ -148,7 +161,6 @@ function findEdgeNumberIgnoring(tile, ignoreNum) {
   return tile.numbers.find(num => getCount(num) === 1 && num !== ignoreNum)
 }
 
-console.log('Cols');
 for (let col = 1; col < sideLen ; col++) {
   let leftTile = positions['0_' + (col - 1)];
   let westNum = leftTile.numbers[1];
@@ -159,7 +171,6 @@ for (let col = 1; col < sideLen ; col++) {
   positions['0_' + col] = tile;
 }
 
-console.log('Rows');
 for (let row = 1; row < sideLen ; row++) {
   let topTile = positions[(row - 1) + '_0'];
   let northNum = topTile.numbers[2];
@@ -175,13 +186,28 @@ for (let row = 1; row < sideLen ; row++) {
     let leftTile = positions[row + '_' + (col - 1)];
     let topTile  = positions[(row - 1) + '_' + col];
     let westNum  = leftTile.numbers[1];
-    let northNum = topTile.numbers[3];
+    let northNum = topTile.numbers[2];
 
     let tile = findTileWithNumberIgnoring(westNum, leftTile.number);
     tile = flipTileMatching(tile, northNum, westNum);
     positions[row + '_' + col] = tile;
   }
 }
+
+function stripBorder(tile) {
+  tile.rows = tile.rows.slice(1, tile.rows.length - 1);
+  tile.rows = tile.rows.map(row => row.substring(1, row.length - 1));
+}
+
+Object.values(positions).forEach(stripBorder);
+
+/*
+for (let row = 0; row < sideLen ; row++) {
+  for (let col = 0; col < sideLen; col++) {
+    printTile(positions[row + '_' + col]);
+  }
+}
+ */
 
 let totalMap = []
 
@@ -196,4 +222,73 @@ for (let row = 0; row < sideLen ; row++) {
   partRows.forEach(row => totalMap.push(row));
 }
 
-console.log({totalMap});
+totalMap = flipRowsV(totalMap);
+totalMap = rotateRowsL(totalMap);
+//console.log({totalMap});
+
+const monster = utils.readFile('monster.txt');
+
+const monsterH = monster.length;
+const monsterW = Math.max(...monster.map(row => row.length));
+const monsterMap = [];
+for (let row = 0 ; row < monster.length ; row++) {
+  for (let col = 0 ; col < monster[row].length ; col++) {
+    if (monster[row][col] === '#') {
+      monsterMap.push([row,col]);
+    }
+  }
+}
+//console.log({monster, monsterMap});
+
+function isMonsterAt(row, col) {
+  return monsterMap.find(entry => totalMap[row + entry[0]][col + entry[1]] === '.') === undefined;
+}
+
+function placeMonsterAt(row, col) {
+  return monsterMap.forEach(entry => {
+    const aRow = totalMap[row + entry[0]];
+    const aCol = col + entry[1];
+    totalMap[row + entry[0]] = aRow.substring(0, aCol) + 'O' + aRow.substring(aCol + 1);
+  });
+}
+
+const hasMonster = () => {
+  for (let col = 0 ; col < totalMap[0].length - monsterW ; col++) {
+    for (let row = 0 ; row < totalMap.length - monsterH ; row++) {
+      if (isMonsterAt(row, col)) {
+        return true;
+      }
+    }
+  }
+  return false;
+}
+
+let found = false;
+
+for (let i = 0 ; !found && i < 4 ; i++) {
+  found = hasMonster();
+  if (!found) {
+    totalMap = rotateRowsR(totalMap);
+  }
+}
+if (!found) {
+  totalMap = flipRowsH(totalMap);
+  for (let i = 0 ; !found && i < 4 ; i++) {
+    found = hasMonster();
+    if (!found) {
+      totalMap = rotateRowsR(totalMap);
+    }
+  }
+}
+
+for (let col = 0 ; col < totalMap[0].length - monsterW ; col++) {
+  for (let row = 0 ; row < totalMap.length - monsterH ; row++) {
+    if (isMonsterAt(row, col)) {
+      placeMonsterAt(row, col)
+    }
+  }
+}
+
+const answer2 = totalMap.reduce((rest,part) => rest + part.match(/#/g).length, 0);
+
+console.log({answer2});
