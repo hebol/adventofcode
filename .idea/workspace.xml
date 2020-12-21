@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/21/main21.js" beforeDir="false" afterPath="$PROJECT_DIR$/21/main21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22/main22.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/21" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/22" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,11 +51,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/22" />
       <recent name="$PROJECT_DIR$/21" />
       <recent name="$PROJECT_DIR$/20" />
       <recent name="$PROJECT_DIR$/19" />
       <recent name="$PROJECT_DIR$/18" />
-      <recent name="$PROJECT_DIR$/17" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -110,13 +109,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="45178000" />
-    </task>
-    <task id="LOCAL−00005" summary="Created process function which made solution much simpler!">
-      <created>1607237515549</created>
-      <option name="number" value="LOCAL−00005" />
-      <option name="presentableId" value="LOCAL−00005" />
-      <updated>1607237515549</updated>
+      <workItem from="1608133011932" duration="45230000" />
     </task>
     <task id="LOCAL−00006" summary="Added line parsers">
       <created>1607238593516</created>
@@ -406,7 +399,13 @@
       <option name="presentableId" value="LOCAL−00053" />
       <updated>1608528176613</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL−00054" summary="Cleanup">
+      <created>1608536164186</created>
+      <option name="number" value="LOCAL−00054" />
+      <option name="presentableId" value="LOCAL−00054" />
+      <updated>1608536164186</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,9 +447,9 @@
     <MESSAGE value="Day 20 data" />
     <MESSAGE value="Total map created!" />
     <MESSAGE value="Answer2 ready!" />
-    <MESSAGE value="Cleanup" />
     <MESSAGE value="Day 21 data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 21 data" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
