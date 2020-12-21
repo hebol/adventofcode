@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/21/main21.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/21/test1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/21/main21.js" beforeDir="false" afterPath="$PROJECT_DIR$/21/main21.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,10 +63,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main20.js">
-    <configuration name="main15.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/15/main15.js" working-dir="$PROJECT_DIR$/15">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main21.js">
     <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/17/main17.js" working-dir="$PROJECT_DIR$/17">
       <method v="2" />
     </configuration>
@@ -80,13 +76,16 @@
     <configuration name="main20.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/20/main20.js" working-dir="$PROJECT_DIR$/20">
       <method v="2" />
     </configuration>
+    <configuration name="main21.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/21/main21.js" working-dir="$PROJECT_DIR$/21">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main21.js" />
         <item itemvalue="Node.js.main20.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
         <item itemvalue="Node.js.main17.js" />
-        <item itemvalue="Node.js.main15.js" />
       </list>
     </recent_temporary>
   </component>
@@ -111,13 +110,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="41998000" />
-    </task>
-    <task id="LOCAL−00004" summary="Added data from day6 and prepare day 7">
-      <created>1607234738756</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1607234738756</updated>
+      <workItem from="1608133011932" duration="45178000" />
     </task>
     <task id="LOCAL−00005" summary="Created process function which made solution much simpler!">
       <created>1607237515549</created>
@@ -407,7 +400,13 @@
       <option name="presentableId" value="LOCAL−00052" />
       <updated>1608463322927</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL−00053" summary="Day 21 data">
+      <created>1608528176613</created>
+      <option name="number" value="LOCAL−00053" />
+      <option name="presentableId" value="LOCAL−00053" />
+      <updated>1608528176613</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -426,7 +425,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Cleaning up.." />
     <MESSAGE value="Day 11 with data" />
     <MESSAGE value="Prepare for 12" />
     <MESSAGE value="With data" />
@@ -451,7 +449,8 @@
     <MESSAGE value="Total map created!" />
     <MESSAGE value="Answer2 ready!" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="Day 21 data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 21 data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
