@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/22/main22.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/22/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22/main22.js" beforeDir="false" afterPath="$PROJECT_DIR$/22/main22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/22/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/22/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,7 +23,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1l2zUSC64Amrmr9JooLaJAdj0H6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -28,13 +33,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
     <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/22" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/25" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -51,21 +57,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/25" />
+      <recent name="$PROJECT_DIR$/24" />
+      <recent name="$PROJECT_DIR$/23" />
       <recent name="$PROJECT_DIR$/22" />
       <recent name="$PROJECT_DIR$/21" />
-      <recent name="$PROJECT_DIR$/20" />
-      <recent name="$PROJECT_DIR$/19" />
-      <recent name="$PROJECT_DIR$/18" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main21.js">
-    <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/17/main17.js" working-dir="$PROJECT_DIR$/17">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main22.js">
     <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/18/main18.js" working-dir="$PROJECT_DIR$/18">
       <method v="2" />
     </configuration>
@@ -78,13 +81,16 @@
     <configuration name="main21.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/21/main21.js" working-dir="$PROJECT_DIR$/21">
       <method v="2" />
     </configuration>
+    <configuration name="main22.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/22/main22.js" working-dir="$PROJECT_DIR$/22">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main22.js" />
         <item itemvalue="Node.js.main21.js" />
         <item itemvalue="Node.js.main20.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
-        <item itemvalue="Node.js.main17.js" />
       </list>
     </recent_temporary>
   </component>
@@ -109,13 +115,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="45230000" />
-    </task>
-    <task id="LOCAL−00006" summary="Added line parsers">
-      <created>1607238593516</created>
-      <option name="number" value="LOCAL−00006" />
-      <option name="presentableId" value="LOCAL−00006" />
-      <updated>1607238593516</updated>
+      <workItem from="1608133011932" duration="46591000" />
     </task>
     <task id="LOCAL−00007" summary="Solved it...not so beautiful">
       <created>1607330248728</created>
@@ -405,7 +405,13 @@
       <option name="presentableId" value="LOCAL−00054" />
       <updated>1608536164186</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL−00055" summary="Prepare last days directories">
+      <created>1608536286195</created>
+      <option name="number" value="LOCAL−00055" />
+      <option name="presentableId" value="LOCAL−00055" />
+      <updated>1608536286195</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -424,7 +430,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day 11 with data" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Prepare for 12" />
     <MESSAGE value="With data" />
     <MESSAGE value="Day 12 solved!" />
@@ -449,7 +455,8 @@
     <MESSAGE value="Answer2 ready!" />
     <MESSAGE value="Day 21 data" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="Prepare last days directories" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prepare last days directories" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
