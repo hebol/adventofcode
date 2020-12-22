@@ -25,10 +25,10 @@ function playGame(hands, isRecursive) {
     const card2 = hands[1].cards.shift();
     let winnerIs1;
     if (isRecursive && card1 <= hands[0].cards.length && card2 <= hands[1].cards.length) {
-      let recursiveHands = JSON.parse(JSON.stringify(hands));
-      recursiveHands[0].cards = recursiveHands[0].cards.slice(0, card1)
-      recursiveHands[1].cards = recursiveHands[1].cards.slice(0, card2)
-      const aWinner = playGame(recursiveHands, isRecursive);
+      let subHands = JSON.parse(JSON.stringify(hands));
+      subHands[0].cards = subHands[0].cards.slice(0, card1)
+      subHands[1].cards = subHands[1].cards.slice(0, card2)
+      const aWinner = playGame(subHands, isRecursive);
       winnerIs1 = aWinner.name === hands[0].name;
     } else {
       winnerIs1 = card1 > card2;

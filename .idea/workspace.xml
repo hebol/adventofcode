@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/22/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/22/main22.js" beforeDir="false" afterPath="$PROJECT_DIR$/22/main22.js" afterDir="false" />
     </list>
@@ -67,7 +66,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main22.js">
+  <component name="RunManager" selected="Node.js.main20.js">
     <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/18/main18.js" working-dir="$PROJECT_DIR$/18">
       <method v="2" />
     </configuration>
@@ -85,9 +84,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main20.js" />
         <item itemvalue="Node.js.main22.js" />
         <item itemvalue="Node.js.main21.js" />
-        <item itemvalue="Node.js.main20.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
       </list>
@@ -114,13 +113,7 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="49938000" />
-    </task>
-    <task id="LOCAL−00008" summary="Small, small cleanup">
-      <created>1607330357018</created>
-      <option name="number" value="LOCAL−00008" />
-      <option name="presentableId" value="LOCAL−00008" />
-      <updated>1607330357018</updated>
+      <workItem from="1608133011932" duration="51247000" />
     </task>
     <task id="LOCAL−00009" summary="Added correct answer">
       <created>1607342089441</created>
@@ -410,7 +403,13 @@
       <option name="presentableId" value="LOCAL−00056" />
       <updated>1608614426686</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL−00057" summary="part2 ready and cleaned up">
+      <created>1608617880377</created>
+      <option name="number" value="LOCAL−00057" />
+      <option name="presentableId" value="LOCAL−00057" />
+      <updated>1608617880377</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -430,7 +429,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="With data" />
     <MESSAGE value="Day 12 solved!" />
     <MESSAGE value="Test data for 13 ready" />
     <MESSAGE value="13 ready and special thanks to wolfram!" />
@@ -455,7 +453,8 @@
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Prepare last days directories" />
     <MESSAGE value="part1 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="part1 ready" />
+    <MESSAGE value="part2 ready and cleaned up" />
+    <option name="LAST_COMMIT_MESSAGE" value="part2 ready and cleaned up" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
