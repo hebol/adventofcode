@@ -55,7 +55,6 @@ function simulateCrabs(state, rounds, maxNumber) {
       console.log('Ping', i, new Date());
     }
     const pickedUp = pickup(current);
-    //console.log({state: nodeToString(current), selected: current.num, pickedUp: nodeToString(pickedUp)});
 
     let destNumber = current.num - 1;
     while (destNumber < 1 || isIn(destNumber, pickedUp)) {
@@ -74,14 +73,12 @@ function simulateCrabs(state, rounds, maxNumber) {
 }
 
 let result = simulateCrabs(orgData.split('').map(entry => parseInt(entry)), 100, 9);
-
 let answer1 = nodeToString(result).substring(0, 8);
-console.log({answer1});
 
+// { answer1: '95648732', answer2: 192515314252 }
 let newState = orgData.split('').map(entry => parseInt(entry));
-let bigArray = [...Array(1000001).keys()];
-bigArray.splice(0, 1);
+let bigArray = [...Array(1000001).keys()].slice(1);
 newState = newState.concat(bigArray.slice(newState.length))
 const result2 = simulateCrabs(newState, 10000000, newState.length);
 const answer2 = result2.num *  result2.next.num;
-console.log({answer2, result2});
+console.log({answer1, answer2});

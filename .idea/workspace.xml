@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Part2 ready keep on linking!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/23/main23.js" beforeDir="false" afterPath="$PROJECT_DIR$/23/main23.js" afterDir="false" />
     </list>
@@ -116,13 +116,7 @@
       <workItem from="1608133011932" duration="52252000" />
       <workItem from="1608640249146" duration="51000" />
       <workItem from="1608640319325" duration="279000" />
-      <workItem from="1608640611352" duration="8246000" />
-    </task>
-    <task id="LOCAL−00012" summary="Empty start">
-      <created>1607489326097</created>
-      <option name="number" value="LOCAL−00012" />
-      <option name="presentableId" value="LOCAL−00012" />
-      <updated>1607489326097</updated>
+      <workItem from="1608640611352" duration="8470000" />
     </task>
     <task id="LOCAL−00013" summary="Testdata">
       <created>1607490350301</created>
@@ -412,7 +406,13 @@
       <option name="presentableId" value="LOCAL−00060" />
       <updated>1608701922465</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL−00061" summary="Part2 ready keep on linking!">
+      <created>1608727799024</created>
+      <option name="number" value="LOCAL−00061" />
+      <option name="presentableId" value="LOCAL−00061" />
+      <updated>1608727799024</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -432,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Solved problem!" />
     <MESSAGE value="Data for 14" />
     <MESSAGE value="Not pretty but working..." />
     <MESSAGE value="Solved 15 not cleaned up..." />
@@ -457,7 +456,8 @@
     <MESSAGE value="Small cleanup" />
     <MESSAGE value="Day 23 data" />
     <MESSAGE value="Part1 done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Part1 done" />
+    <MESSAGE value="Part2 ready keep on linking!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Part2 ready keep on linking!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
