@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/23/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/22/main22.js" beforeDir="false" afterPath="$PROJECT_DIR$/22/main22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/23/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,10 +67,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main20.js">
-    <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/18/main18.js" working-dir="$PROJECT_DIR$/18">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main23.js">
     <configuration name="main19.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/19/main19.js" working-dir="$PROJECT_DIR$/19">
       <method v="2" />
     </configuration>
@@ -82,13 +80,16 @@
     <configuration name="main22.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/22/main22.js" working-dir="$PROJECT_DIR$/22">
       <method v="2" />
     </configuration>
+    <configuration name="main23.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/23/main23.js" working-dir="$PROJECT_DIR$/23">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main23.js" />
         <item itemvalue="Node.js.main20.js" />
         <item itemvalue="Node.js.main22.js" />
         <item itemvalue="Node.js.main21.js" />
         <item itemvalue="Node.js.main19.js" />
-        <item itemvalue="Node.js.main18.js" />
       </list>
     </recent_temporary>
   </component>
@@ -113,13 +114,10 @@
       <workItem from="1608101707381" duration="79000" />
       <workItem from="1608101805712" duration="13178000" />
       <workItem from="1608117833430" duration="4029000" />
-      <workItem from="1608133011932" duration="51247000" />
-    </task>
-    <task id="LOCAL−00009" summary="Added correct answer">
-      <created>1607342089441</created>
-      <option name="number" value="LOCAL−00009" />
-      <option name="presentableId" value="LOCAL−00009" />
-      <updated>1607342089441</updated>
+      <workItem from="1608133011932" duration="52252000" />
+      <workItem from="1608640249146" duration="51000" />
+      <workItem from="1608640319325" duration="279000" />
+      <workItem from="1608640611352" duration="1300000" />
     </task>
     <task id="LOCAL−00010" summary="Added testdata">
       <created>1607403926600</created>
@@ -409,7 +407,13 @@
       <option name="presentableId" value="LOCAL−00057" />
       <updated>1608617880377</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL−00058" summary="Small cleanup">
+      <created>1608638363080</created>
+      <option name="number" value="LOCAL−00058" />
+      <option name="presentableId" value="LOCAL−00058" />
+      <updated>1608638363080</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day 12 solved!" />
     <MESSAGE value="Test data for 13 ready" />
     <MESSAGE value="13 ready and special thanks to wolfram!" />
     <MESSAGE value="Solved problem!" />
@@ -454,7 +457,8 @@
     <MESSAGE value="Prepare last days directories" />
     <MESSAGE value="part1 ready" />
     <MESSAGE value="part2 ready and cleaned up" />
-    <option name="LAST_COMMIT_MESSAGE" value="part2 ready and cleaned up" />
+    <MESSAGE value="Small cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Small cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -462,7 +466,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/utils.js</url>
           <line>4</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
