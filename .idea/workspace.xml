@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/23/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/23/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/23/test1.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/23/main23.js" beforeDir="false" afterPath="$PROJECT_DIR$/23/main23.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,13 +116,7 @@
       <workItem from="1608133011932" duration="52252000" />
       <workItem from="1608640249146" duration="51000" />
       <workItem from="1608640319325" duration="279000" />
-      <workItem from="1608640611352" duration="1300000" />
-    </task>
-    <task id="LOCAL−00010" summary="Added testdata">
-      <created>1607403926600</created>
-      <option name="number" value="LOCAL−00010" />
-      <option name="presentableId" value="LOCAL−00010" />
-      <updated>1607403926600</updated>
+      <workItem from="1608640611352" duration="2544000" />
     </task>
     <task id="LOCAL−00011" summary="Added testdata">
       <created>1607404049103</created>
@@ -413,7 +406,13 @@
       <option name="presentableId" value="LOCAL−00058" />
       <updated>1608638363080</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL−00059" summary="Day 23 data">
+      <created>1608700578455</created>
+      <option name="number" value="LOCAL−00059" />
+      <option name="presentableId" value="LOCAL−00059" />
+      <updated>1608700578456</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +432,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Test data for 13 ready" />
     <MESSAGE value="13 ready and special thanks to wolfram!" />
     <MESSAGE value="Solved problem!" />
     <MESSAGE value="Data for 14" />
@@ -458,7 +456,8 @@
     <MESSAGE value="part1 ready" />
     <MESSAGE value="part2 ready and cleaned up" />
     <MESSAGE value="Small cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small cleanup" />
+    <MESSAGE value="Day 23 data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 23 data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
