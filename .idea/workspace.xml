@@ -117,13 +117,7 @@
       <workItem from="1608133011932" duration="52252000" />
       <workItem from="1608640249146" duration="51000" />
       <workItem from="1608640319325" duration="279000" />
-      <workItem from="1608640611352" duration="14951000" />
-    </task>
-    <task id="LOCAL−00017" summary="Step 1 complete..not2!">
-      <created>1607579383618</created>
-      <option name="number" value="LOCAL−00017" />
-      <option name="presentableId" value="LOCAL−00017" />
-      <updated>1607579383618</updated>
+      <workItem from="1608640611352" duration="15760000" />
     </task>
     <task id="LOCAL−00018" summary="2 solevd!">
       <created>1607579696541</created>
@@ -413,7 +407,13 @@
       <option name="presentableId" value="LOCAL−00065" />
       <updated>1608874839527</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL−00066" summary="Day 25 ready">
+      <created>1608875568276</created>
+      <option name="number" value="LOCAL−00066" />
+      <option name="presentableId" value="LOCAL−00066" />
+      <updated>1608875568276</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Some cleanup and prepare for tomorrow" />
     <MESSAGE value="Part1 ok" />
     <MESSAGE value="Added data for 17" />
     <MESSAGE value="Cleanup and fix date test" />
@@ -458,7 +457,8 @@
     <MESSAGE value="Med 24-datat" />
     <MESSAGE value="Ready" />
     <MESSAGE value="Day 25 data" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 25 data" />
+    <MESSAGE value="Day 25 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 25 ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
