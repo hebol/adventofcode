@@ -4,7 +4,6 @@
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/25/main25.js" beforeDir="false" afterPath="$PROJECT_DIR$/25/main25.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/25/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,13 +117,7 @@
       <workItem from="1608133011932" duration="52252000" />
       <workItem from="1608640249146" duration="51000" />
       <workItem from="1608640319325" duration="279000" />
-      <workItem from="1608640611352" duration="14367000" />
-    </task>
-    <task id="LOCAL−00016" summary="10 data">
-      <created>1607576860430</created>
-      <option name="number" value="LOCAL−00016" />
-      <option name="presentableId" value="LOCAL−00016" />
-      <updated>1607576860430</updated>
+      <workItem from="1608640611352" duration="14951000" />
     </task>
     <task id="LOCAL−00017" summary="Step 1 complete..not2!">
       <created>1607579383618</created>
@@ -414,7 +407,13 @@
       <option name="presentableId" value="LOCAL−00064" />
       <updated>1608874731225</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL−00065" summary="Day 25 data">
+      <created>1608874839527</created>
+      <option name="number" value="LOCAL−00065" />
+      <option name="presentableId" value="LOCAL−00065" />
+      <updated>1608874839527</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +433,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Solved 15 not cleaned up..." />
     <MESSAGE value="Some cleanup and prepare for tomorrow" />
     <MESSAGE value="Part1 ok" />
     <MESSAGE value="Added data for 17" />
@@ -459,7 +457,8 @@
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Med 24-datat" />
     <MESSAGE value="Ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
+    <MESSAGE value="Day 25 data" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 25 data" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
