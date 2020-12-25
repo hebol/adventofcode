@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/25/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/24/main24.js" beforeDir="false" afterPath="$PROJECT_DIR$/24/main24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25/main25.js" beforeDir="false" afterPath="$PROJECT_DIR$/25/main25.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/25/test1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/25/test1.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,11 +68,8 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main24.js">
+  <component name="RunManager" selected="Node.js.main25.js">
     <configuration name="main20.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/20/main20.js" working-dir="$PROJECT_DIR$/20">
-      <method v="2" />
-    </configuration>
-    <configuration name="main21.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/21/main21.js" working-dir="$PROJECT_DIR$/21">
       <method v="2" />
     </configuration>
     <configuration name="main22.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/22/main22.js" working-dir="$PROJECT_DIR$/22">
@@ -84,13 +81,16 @@
     <configuration name="main24.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/24/main24.js" working-dir="$PROJECT_DIR$/24">
       <method v="2" />
     </configuration>
+    <configuration name="main25.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/25/main25.js" working-dir="$PROJECT_DIR$/25">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main25.js" />
         <item itemvalue="Node.js.main24.js" />
         <item itemvalue="Node.js.main23.js" />
         <item itemvalue="Node.js.main20.js" />
         <item itemvalue="Node.js.main22.js" />
-        <item itemvalue="Node.js.main21.js" />
       </list>
     </recent_temporary>
   </component>
@@ -118,13 +118,7 @@
       <workItem from="1608133011932" duration="52252000" />
       <workItem from="1608640249146" duration="51000" />
       <workItem from="1608640319325" duration="279000" />
-      <workItem from="1608640611352" duration="14240000" />
-    </task>
-    <task id="LOCAL−00015" summary="Nytt data">
-      <created>1607576848339</created>
-      <option name="number" value="LOCAL−00015" />
-      <option name="presentableId" value="LOCAL−00015" />
-      <updated>1607576848339</updated>
+      <workItem from="1608640611352" duration="14367000" />
     </task>
     <task id="LOCAL−00016" summary="10 data">
       <created>1607576860430</created>
@@ -414,7 +408,13 @@
       <option name="presentableId" value="LOCAL−00063" />
       <updated>1608786214826</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL−00064" summary="Ready">
+      <created>1608874731225</created>
+      <option name="number" value="LOCAL−00064" />
+      <option name="presentableId" value="LOCAL−00064" />
+      <updated>1608874731225</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -434,7 +434,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Not pretty but working..." />
     <MESSAGE value="Solved 15 not cleaned up..." />
     <MESSAGE value="Some cleanup and prepare for tomorrow" />
     <MESSAGE value="Part1 ok" />
@@ -459,7 +458,8 @@
     <MESSAGE value="Part2 ready keep on linking!" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Med 24-datat" />
-    <option name="LAST_COMMIT_MESSAGE" value="Med 24-datat" />
+    <MESSAGE value="Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
