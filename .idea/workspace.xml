@@ -2,8 +2,174 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2020/01/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/01/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/02/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/02/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/03/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/03/main03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/04/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/04/invalid.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/04/main04.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/05/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/05/main05.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/06/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/06/inputt2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/06/main06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/06/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/06/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/06/test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/07/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/07/main07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/07/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/08/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/08/main08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/08/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/09/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/09/main09.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/09/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/10/main10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/10/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/10/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/11/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/11/main11.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/11/test1-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/11/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/11/test2-1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/12/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/12/main12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/12/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/13/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/13/main13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/13/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/14/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/14/main14.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/14/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/14/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/15/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/15/main15.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/15/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/16/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/16/main16.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/16/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/16/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/17/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/17/main17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/17/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/18/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/18/main18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/18/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/19/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/19/main19.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/19/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/19/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/20/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/20/main20.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/20/monster.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/20/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/21/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/21/main21.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/21/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/22/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/22/main22.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/22/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/22/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/23/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/23/main23.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/23/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/24/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/24/main24.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/24/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/25/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/25/main25.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2020/25/test1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/01/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/01/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/01/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/25/main25.js" beforeDir="false" afterPath="$PROJECT_DIR$/25/main25.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/02/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/03/main03.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/invalid.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/04/main04.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/05/main05.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/inputt2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/main06.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/06/test3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/main07.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/07/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08/main08.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/main09.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/09/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/main10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/10/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/main11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/test1-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/11/test2-1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/main12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/12/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/main13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/13/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14/main14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/14/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15/main15.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/15/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/main16.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/16/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17/main17.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/17/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18/main18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/18/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19/main19.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/19/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20/main20.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20/monster.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/20/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21/main21.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/21/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22/main22.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/22/test2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23/main23.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/23/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24/main24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/24/test1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/25/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/25/main25.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/25/test1.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +185,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="1l2zUSC64Amrmr9JooLaJAdj0H6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -36,8 +205,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="15.2.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.14" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.6.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.6.0" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/25" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -50,7 +219,6 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -67,11 +235,8 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main25.js">
+  <component name="RunManager" selected="Node.js.main.js">
     <configuration name="main20.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/20/main20.js" working-dir="$PROJECT_DIR$/20">
-      <method v="2" />
-    </configuration>
-    <configuration name="main22.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/22/main22.js" working-dir="$PROJECT_DIR$/22">
       <method v="2" />
     </configuration>
     <configuration name="main23.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/23/main23.js" working-dir="$PROJECT_DIR$/23">
@@ -83,13 +248,16 @@
     <configuration name="main25.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/25/main25.js" working-dir="$PROJECT_DIR$/25">
       <method v="2" />
     </configuration>
+    <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/01/main.js" working-dir="$PROJECT_DIR$/2021/01">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main25.js" />
         <item itemvalue="Node.js.main24.js" />
         <item itemvalue="Node.js.main23.js" />
         <item itemvalue="Node.js.main20.js" />
-        <item itemvalue="Node.js.main22.js" />
       </list>
     </recent_temporary>
   </component>
@@ -117,13 +285,12 @@
       <workItem from="1608133011932" duration="52252000" />
       <workItem from="1608640249146" duration="51000" />
       <workItem from="1608640319325" duration="279000" />
-      <workItem from="1608640611352" duration="15760000" />
-    </task>
-    <task id="LOCAL−00018" summary="2 solevd!">
-      <created>1607579696541</created>
-      <option name="number" value="LOCAL−00018" />
-      <option name="presentableId" value="LOCAL−00018" />
-      <updated>1607579696541</updated>
+      <workItem from="1608640611352" duration="16363000" />
+      <workItem from="1621064050469" duration="44000" />
+      <workItem from="1621064110157" duration="264000" />
+      <workItem from="1621065384900" duration="365000" />
+      <workItem from="1622462616578" duration="598000" />
+      <workItem from="1638342660371" duration="3389000" />
     </task>
     <task id="LOCAL−00019" summary="Preparing for day 11">
       <created>1607599273108</created>
@@ -413,7 +580,13 @@
       <option name="presentableId" value="LOCAL−00066" />
       <updated>1608875568276</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL−00067" summary="Cleanup">
+      <created>1608877060695</created>
+      <option name="number" value="LOCAL−00067" />
+      <option name="presentableId" value="LOCAL−00067" />
+      <updated>1608877060695</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,7 +602,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -453,22 +625,11 @@
     <MESSAGE value="Day 23 data" />
     <MESSAGE value="Part1 done" />
     <MESSAGE value="Part2 ready keep on linking!" />
-    <MESSAGE value="Cleanup" />
     <MESSAGE value="Med 24-datat" />
     <MESSAGE value="Ready" />
     <MESSAGE value="Day 25 data" />
     <MESSAGE value="Day 25 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 25 ready" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/utils.js</url>
-          <line>4</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
 </project>

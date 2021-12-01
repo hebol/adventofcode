@@ -1,7 +1,7 @@
 const utils = require('../utils');
 
 //const start = utils.readFile('test2-1.txt');
-//const start = utils.readFile('test1.txt');
+//const start = utils.readFile('test.txt');
 const start = utils.readFile();
 
 const printGrid = (array, title) => {
