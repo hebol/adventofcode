@@ -1,5 +1,8 @@
 const fs = require('fs');
+const path = require('path');
+const process = require('process');
 const moment = require('moment');
+const axios = require('axios');
 
 if (parseInt(require.main.path.split('/').pop()) !== moment().date()) {
   console.log('==> Not todays problem!');
@@ -60,6 +63,31 @@ module.exports = {
         console.log(new Date(), count);
         now = newNow;
       }
+    }
+  },
+  checkDataInputFileExists: () => {
+    const parts = process.cwd().split(path.sep);
+    const day = parts.pop();
+    const year = parts.pop();
+    if (!fs.existsSync('input.txt')) {
+
+      axios.get('https://adventofcode.com/' + year + '/day/' + parseInt(day) + '/input', {
+          headers: {
+            Cookie: "session=53616c7465645f5f0796b1144e30c8e87a016951cc82c96bf7753e6e6a8e2bd75f95c44e30eb78a1ba6f81f420996b51"
+          }
+        })
+        .then(response => {
+          return new Promise((resolve, reject) => {
+            console.log('Data written for', {year, day});
+            fs.writeFile('input.txt', response.data, resolve);
+          })
+        })
+        .catch(error => {
+          console.log('Error', error.message);
+        });
+    } else {
+      console.log('Data exists for', {year, day});
+      return Promise.resolve();
     }
   }
 };

@@ -1,6 +1,7 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('test.txt')
-
+utils.checkDataInputFileExists();
+/*
+let arrayList = utils.readFile('input.txt')
 let lastValue = null;
 
 let increasedSingle = arrayList.reduce((rest, value)=>{
@@ -26,3 +27,4 @@ let increasedThreeWindow = arrayList.reduce((rest, value)=> {
 }, 0);
 
 console.log({increasedSingle, increasedThreeWindow});
+*/
