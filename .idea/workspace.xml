@@ -1,18 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2021/01/Uträkning.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/02/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/02/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/02/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/03/main03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/03/test.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Second day done, added data read">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/01/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/02/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +69,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager" selected="Node.js.main.js (1)">
     <configuration name="main03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/03/main03.js" working-dir="$PROJECT_DIR$/2021/03">
       <method v="2" />
     </configuration>
@@ -96,9 +87,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main03.js" />
-        <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.main25.js" />
         <item itemvalue="Node.js.main24.js" />
       </list>
@@ -133,13 +124,8 @@
       <workItem from="1621064110157" duration="264000" />
       <workItem from="1621065384900" duration="365000" />
       <workItem from="1622462616578" duration="598000" />
-      <workItem from="1638342660371" duration="7337000" />
-    </task>
-    <task id="LOCAL−00020" summary="Preparing for day 11">
-      <created>1607600618477</created>
-      <option name="number" value="LOCAL−00020" />
-      <option name="presentableId" value="LOCAL−00020" />
-      <updated>1607600618477</updated>
+      <workItem from="1638342660371" duration="7488000" />
+      <workItem from="1638425796204" duration="698000" />
     </task>
     <task id="LOCAL−00021" summary="Cleaning up..">
       <created>1607615145872</created>
@@ -429,7 +415,13 @@
       <option name="presentableId" value="LOCAL−00068" />
       <updated>1638346815029</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL−00069" summary="Second day done, added data read">
+      <created>1638424907792</created>
+      <option name="number" value="LOCAL−00069" />
+      <option name="presentableId" value="LOCAL−00069" />
+      <updated>1638424907792</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -448,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Added data for 17" />
     <MESSAGE value="Cleanup and fix date test" />
     <MESSAGE value="Added tomorrows dir" />
     <MESSAGE value="18 data" />
@@ -473,6 +464,7 @@
     <MESSAGE value="Day 25 ready" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="First day done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="First day done!" />
+    <MESSAGE value="Second day done, added data read" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second day done, added data read" />
   </component>
 </project>

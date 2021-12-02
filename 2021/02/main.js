@@ -1,36 +1,41 @@
 const utils = require('../../utils');
 let arrayList = utils.readFile('input.txt')
+const cmdList = arrayList.map(entry => {
+  [cmd, val] = entry.split(' ');
+  return {cmd, value: parseInt(val)};
+})
 
-let position = arrayList.reduce((rest, value) => {
-  [dir, speed] = value.split(' ');
-  switch(dir) {
+let position = cmdList.reduce((rest, {cmd, value}) => {
+  switch(cmd) {
     case 'forward':
-      rest.pos += parseInt(speed);
+      rest.pos += value;
       break;
     case 'down':
-      rest.depth += parseInt(speed);
+      rest.depth += value;
       break;
     case 'up':
-      rest.depth -= parseInt(speed);
+      rest.depth -= value;
       break;
     default:
-      console.log('Unknown', dir);
+      console.log('Unknown', cmd);
   }
   return rest;
 }, {depth:0, pos:0});
 
-let position2 = arrayList.reduce((rest, value) => {
-  [dir, speed] = value.split(' ');
-  switch(dir) {
+console.log({position, result1: position.depth * position.pos});
+//2117664
+
+let position2 = cmdList.reduce((rest, {cmd, value}) => {
+  switch(cmd) {
     case 'forward':
-      rest.pos += parseInt(speed);
-      rest.depth += parseInt(speed) * rest.aim;
+      rest.pos += value;
+      rest.depth += value * rest.aim;
       break;
     case 'down':
-      rest.aim += parseInt(speed);
+      rest.aim += value;
       break;
     case 'up':
-      rest.aim -= parseInt(speed);
+      rest.aim -= value;
       break;
     default:
       console.log('Unknown', dir);
@@ -38,5 +43,5 @@ let position2 = arrayList.reduce((rest, value) => {
   return rest;
 }, {depth:0, pos:0, aim: 0});
 
-console.log({position, result1: position.depth * position.pos});
 console.log({position2, result2: position2.depth * position2.pos});
+//2073416724
