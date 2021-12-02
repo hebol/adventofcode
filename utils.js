@@ -83,7 +83,7 @@ module.exports = {
           })
         })
         .catch(error => {
-          console.log('Error', error.message);
+          console.log('Error reading day', {year, day}, error.message);
         });
     } else {
       console.log('Data exists for', {year, day});

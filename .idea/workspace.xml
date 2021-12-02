@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Second day done, added data read">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/02/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/02/main02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +40,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.6.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.6.0" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2021" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -69,7 +70,10 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.js (1)">
+  <component name="RunManager" selected="Node.js.main03.js">
+    <configuration name="main02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/02/main02.js" working-dir="$PROJECT_DIR$/2021/02">
+      <method v="2" />
+    </configuration>
     <configuration name="main03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/03/main03.js" working-dir="$PROJECT_DIR$/2021/03">
       <method v="2" />
     </configuration>
@@ -79,17 +83,14 @@
     <configuration name="main25.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/25/main25.js" working-dir="$PROJECT_DIR$/25">
       <method v="2" />
     </configuration>
-    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/02/main.js" working-dir="$PROJECT_DIR$/2021/02">
-      <method v="2" />
-    </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/01/main.js" working-dir="$PROJECT_DIR$/2021/01">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main.js (1)" />
-        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main03.js" />
+        <item itemvalue="Node.js.main02.js" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main25.js" />
         <item itemvalue="Node.js.main24.js" />
       </list>
@@ -126,6 +127,7 @@
       <workItem from="1622462616578" duration="598000" />
       <workItem from="1638342660371" duration="7488000" />
       <workItem from="1638425796204" duration="698000" />
+      <workItem from="1638450974931" duration="536000" />
     </task>
     <task id="LOCAL−00021" summary="Cleaning up..">
       <created>1607615145872</created>
@@ -437,6 +439,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
