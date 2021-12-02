@@ -38,7 +38,7 @@ let position2 = cmdList.reduce((rest, {cmd, value}) => {
       rest.aim -= value;
       break;
     default:
-      console.log('Unknown', dir);
+      console.log('Unknown', cmd);
   }
   return rest;
 }, {depth:0, pos:0, aim: 0});

@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Second day done, added data read">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/02/main02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="renamed files and some minor cleanup">
+      <change beforePath="$PROJECT_DIR$/2021/02/main02.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/02/main02.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,13 +125,7 @@
       <workItem from="1622462616578" duration="598000" />
       <workItem from="1638342660371" duration="7488000" />
       <workItem from="1638425796204" duration="698000" />
-      <workItem from="1638450974931" duration="536000" />
-    </task>
-    <task id="LOCAL−00021" summary="Cleaning up..">
-      <created>1607615145872</created>
-      <option name="number" value="LOCAL−00021" />
-      <option name="presentableId" value="LOCAL−00021" />
-      <updated>1607615145872</updated>
+      <workItem from="1638450974931" duration="866000" />
     </task>
     <task id="LOCAL−00022" summary="Day 11 with data">
       <created>1607662940393</created>
@@ -423,7 +415,13 @@
       <option name="presentableId" value="LOCAL−00069" />
       <updated>1638424907792</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
+      <created>1638451772748</created>
+      <option name="number" value="LOCAL−00070" />
+      <option name="presentableId" value="LOCAL−00070" />
+      <updated>1638451772748</updated>
+    </task>
+    <option name="localTasksCounter" value="71" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +441,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Cleanup and fix date test" />
     <MESSAGE value="Added tomorrows dir" />
     <MESSAGE value="18 data" />
     <MESSAGE value="Solved and cleaned up 18" />
@@ -468,6 +465,7 @@
     <MESSAGE value="Cleanup" />
     <MESSAGE value="First day done!" />
     <MESSAGE value="Second day done, added data read" />
-    <option name="LAST_COMMIT_MESSAGE" value="Second day done, added data read" />
+    <MESSAGE value="renamed files and some minor cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="renamed files and some minor cleanup" />
   </component>
 </project>
