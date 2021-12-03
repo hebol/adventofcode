@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 3 ready">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2021/04/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/03/main03.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/03/main03.js" afterDir="false" />
     </list>
@@ -128,12 +129,6 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="1274000" />
-    </task>
-    <task id="LOCAL−00023" summary="Prepare for 12">
-      <created>1607749153482</created>
-      <option name="number" value="LOCAL−00023" />
-      <option name="presentableId" value="LOCAL−00023" />
-      <updated>1607749153482</updated>
     </task>
     <task id="LOCAL−00024" summary="With data">
       <created>1607749537273</created>
@@ -423,7 +418,13 @@
       <option name="presentableId" value="LOCAL−00071" />
       <updated>1638451892203</updated>
     </task>
-    <option name="localTasksCounter" value="72" />
+    <task id="LOCAL−00072" summary="Cleanup crew">
+      <created>1638525176611</created>
+      <option name="number" value="LOCAL−00072" />
+      <option name="presentableId" value="LOCAL−00072" />
+      <updated>1638525176611</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,7 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Solved and cleaned up 18" />
     <MESSAGE value="Added start 19" />
     <MESSAGE value="Day 19 ready with cleanup" />
     <MESSAGE value="Prepare for tomorrow" />
@@ -467,6 +467,7 @@
     <MESSAGE value="renamed files and some minor cleanup" />
     <MESSAGE value="fix uncalled code" />
     <MESSAGE value="Day 3 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3 ready" />
+    <MESSAGE value="Cleanup crew" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup crew" />
   </component>
 </project>
