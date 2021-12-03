@@ -15,7 +15,7 @@ module.exports = {
   readFile: (name) => {
     const rawData = fs.readFileSync(name || './input.txt');
     const stringData = String(rawData);
-    var arrayList = stringData.split('\n');
+    const arrayList = stringData.split('\n');
     return arrayList.filter(entry => entry && entry.trim().length >= 0);
   },
   readFileNoFilter: (name) => {
@@ -32,7 +32,7 @@ module.exports = {
   processMultiLine: (handler, name) => {
     const rawData = fs.readFileSync(name || './input.txt');
     const stringData = String(rawData);
-    var arrayList = stringData.split('\n');
+    const arrayList = stringData.split('\n');
     let sum = [];
     let currentData = [];
     while (arrayList.length > 0) {
@@ -77,7 +77,7 @@ module.exports = {
           }
         })
         .then(response => {
-          return new Promise((resolve, reject) => {
+          return new Promise((resolve) => {
             console.log('Data written for', {year, day});
             fs.writeFile('input.txt', response.data, resolve);
           })
