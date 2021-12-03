@@ -1,16 +1,13 @@
 const utils = require('../../utils');
-//let arrayList = utils.readFile('input.txt')
 
-//utils.checkDataInputFileExists();
 let arrayList = utils.readFile('input.txt')
 
 const getFactors = ((anArray, evenValue) => {
-    const result1 = Array(arrayList[0].length);
-    result1.fill(0);
-    anArray.forEach(value=>value.split('').forEach((el,index) => result1[index] += value[index] === '1' ? 1 : -1));
+    const countArray = Array(arrayList[0].length).fill(0);
+    anArray.forEach(value=>value.split('').forEach((el,index) => countArray[index] += value[index] === '1' ? 1 : -1));
 
-    const gamma = result1.map(value => value === 0 ? evenValue : value > 0 ? "1" : "0").join('');
-    const epsilon = result1.map(value => value === 0 ? evenValue : value > 0 ? "0" : "1").join('');
+    const gamma   = countArray.map(value => value === 0 ? evenValue : value > 0 ? "1" : "0").join('');
+    const epsilon = countArray.map(value => value === 0 ? evenValue : value > 0 ? "0" : "1").join('');
     return {gamma, epsilon};
 });
 
@@ -31,3 +28,4 @@ for (let index = 0 ; index < arrayList[0].length && temp1.length > 1 ; index++) 
 let answer22 = temp1[0];
 const answer2 = parseInt(answer21, 2) * parseInt(answer22, 2);
 console.log({answer1, answer2});
+// { answer1: 775304, answer2: 1370737 }
