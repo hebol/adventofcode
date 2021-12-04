@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 3 ready">
-      <change afterPath="$PROJECT_DIR$/2021/04/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/04/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/04/test2.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 4 ready, cleanup done">
+      <change afterPath="$PROJECT_DIR$/2021/mainX.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/04/main04.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +42,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,8 +58,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/2021/04" />
       <recent name="$PROJECT_DIR$/2021" />
+      <recent name="$PROJECT_DIR$/2021/04" />
       <recent name="$PROJECT_DIR$/25" />
       <recent name="$PROJECT_DIR$/24" />
       <recent name="$PROJECT_DIR$/23" />
@@ -131,13 +127,7 @@
       <workItem from="1638342660371" duration="7488000" />
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
-      <workItem from="1638514417015" duration="13531000" />
-    </task>
-    <task id="LOCAL−00024" summary="With data">
-      <created>1607749537273</created>
-      <option name="number" value="LOCAL−00024" />
-      <option name="presentableId" value="LOCAL−00024" />
-      <updated>1607749537273</updated>
+      <workItem from="1638514417015" duration="14617000" />
     </task>
     <task id="LOCAL−00025" summary="Day 12 solved!">
       <created>1607752339737</created>
@@ -427,7 +417,13 @@
       <option name="presentableId" value="LOCAL−00072" />
       <updated>1638515698777</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL−00073" summary="Day 4 ready, cleanup done">
+      <created>1638614414352</created>
+      <option name="number" value="LOCAL−00073" />
+      <option name="presentableId" value="LOCAL−00073" />
+      <updated>1638614414352</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Solved and cleaned up 18" />
     <MESSAGE value="Added start 19" />
     <MESSAGE value="Day 19 ready with cleanup" />
     <MESSAGE value="Prepare for tomorrow" />
@@ -472,6 +467,7 @@
     <MESSAGE value="renamed files and some minor cleanup" />
     <MESSAGE value="fix uncalled code" />
     <MESSAGE value="Day 3 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3 ready" />
+    <MESSAGE value="Day 4 ready, cleanup done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 4 ready, cleanup done" />
   </component>
 </project>
