@@ -47,7 +47,7 @@ module.exports = {
     }
     return sum;
   },
-  sumArray: (array) => { return array.reduce((rest, entry) => rest + entry, 0);},
+  sumArray: (array) => { return array.reduce((rest, entry) => rest + parseInt(entry), 0);},
   setupWatchdog: (interval) => {
     theInterval = interval || theInterval;
     now = new Date();
@@ -89,5 +89,6 @@ module.exports = {
       console.log('Data exists for', {year, day});
       return Promise.resolve();
     }
-  }
+  },
+  splitNumberRow: row => row.split(' ').filter(entry => entry.length).map(value=>parseInt(value)),
 };
