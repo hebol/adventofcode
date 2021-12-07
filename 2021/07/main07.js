@@ -7,41 +7,25 @@ const posMap = array.reduce((rest,val) => {
 }, {})
 
 
-let answer1, answer2;
-// Answer1:  Answer2
-
-const stepCounter1 = (target, from) => {
-    return Math.abs(target-from);
-}
-
-const stepCounter2 = (target, from) => {
-    const part = Math.abs(target-from);
-    return part * (part + 1) / 2;
-}
-
-const getStepsNeeded = (target, map, aFun) => {
-    result = Object.keys(map).reduce((rest, key) => {
-        return rest + aFun(target, key) * map[key];
+const getFuelNeeded = (target, map, summer) => {
+    return Object.keys(map).reduce((rest, key) => {
+        return rest + summer(target, key) * map[key];
     }, 0);
-    return result;
 }
 
 const caluculateCost = (summer) => {
-    let bestSum, bestIndex;
     let max = Math.max(...array);
     let min = Math.min(...array);
 
-    for (let index = min; index <= max; index++) {
-        const aSum = getStepsNeeded(index, posMap, summer);
-        if (!bestSum || aSum < bestSum) {
-            bestSum = aSum;
-            bestIndex = index;
-        }
-    }
-    return bestSum;
+    return Math.min(...Array(max-min).fill().map((x,i)=>i+min).map(val => {
+        return getFuelNeeded(val, posMap, summer);
+    }));
 }
 
-answer1 = caluculateCost(stepCounter1);
-answer2 = caluculateCost(stepCounter2);
+let answer1, answer2;
+// Answer1: 336131 Answer2 92676646
+
+answer1 = caluculateCost((from, to) => Math.abs(from-to));
+answer2 = caluculateCost((from, to) => Math.abs(from-to) * (Math.abs(from-to) + 1) / 2);
 
 console.log("Answer1:", answer1, "Answer2", answer2);

@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 6 ready, preparing for new day">
-      <change afterPath="$PROJECT_DIR$/2021/07/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/08/mainX.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/08/test.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 7 ready, preparing for new day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/07/main07.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/07/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/07/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/mainX.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/mainX.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,13 +128,7 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
-      <workItem from="1638796872025" duration="3615000" />
-    </task>
-    <task id="LOCAL−00027" summary="Test data for 13 ready">
-      <created>1607835940576</created>
-      <option name="number" value="LOCAL−00027" />
-      <option name="presentableId" value="LOCAL−00027" />
-      <updated>1607835940576</updated>
+      <workItem from="1638796872025" duration="4806000" />
     </task>
     <task id="LOCAL−00028" summary="Test data for 13 ready">
       <created>1607835955373</created>
@@ -429,7 +418,13 @@
       <option name="presentableId" value="LOCAL−00075" />
       <updated>1638771216126</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL−00076" summary="Day 7 ready, preparing for new day">
+      <created>1638855487435</created>
+      <option name="number" value="LOCAL−00076" />
+      <option name="presentableId" value="LOCAL−00076" />
+      <updated>1638855487436</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,7 +444,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Day 20 data" />
     <MESSAGE value="Total map created!" />
     <MESSAGE value="Answer2 ready!" />
@@ -474,6 +468,7 @@
     <MESSAGE value="Day 4 ready, cleanup done" />
     <MESSAGE value="prepare for tomorrow" />
     <MESSAGE value="Day 6 ready, preparing for new day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 6 ready, preparing for new day" />
+    <MESSAGE value="Day 7 ready, preparing for new day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 7 ready, preparing for new day" />
   </component>
 </project>
