@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 7 ready, preparing for new day">
+      <change afterPath="$PROJECT_DIR$/2021/08/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/08/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/07/main07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/08/main08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/08/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/08/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/mainX.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/mainX.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +43,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
+    <property name="javascript.nodejs.core.library.configured.version" value="16.6.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.6.0" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/08" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -69,10 +73,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main07.js">
-    <configuration name="main03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/03/main03.js" working-dir="$PROJECT_DIR$/2021/03">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main08.js">
     <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/04/main04.js" working-dir="$PROJECT_DIR$/2021/04">
       <method v="2" />
     </configuration>
@@ -85,13 +86,16 @@
     <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/07/main07.js" working-dir="$PROJECT_DIR$/2021/07">
       <method v="2" />
     </configuration>
+    <configuration name="main08.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/08/main08.js" working-dir="$PROJECT_DIR$/2021/08">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main06.js" />
         <item itemvalue="Node.js.main05.js" />
         <item itemvalue="Node.js.main04.js" />
-        <item itemvalue="Node.js.main03.js" />
       </list>
     </recent_temporary>
   </component>
@@ -129,6 +133,7 @@
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
       <workItem from="1638796872025" duration="4806000" />
+      <workItem from="1638945466260" duration="5505000" />
     </task>
     <task id="LOCAL−00028" summary="Test data for 13 ready">
       <created>1607835955373</created>
@@ -440,7 +445,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
