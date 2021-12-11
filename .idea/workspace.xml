@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 11 and prepare for tomorrow">
-      <change afterPath="$PROJECT_DIR$/2021/10/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/11/main11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/11/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/11/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/10/main10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/10/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/10/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/11/main11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/11/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/11/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/mainX.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/mainX.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,10 +72,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main10.js">
-    <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/04/main04.js" working-dir="$PROJECT_DIR$/2021/04">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main11.js">
     <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/05/main05.js" working-dir="$PROJECT_DIR$/2021/05">
       <method v="2" />
     </configuration>
@@ -90,13 +85,16 @@
     <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/10/main10.js" working-dir="$PROJECT_DIR$/2021/10">
       <method v="2" />
     </configuration>
+    <configuration name="main11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/11/main11.js" working-dir="$PROJECT_DIR$/2021/11">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main06.js" />
         <item itemvalue="Node.js.main05.js" />
-        <item itemvalue="Node.js.main04.js" />
       </list>
     </recent_temporary>
   </component>
@@ -133,13 +131,7 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
-      <workItem from="1638796872025" duration="8399000" />
-    </task>
-    <task id="LOCAL−00029" summary="13 ready and special thanks to wolfram!">
-      <created>1607879231150</created>
-      <option name="number" value="LOCAL−00029" />
-      <option name="presentableId" value="LOCAL−00029" />
-      <updated>1607879231150</updated>
+      <workItem from="1638796872025" duration="9378000" />
     </task>
     <task id="LOCAL−00030" summary="Solved problem!">
       <created>1607880560954</created>
@@ -429,7 +421,13 @@
       <option name="presentableId" value="LOCAL−00077" />
       <updated>1638856762733</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL−00078" summary="Day 11 and prepare for tomorrow">
+      <created>1639115714035</created>
+      <option name="number" value="LOCAL−00078" />
+      <option name="presentableId" value="LOCAL−00078" />
+      <updated>1639115714035</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
