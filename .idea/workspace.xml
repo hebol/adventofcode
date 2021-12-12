@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="start of 11">
-      <change afterPath="$PROJECT_DIR$/2021/11/test2.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready 12 and prepare for next day">
+      <change afterPath="$PROJECT_DIR$/2021/12/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/12/main12.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/12/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/12/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/12/test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/13/main13.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/13/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/11/main11.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/11" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/13" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,21 +64,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2021/13" />
+      <recent name="$PROJECT_DIR$/2021/12" />
       <recent name="$PROJECT_DIR$/2021/11" />
       <recent name="$PROJECT_DIR$/2021/08" />
       <recent name="$PROJECT_DIR$/2021/07" />
-      <recent name="$PROJECT_DIR$/2021/05" />
-      <recent name="$PROJECT_DIR$/2021" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main11.js">
-    <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/05/main05.js" working-dir="$PROJECT_DIR$/2021/05">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main12.js">
     <configuration name="main06.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/06/main06.js" working-dir="$PROJECT_DIR$/2021/06">
       <method v="2" />
     </configuration>
@@ -86,13 +88,16 @@
     <configuration name="main11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/11/main11.js" working-dir="$PROJECT_DIR$/2021/11">
       <method v="2" />
     </configuration>
+    <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/12/main12.js" working-dir="$PROJECT_DIR$/2021/12">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main12.js" />
         <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main06.js" />
-        <item itemvalue="Node.js.main05.js" />
       </list>
     </recent_temporary>
   </component>
@@ -129,13 +134,7 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
-      <workItem from="1638796872025" duration="12637000" />
-    </task>
-    <task id="LOCAL−00031" summary="Prepare for tomorrow">
-      <created>1607883422489</created>
-      <option name="number" value="LOCAL−00031" />
-      <option name="presentableId" value="LOCAL−00031" />
-      <updated>1607883422489</updated>
+      <workItem from="1638796872025" duration="18384000" />
     </task>
     <task id="LOCAL−00032" summary="Data for 14">
       <created>1607922279567</created>
@@ -425,7 +424,13 @@
       <option name="presentableId" value="LOCAL−00079" />
       <updated>1639199033542</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL−00080" summary="Ready 11 and prepare for next day">
+      <created>1639202199881</created>
+      <option name="number" value="LOCAL−00080" />
+      <option name="presentableId" value="LOCAL−00080" />
+      <updated>1639202199881</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,8 +450,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day 21 data" />
-    <MESSAGE value="Prepare last days directories" />
     <MESSAGE value="part1 ready" />
     <MESSAGE value="part2 ready and cleaned up" />
     <MESSAGE value="Small cleanup" />
@@ -470,6 +473,8 @@
     <MESSAGE value="Cleanup crew" />
     <MESSAGE value="Day 11 and prepare for tomorrow" />
     <MESSAGE value="start of 11" />
-    <option name="LAST_COMMIT_MESSAGE" value="start of 11" />
+    <MESSAGE value="Ready 11 and prepare for next day" />
+    <MESSAGE value="Ready 12 and prepare for next day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready 12 and prepare for next day" />
   </component>
 </project>
