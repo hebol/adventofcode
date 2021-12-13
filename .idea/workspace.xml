@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready 12 and prepare for next day">
-      <change afterPath="$PROJECT_DIR$/2021/12/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/12/main12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/12/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/12/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/12/test3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/13/main13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/13/test.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/2021/13/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/12/main12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/12/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/12/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/13/main13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/13/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/13/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +43,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
+    <property name="javascript.nodejs.core.library.configured.version" value="17.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.12" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/12" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -64,38 +62,39 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/2021/13" />
       <recent name="$PROJECT_DIR$/2021/12" />
-      <recent name="$PROJECT_DIR$/2021/11" />
+      <recent name="$PROJECT_DIR$/2021/10" />
+      <recent name="$PROJECT_DIR$/2021/09" />
       <recent name="$PROJECT_DIR$/2021/08" />
       <recent name="$PROJECT_DIR$/2021/07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2021" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main12.js">
+  <component name="RunManager" selected="Node.js.main13.js">
     <configuration name="main06.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/06/main06.js" working-dir="$PROJECT_DIR$/2021/06">
       <method v="2" />
     </configuration>
     <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/07/main07.js" working-dir="$PROJECT_DIR$/2021/07">
       <method v="2" />
     </configuration>
-    <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/10/main10.js" working-dir="$PROJECT_DIR$/2021/10">
+    <configuration name="main08.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/08/main08.js" working-dir="$PROJECT_DIR$/2021/08">
       <method v="2" />
     </configuration>
-    <configuration name="main11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/11/main11.js" working-dir="$PROJECT_DIR$/2021/11">
+    <configuration name="main09.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/09/main09.js" working-dir="$PROJECT_DIR$/2021/09">
       <method v="2" />
     </configuration>
-    <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/12/main12.js" working-dir="$PROJECT_DIR$/2021/12">
+    <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/13/main13.js" working-dir="$PROJECT_DIR$/2021/13">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main12.js" />
-        <item itemvalue="Node.js.main11.js" />
-        <item itemvalue="Node.js.main10.js" />
+        <item itemvalue="Node.js.main13.js" />
+        <item itemvalue="Node.js.main09.js" />
+        <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main06.js" />
       </list>
@@ -134,7 +133,24 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
-      <workItem from="1638796872025" duration="18384000" />
+      <workItem from="1638796872025" duration="4806000" />
+      <workItem from="1638945466260" duration="10983000" />
+      <workItem from="1639198934812" duration="831000" />
+      <workItem from="1639204021370" duration="2201000" />
+      <workItem from="1639373282732" duration="62000" />
+      <workItem from="1639373365455" duration="1153000" />
+    </task>
+    <task id="LOCAL−00030" summary="Solved problem!">
+      <created>1607880560954</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1607880560954</updated>
+    </task>
+    <task id="LOCAL−00031" summary="Prepare for tomorrow">
+      <created>1607883422489</created>
+      <option name="number" value="LOCAL−00031" />
+      <option name="presentableId" value="LOCAL−00031" />
+      <updated>1607883422489</updated>
     </task>
     <task id="LOCAL−00032" summary="Data for 14">
       <created>1607922279567</created>
@@ -406,31 +422,19 @@
       <option name="presentableId" value="LOCAL−00076" />
       <updated>1638855487436</updated>
     </task>
-    <task id="LOCAL−00077" summary="Cleanup crew">
-      <created>1638856762733</created>
+    <task id="LOCAL−00077" summary="Day 8 ready, preparing for new day">
+      <created>1638951678983</created>
       <option name="number" value="LOCAL−00077" />
       <option name="presentableId" value="LOCAL−00077" />
-      <updated>1638856762733</updated>
+      <updated>1638951678983</updated>
     </task>
-    <task id="LOCAL−00078" summary="Day 11 and prepare for tomorrow">
-      <created>1639115714035</created>
+    <task id="LOCAL−00078" summary="Day 9 ready, preparing for new day">
+      <created>1639029472279</created>
       <option name="number" value="LOCAL−00078" />
       <option name="presentableId" value="LOCAL−00078" />
-      <updated>1639115714035</updated>
+      <updated>1639029472279</updated>
     </task>
-    <task id="LOCAL−00079" summary="start of 11">
-      <created>1639199033542</created>
-      <option name="number" value="LOCAL−00079" />
-      <option name="presentableId" value="LOCAL−00079" />
-      <updated>1639199033542</updated>
-    </task>
-    <task id="LOCAL−00080" summary="Ready 11 and prepare for next day">
-      <created>1639202199881</created>
-      <option name="number" value="LOCAL−00080" />
-      <option name="presentableId" value="LOCAL−00080" />
-      <updated>1639202199881</updated>
-    </task>
-    <option name="localTasksCounter" value="81" />
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -446,10 +450,12 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Answer2 ready!" />
+    <MESSAGE value="Day 21 data" />
+    <MESSAGE value="Prepare last days directories" />
     <MESSAGE value="part1 ready" />
     <MESSAGE value="part2 ready and cleaned up" />
     <MESSAGE value="Small cleanup" />
@@ -470,11 +476,8 @@
     <MESSAGE value="prepare for tomorrow" />
     <MESSAGE value="Day 6 ready, preparing for new day" />
     <MESSAGE value="Day 7 ready, preparing for new day" />
-    <MESSAGE value="Cleanup crew" />
-    <MESSAGE value="Day 11 and prepare for tomorrow" />
-    <MESSAGE value="start of 11" />
-    <MESSAGE value="Ready 11 and prepare for next day" />
-    <MESSAGE value="Ready 12 and prepare for next day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready 12 and prepare for next day" />
+    <MESSAGE value="Day 8 ready, preparing for new day" />
+    <MESSAGE value="Day 9 ready, preparing for new day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 9 ready, preparing for new day" />
   </component>
 </project>
