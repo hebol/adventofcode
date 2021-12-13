@@ -2,7 +2,7 @@ const utils = require('../../utils');
 
 let arrayList = utils.readFileNoFilter('input.txt');
 
-let answer1 = -1, answer2 = -1;
+let answer1;
 
 const displayGrid = grid => {
   grid.forEach(line => {
@@ -14,8 +14,7 @@ const displayGrid = grid => {
 function foldRowAt(row, pos) {
   const result = JSON.parse(JSON.stringify(row.slice(0, pos - 1)));
   for (let i = 0 ; i < pos ; i++) {
-    const newChar = row[i] === '#' || row[row.length - i - 1] === '#' ? '#' : '.';
-    result[i] = newChar;
+    result[i] = row[i] === '#' || row[row.length - i - 1] === '#' ? '#' : '.';
   }
   return result;
 }
@@ -25,8 +24,7 @@ function foldAt(array, pos) {
 
   for (let row = 0 ; row < array.length - pos - 1 ; row++) {
     for (let c = 0 ; c < array[row].length ; c++) {
-      const newChar = array[row][c] === '#' || array[array.length - row - 1][c] === '#' ? '#' : '.';
-      result[row][c] = newChar;
+      result[row][c] = array[row][c] === '#' || array[array.length - row - 1][c] === '#' ? '#' : '.';
     }
   }
   return result;
@@ -51,8 +49,8 @@ const processList = (array,foldCount) => {
     }
   });
 
-  const rows = startPos.reduce((rest,{x,y}) => Math.max(y,rest), 0) + 1;
-  const cols = startPos.reduce((rest,{x,y}) => Math.max(x,rest), 0) + 1;
+  const rows = startPos.reduce((rest,{y}) => Math.max(y,rest), 0) + 1;
+  const cols = startPos.reduce((rest,{x}) => Math.max(x,rest), 0) + 1;
   let map = new Array(rows);
   for(let r = 0 ; r < rows ; r++) {
     map[r] = new Array(cols).fill('.');
@@ -71,7 +69,7 @@ const processList = (array,foldCount) => {
 }
 
 answer1 = processList(arrayList, 1);
-answer2 = processList(arrayList);
+processList(arrayList);
 
-console.log("Answer1:", answer1, "Answer2:", answer2);
+console.log("Answer1:", answer1);
 // Answer1:  Answer2

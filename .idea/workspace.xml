@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready 12 and prepare for next day">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready 13 and prepare for next day">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/12/main12.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/13/main13.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +42,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/13" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/14" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -59,11 +58,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2021/14" />
       <recent name="$PROJECT_DIR$/2021/13" />
       <recent name="$PROJECT_DIR$/2021/12" />
       <recent name="$PROJECT_DIR$/2021/11" />
       <recent name="$PROJECT_DIR$/2021/08" />
-      <recent name="$PROJECT_DIR$/2021/07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -129,13 +128,7 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
-      <workItem from="1638796872025" duration="25241000" />
-    </task>
-    <task id="LOCAL−00033" summary="Not pretty but working...">
-      <created>1607935627730</created>
-      <option name="number" value="LOCAL−00033" />
-      <option name="presentableId" value="LOCAL−00033" />
-      <updated>1607935627730</updated>
+      <workItem from="1638796872025" duration="25393000" />
     </task>
     <task id="LOCAL−00034" summary="Solved 15 not cleaned up...">
       <created>1608018058913</created>
@@ -425,7 +418,13 @@
       <option name="presentableId" value="LOCAL−00081" />
       <updated>1639290217213</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL−00082" summary="Ready 13 and prepare for next day">
+      <created>1639382727805</created>
+      <option name="number" value="LOCAL−00082" />
+      <option name="presentableId" value="LOCAL−00082" />
+      <updated>1639382727805</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,7 +444,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="part1 ready" />
     <MESSAGE value="part2 ready and cleaned up" />
     <MESSAGE value="Small cleanup" />
     <MESSAGE value="Day 23 data" />
@@ -470,6 +468,7 @@
     <MESSAGE value="start of 11" />
     <MESSAGE value="Ready 11 and prepare for next day" />
     <MESSAGE value="Ready 12 and prepare for next day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready 12 and prepare for next day" />
+    <MESSAGE value="Ready 13 and prepare for next day" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready 13 and prepare for next day" />
   </component>
 </project>
