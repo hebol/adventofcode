@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready 13 and prepare for next day">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
+      <change afterPath="$PROJECT_DIR$/2021/14/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/13/main13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/14/main14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/14/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/14/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -69,10 +79,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main13.js">
-    <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/07/main07.js" working-dir="$PROJECT_DIR$/2021/07">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main14.js">
     <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/10/main10.js" working-dir="$PROJECT_DIR$/2021/10">
       <method v="2" />
     </configuration>
@@ -85,13 +92,16 @@
     <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/13/main13.js" working-dir="$PROJECT_DIR$/2021/13">
       <method v="2" />
     </configuration>
+    <configuration name="main14.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/14/main14.js" working-dir="$PROJECT_DIR$/2021/14">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main14.js" />
         <item itemvalue="Node.js.main13.js" />
         <item itemvalue="Node.js.main12.js" />
         <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
-        <item itemvalue="Node.js.main07.js" />
       </list>
     </recent_temporary>
   </component>
@@ -128,13 +138,7 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
-      <workItem from="1638796872025" duration="25393000" />
-    </task>
-    <task id="LOCAL−00034" summary="Solved 15 not cleaned up...">
-      <created>1608018058913</created>
-      <option name="number" value="LOCAL−00034" />
-      <option name="presentableId" value="LOCAL−00034" />
-      <updated>1608018058913</updated>
+      <workItem from="1638796872025" duration="33598000" />
     </task>
     <task id="LOCAL−00035" summary="Some cleanup and prepare for tomorrow">
       <created>1608018518880</created>
@@ -424,7 +428,13 @@
       <option name="presentableId" value="LOCAL−00082" />
       <updated>1639382727805</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL−00083" summary="Cleanup">
+      <created>1639382873614</created>
+      <option name="number" value="LOCAL−00083" />
+      <option name="presentableId" value="LOCAL−00083" />
+      <updated>1639382873614</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,7 +463,6 @@
     <MESSAGE value="Ready" />
     <MESSAGE value="Day 25 data" />
     <MESSAGE value="Day 25 ready" />
-    <MESSAGE value="Cleanup" />
     <MESSAGE value="First day done!" />
     <MESSAGE value="Second day done, added data read" />
     <MESSAGE value="renamed files and some minor cleanup" />
@@ -469,6 +478,7 @@
     <MESSAGE value="Ready 11 and prepare for next day" />
     <MESSAGE value="Ready 12 and prepare for next day" />
     <MESSAGE value="Ready 13 and prepare for next day" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready 13 and prepare for next day" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
 </project>
