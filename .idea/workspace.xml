@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
-      <change afterPath="$PROJECT_DIR$/2021/14/input.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready 13 and prepare for next day">
+      <change afterPath="$PROJECT_DIR$/2021/15/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/14/main14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/14/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/14/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/15/main15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/15/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/15/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
@@ -49,8 +54,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
+    <property name="javascript.nodejs.core.library.configured.version" value="17.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.12" />
     <property name="js.last.introduce.type" value="CONST" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/14" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -79,7 +84,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main14.js">
+  <component name="RunManager" selected="Node.js.main15.js">
     <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/10/main10.js" working-dir="$PROJECT_DIR$/2021/10">
       <method v="2" />
     </configuration>
@@ -89,15 +94,22 @@
     <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/12/main12.js" working-dir="$PROJECT_DIR$/2021/12">
       <method v="2" />
     </configuration>
-    <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/13/main13.js" working-dir="$PROJECT_DIR$/2021/13">
+    <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main13.js" working-dir="$PROJECT_DIR$/2021/13">
       <method v="2" />
     </configuration>
-    <configuration name="main14.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/14/main14.js" working-dir="$PROJECT_DIR$/2021/14">
+    <configuration name="main15.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/15/main15.js" working-dir="$PROJECT_DIR$/2021/15">
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Node.js.main10.js" />
+      <item itemvalue="Node.js.main11.js" />
+      <item itemvalue="Node.js.main12.js" />
+      <item itemvalue="Node.js.main13.js" />
+      <item itemvalue="Node.js.main15.js" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main14.js" />
+        <item itemvalue="Node.js.main15.js" />
         <item itemvalue="Node.js.main13.js" />
         <item itemvalue="Node.js.main12.js" />
         <item itemvalue="Node.js.main11.js" />
@@ -138,7 +150,16 @@
       <workItem from="1638425796204" duration="698000" />
       <workItem from="1638450974931" duration="5089000" />
       <workItem from="1638514417015" duration="17869000" />
-      <workItem from="1638796872025" duration="33598000" />
+      <workItem from="1638796872025" duration="25393000" />
+      <workItem from="1639385124742" duration="24000" />
+      <workItem from="1639385166881" duration="155000" />
+      <workItem from="1639385338614" duration="5239000" />
+    </task>
+    <task id="LOCAL−00034" summary="Solved 15 not cleaned up...">
+      <created>1608018058913</created>
+      <option name="number" value="LOCAL−00034" />
+      <option name="presentableId" value="LOCAL−00034" />
+      <updated>1608018058913</updated>
     </task>
     <task id="LOCAL−00035" summary="Some cleanup and prepare for tomorrow">
       <created>1608018518880</created>
@@ -428,13 +449,7 @@
       <option name="presentableId" value="LOCAL−00082" />
       <updated>1639382727805</updated>
     </task>
-    <task id="LOCAL−00083" summary="Cleanup">
-      <created>1639382873614</created>
-      <option name="number" value="LOCAL−00083" />
-      <option name="presentableId" value="LOCAL−00083" />
-      <updated>1639382873614</updated>
-    </task>
-    <option name="localTasksCounter" value="84" />
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -445,12 +460,23 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -463,6 +489,7 @@
     <MESSAGE value="Ready" />
     <MESSAGE value="Day 25 data" />
     <MESSAGE value="Day 25 ready" />
+    <MESSAGE value="Cleanup" />
     <MESSAGE value="First day done!" />
     <MESSAGE value="Second day done, added data read" />
     <MESSAGE value="renamed files and some minor cleanup" />
@@ -478,7 +505,6 @@
     <MESSAGE value="Ready 11 and prepare for next day" />
     <MESSAGE value="Ready 12 and prepare for next day" />
     <MESSAGE value="Ready 13 and prepare for next day" />
-    <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready 13 and prepare for next day" />
   </component>
 </project>
