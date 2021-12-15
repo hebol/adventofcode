@@ -1,59 +1,86 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('test.txt').map(line=>line.split('').map(c=>parseInt(c)));
+let arrayList = utils.readFile('input.txt').map(line=>line.split('').map(c=>parseInt(c)));
 
 let answer1 = -1, answer2 = -1;
 
-const calculateSums = (x, y, map, cost) => {
-  const possible = getPossible(x, y, map, cost);
-  for (let y = map.length - 1 ; y > 0 ; y--) {
-    for (let x = map[0].length - 1 ; x > 0 ; x--) {
-      cost[getKey(x,y)] = map[x+y];
-    }
+const calculateSums = (map) => {
+  const cost = {}
+  let modified = false;
+  cost[getKey(map.width-1, map.height - 1)] = map.getCost(map.width - 1, map.height - 1);
+  let recalcs = getPossible(map.width-1, map.height - 1, map).reduce((rest,pos) =>{
+    rest[getKey(pos.x,pos.y)] = 1;
+    return rest
+  }, {});
+
+  while (Object.keys(recalcs).length > 0) {
+    const currentCalcs = recalcs;
+    recalcs = {};
+    Object.keys(currentCalcs).forEach(pos => {
+      const [x,y] = pos.match(/(\d+)_(\d+)/).slice(1).map(x=>parseInt(x));
+      const currentCost = cost[getKey(x, y)];
+      const possible = getPossible(x, y, map, cost);
+      const surrounding = possible.map(pos => cost[getKey(pos.x, pos.y)] + map.getCost(x,y));
+      const minSurrounding = Math.min(...surrounding);
+      if (!currentCost || minSurrounding < currentCost) {
+        cost[getKey(x,y)] = minSurrounding;
+        getPossible(x, y, map).forEach(pos =>{
+          recalcs[getKey(pos.x, pos.y)] = 1;
+        });
+      }
+    });
   }
+
+  do {
+    modified = false;
+    for (let y = map.height - 1 ; y >= 0 ; y--) {
+      for (let x = map.width - 1 ; x >= 0 ; x--) {
+      }
+    }
+  } while (modified);
+  return cost[getKey(0, 0)] - map.getCost(0,0);
 }
 
-function getPossible(x, y, map, visited) {
+function getPossible(x, y, map, cost) {
   const possible = [];
   if (x>0) {possible.push({x:x-1,y});}
   if (y>0) {possible.push({x:x,y:y-1});}
-  if (x<map[0].length - 1) {possible.push({x:x+1,y});}
-  if (y<map.length - 1) {possible.push({x:x,y:y+1});}
+  if (x<map.width - 1) {possible.push({x:x+1,y});}
+  if (y<map.height - 1) {possible.push({x:x,y:y+1});}
 
-  const filtered = possible.filter(pos => !visited[getKey(pos.x, pos.y)]);
-  return filtered;
+  if (cost) {
+    return possible.filter(pos => cost[getKey(pos.x, pos.y)]);
+  } else {
+    return possible;
+  }
 }
 
 function getKey(x, y) {
   return x + '_' + y;
 }
 
-const calculatePath = (map, x, y, visited) => {
-  const myVisited = {...visited};
-  myVisited[getKey(x, y)] = 1;
-  //console.log('Looking at', {x,y}, myVisited);
-  if (x === map[0].length - 1 && y === map.length - 1) {
-    return {cost: map[x][y], path:[{x,y}], visited:myVisited};
-  } else {
-    const possible = getPossible(x, y, map, myVisited);
-    const cost = possible.map(alt => {
-      return calculatePath(map, alt.x, alt.y, myVisited);
-    }).filter(res=>res);
-
-    if (cost.length !== 0) {
-      cost.sort((a,b) => a.cost-b.cost);
-      const selected = cost[0];
-      selected.path.push({x,y});
-      selected.cost += map[x][y];
-      possible.forEach(alt=>myVisited[getKey(alt.x,alt.y)] = 1);
-      selected.visited = myVisited;
-      console.log('Selected', selected);
-      return selected;
-    } else {
-      return null;
-    }
+const map1 = {
+  width: arrayList[0].length,
+  height: arrayList.length,
+  getCost: (x,y) => {
+    return arrayList[x][y]
   }
-}
+};
 
-answer1 = calculatePath(arrayList, 0, 0, {}).cost;
+const map2 = {
+  width: arrayList[0].length * 5,
+  height: arrayList.length * 5,
+  getCost: (x,y) => {
+    const xRolls = Math.floor(x / arrayList[0].length);
+    const yRolls = Math.floor(y / arrayList.length);
+
+    const anX = x % arrayList[0].length;
+    const anY = y % arrayList.length;
+    let result = (arrayList[anX][anY] + xRolls + yRolls);
+    return result > 9 ? result - 9 : result;
+  }
+};
+
+answer1 = calculateSums(map1);
+answer2 = calculateSums(map2);
 console.log("Answer1:", answer1, "Answer2:", answer2);
-// Answer1:  Answer2
+// Answer1: 604 Answer2: 2907
