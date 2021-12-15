@@ -1,9 +1,10 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt').map(line=>line.split('').map(c=>parseInt(c)));
+let arrayList = utils.readFile('test.txt').map(line=>line.split('').map(c=>parseInt(c)));
 
 let answer1 = -1, answer2 = -1;
 
 const calculateSums = (map) => {
+  const start = new Date();
   const cost = {}
   let modified = false;
   cost[getKey(map.width-1, map.height - 1)] = map.getCost(map.width - 1, map.height - 1);
@@ -37,6 +38,7 @@ const calculateSums = (map) => {
       }
     }
   } while (modified);
+  console.log('Ended', (new Date().getTime() - start.getTime()) / 1000, 's');
   return cost[getKey(0, 0)] - map.getCost(0,0);
 }
 

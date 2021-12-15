@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2021/16/main16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/16/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/15/main15.js" afterDir="false" />
     </list>
@@ -153,13 +151,7 @@
       <workItem from="1638796872025" duration="25393000" />
       <workItem from="1639385124742" duration="24000" />
       <workItem from="1639385166881" duration="155000" />
-      <workItem from="1639385338614" duration="9897000" />
-    </task>
-    <task id="LOCAL−00035" summary="Some cleanup and prepare for tomorrow">
-      <created>1608018518880</created>
-      <option name="number" value="LOCAL−00035" />
-      <option name="presentableId" value="LOCAL−00035" />
-      <updated>1608018518880</updated>
+      <workItem from="1639385338614" duration="10991000" />
     </task>
     <task id="LOCAL−00036" summary="Part1 ok">
       <created>1608103227895</created>
@@ -449,7 +441,13 @@
       <option name="presentableId" value="LOCAL−00083" />
       <updated>1639548322035</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL−00084" summary="Today solved and prepare for tomorrow">
+      <created>1639560927956</created>
+      <option name="number" value="LOCAL−00084" />
+      <option name="presentableId" value="LOCAL−00084" />
+      <updated>1639560927956</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +478,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Small cleanup" />
     <MESSAGE value="Day 23 data" />
     <MESSAGE value="Part1 done" />
     <MESSAGE value="Part2 ready keep on linking!" />
@@ -505,6 +502,7 @@
     <MESSAGE value="Ready 12 and prepare for next day" />
     <MESSAGE value="Ready 13 and prepare for next day" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="Today solved and prepare for tomorrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Today solved and prepare for tomorrow" />
   </component>
 </project>
