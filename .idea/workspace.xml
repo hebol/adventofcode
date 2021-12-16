@@ -154,12 +154,6 @@
       <workItem from="1639385338614" duration="10991000" />
       <workItem from="1639630801298" duration="5344000" />
     </task>
-    <task id="LOCAL−00036" summary="Part1 ok">
-      <created>1608103227895</created>
-      <option name="number" value="LOCAL−00036" />
-      <option name="presentableId" value="LOCAL−00036" />
-      <updated>1608103227895</updated>
-    </task>
     <task id="LOCAL−00037" summary="Cleanup">
       <created>1608122384560</created>
       <option name="number" value="LOCAL−00037" />
@@ -448,7 +442,13 @@
       <option name="presentableId" value="LOCAL−00084" />
       <updated>1639560927956</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL−00085" summary="Cleanup crew">
+      <created>1639644656937</created>
+      <option name="number" value="LOCAL−00085" />
+      <option name="presentableId" value="LOCAL−00085" />
+      <updated>1639644656937</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +496,6 @@
     <MESSAGE value="prepare for tomorrow" />
     <MESSAGE value="Day 6 ready, preparing for new day" />
     <MESSAGE value="Day 7 ready, preparing for new day" />
-    <MESSAGE value="Cleanup crew" />
     <MESSAGE value="Day 11 and prepare for tomorrow" />
     <MESSAGE value="start of 11" />
     <MESSAGE value="Ready 11 and prepare for next day" />
@@ -504,6 +503,7 @@
     <MESSAGE value="Ready 13 and prepare for next day" />
     <MESSAGE value="test" />
     <MESSAGE value="Today solved and prepare for tomorrow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Today solved and prepare for tomorrow" />
+    <MESSAGE value="Cleanup crew" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup crew" />
   </component>
 </project>
