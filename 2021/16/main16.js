@@ -1,10 +1,10 @@
 const utils = require('../../utils');
 let arrayList = utils.readFile('input.txt')
 
-let answer1 = -1, answer2 = -1;
+let answer1, answer2;
 
 function toBinary(line) {
-    return line.split('').map(c => parseInt(c, 16).toString(2).padStart(4, 0)).join('');
+    return line.split('').map(c => parseInt(c, 16).toString(2).padStart(4, '0')).join('');
 }
 
 const parseLine = bits => {
