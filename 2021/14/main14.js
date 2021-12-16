@@ -26,12 +26,12 @@ const process = (aStart, max) => {
             const count = combinations[rule.pair] || 0;
             if (count > 0) {
                 charCount[rule.c] = (charCount[rule.c] || 0) + count;
+                combinations[rule.pair] = 0;
                 return [{pair:rule.pair[0] + rule.c, count}, {pair:rule.c + rule.pair[1], count}]
             } else {
                 return [];
             }
         }).flat();
-        combinations = {};
         additions.forEach(add=> {
            combinations[add.pair] = (combinations[add.pair] || 0) + add.count;
         });
@@ -43,4 +43,4 @@ answer1 = process(start, 10)
 answer2 = process(start, 40)
 
 console.log("Answer1:", answer1, "Answer2:", answer2);
-// Answer1:  Answer2
+// Answer1: 2899 Answer2: 3528317079545
