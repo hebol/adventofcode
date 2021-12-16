@@ -9,10 +9,7 @@ function toBinary(line) {
 
 const parseLine = bits => {
     let currentIndex = 0;
-    const toInt = len => {
-        const result = parseInt(sub(len),2);
-        return result;
-    }
+    const toInt = len => parseInt(sub(len),2);
     const sub = len => {
         const result = bits.substring(currentIndex,currentIndex + len);
         currentIndex += len;
