@@ -8,11 +8,14 @@ function toBinary(line) {
 }
 
 const parseLine = bits => {
-    const version = parseInt(bits.substring(0,3),2);
-    const type = parseInt(bits.substring(3,6),2);
-    const result = {version, type, subparts:new Array(0)};
-    let currentIndex = 6;
-    if (type === 4) {
+    let currentIndex = 0;
+    const toInt = len => {
+        const result = parseInt(bits.substring(currentIndex,currentIndex + len),2);
+        currentIndex += len;
+        return result;
+    }
+    const result  = {version: toInt(3), type: toInt(3), subparts:[]};
+    if (result.type === 4) {
         let sum = '';
         let bitPart;
         do {
@@ -22,11 +25,9 @@ const parseLine = bits => {
         } while (bitPart[0] === '1')
         result.literal = parseInt(sum, 2);
     } else {
-        const lengthType = bits[currentIndex];
-        currentIndex += 1;
-        if (lengthType === '0') {
-            let bitLength = parseInt(bits.substring(currentIndex, currentIndex + 15), 2);
-            currentIndex += 15;
+        const lengthType = toInt(1);
+        if (lengthType === 0) {
+            let bitLength = toInt(15);
             while (bitLength > 0) {
                 const subpart = parseLine(bits.substring(currentIndex));
                 currentIndex += subpart.currentIndex;
@@ -34,8 +35,7 @@ const parseLine = bits => {
                 result.subparts.push(subpart);
             }
         } else {
-            let subpackets = parseInt(bits.substring(currentIndex, currentIndex + 11), 2);
-            currentIndex += 11;
+            let subpackets = toInt(11);
             while (subpackets > 0) {
                 const subpart = parseLine(bits.substring(currentIndex));
                 currentIndex += subpart.currentIndex;
@@ -54,34 +54,24 @@ function sumVersions1(part) {
 }
 
 function sumVersions2(part) {
-    let result = 0;
     switch (part.type) {
         case 0:
-            result = utils.sumArray(part.subparts.map(sumVersions2));
-            break;
+            return utils.sumArray(part.subparts.map(sumVersions2));
         case 1:
-            result = part.subparts.reduce((rest,part) => rest * sumVersions2(part), 1);
-            break;
+            return part.subparts.reduce((rest,part) => rest * sumVersions2(part), 1);
         case 2:
-            result = Math.min(...part.subparts.map(sumVersions2));
-            break;
+            return Math.min(...part.subparts.map(sumVersions2));
         case 3:
-            result = Math.max(...part.subparts.map(sumVersions2));
-            break;
+            return Math.max(...part.subparts.map(sumVersions2));
         case 4:
-            result = part.literal;
-            break;
+            return part.literal;
         case 5:
-            result = sumVersions2(part.subparts[0]) > sumVersions2(part.subparts[1]) ? 1 : 0;
-            break;
+            return sumVersions2(part.subparts[0])  >  sumVersions2(part.subparts[1]) ? 1 : 0;
         case 6:
-            result = sumVersions2(part.subparts[0]) < sumVersions2(part.subparts[1]) ? 1 : 0;
-            break;
+            return sumVersions2(part.subparts[0])  <  sumVersions2(part.subparts[1]) ? 1 : 0;
         case 7:
-            result = sumVersions2(part.subparts[0]) === sumVersions2(part.subparts[1]) ? 1 : 0;
-            break;
+            return sumVersions2(part.subparts[0]) === sumVersions2(part.subparts[1]) ? 1 : 0;
     }
-    return result;
 }
 
 const result = arrayList.map(toBinary).map(parseLine)

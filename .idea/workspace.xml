@@ -1,13 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="14 ready and prepare for tomorrow">
-      <change afterPath="$PROJECT_DIR$/2021/16/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/16/test2.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/14/main14.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/16/main16.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/16/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/16/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -480,7 +476,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
