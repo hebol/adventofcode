@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2021/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/16/main16.js" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready day and prepare for tomorrow">
+      <change afterPath="$PROJECT_DIR$/2021/17/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/main18.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/17/main17.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/17/main17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/17/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/17/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +59,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/16" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/18" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -70,21 +75,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2021/18" />
       <recent name="$PROJECT_DIR$/2021/16" />
       <recent name="$PROJECT_DIR$/2021/14" />
       <recent name="$PROJECT_DIR$/2021/13" />
       <recent name="$PROJECT_DIR$/2021/12" />
-      <recent name="$PROJECT_DIR$/2021/11" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main16.js">
-    <configuration name="main11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/11/main11.js" working-dir="$PROJECT_DIR$/2021/11">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main17.js">
     <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/12/main12.js" working-dir="$PROJECT_DIR$/2021/12">
       <method v="2" />
     </configuration>
@@ -97,20 +99,23 @@
     <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/16/main16.js" working-dir="$PROJECT_DIR$/2021/16">
       <method v="2" />
     </configuration>
+    <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/17/main17.js" working-dir="$PROJECT_DIR$/2021/17">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Node.js.main11.js" />
       <item itemvalue="Node.js.main12.js" />
       <item itemvalue="Node.js.main13.js" />
       <item itemvalue="Node.js.main15.js" />
       <item itemvalue="Node.js.main16.js" />
+      <item itemvalue="Node.js.main17.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main17.js" />
         <item itemvalue="Node.js.main16.js" />
         <item itemvalue="Node.js.main15.js" />
         <item itemvalue="Node.js.main13.js" />
         <item itemvalue="Node.js.main12.js" />
-        <item itemvalue="Node.js.main11.js" />
       </list>
     </recent_temporary>
   </component>
@@ -475,10 +480,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day 23 data" />
     <MESSAGE value="Part1 done" />
     <MESSAGE value="Part2 ready keep on linking!" />
     <MESSAGE value="Med 24-datat" />
@@ -503,6 +508,7 @@
     <MESSAGE value="test" />
     <MESSAGE value="Today solved and prepare for tomorrow" />
     <MESSAGE value="Cleanup crew" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup crew" />
+    <MESSAGE value="Ready day and prepare for tomorrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready day and prepare for tomorrow" />
   </component>
 </project>
