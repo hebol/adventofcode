@@ -84,8 +84,8 @@ const processList = array => {
             while (index = findExplodeIndex(result)) {
                 result = explode(index, result);
             }
-            let temp;
-            if (temp = split(result)) {
+            let temp = split(result);
+            if (temp) {
                 result = temp;
                 cont = true;
             }
@@ -99,9 +99,7 @@ answer1 = magnitude(processList(arrayList));
 
 let max = 0;
 arrayList.forEach(line => {
-    const val = arrayList.filter(l => l !== line).map(row => {
-        return Math.max(magnitude(processList([line, row])), magnitude(processList([row, line])));
-    });
+    const val = arrayList.filter(l => l !== line).map(row => magnitude(processList([line, row])));
     max = Math.max(max,...val);
 });
 answer2 = max;

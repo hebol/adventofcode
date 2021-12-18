@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready day and prepare for tomorrow">
-      <change afterPath="$PROJECT_DIR$/2021/18/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/18/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/18/test3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/18/test4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/18/test5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/18/test6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/19/main19.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/19/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2021/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/18/main18.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/18/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/18/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +82,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main19.js">
+  <component name="RunManager" selected="Node.js.main18.js">
     <configuration name="main15.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/15/main15.js" working-dir="$PROJECT_DIR$/2021/15">
       <method v="2" />
     </configuration>
@@ -116,8 +107,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
+        <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main17.js" />
         <item itemvalue="Node.js.main16.js" />
         <item itemvalue="Node.js.main15.js" />
@@ -162,13 +153,7 @@
       <workItem from="1639385166881" duration="155000" />
       <workItem from="1639385338614" duration="10991000" />
       <workItem from="1639630801298" duration="5344000" />
-      <workItem from="1639808768658" duration="1366000" />
-    </task>
-    <task id="LOCAL−00039" summary="Prepare for tomorrow">
-      <created>1608132938983</created>
-      <option name="number" value="LOCAL−00039" />
-      <option name="presentableId" value="LOCAL−00039" />
-      <updated>1608132938983</updated>
+      <workItem from="1639808768658" duration="1653000" />
     </task>
     <task id="LOCAL−00040" summary="Added data for 17">
       <created>1608182260151</created>
@@ -458,7 +443,13 @@
       <option name="presentableId" value="LOCAL−00087" />
       <updated>1639722184890</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL−00088" summary="Ready day and prepare for tomorrow">
+      <created>1639822998418</created>
+      <option name="number" value="LOCAL−00088" />
+      <option name="presentableId" value="LOCAL−00088" />
+      <updated>1639822998419</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,16 +507,5 @@
     <MESSAGE value="Cleanup crew" />
     <MESSAGE value="Ready day and prepare for tomorrow" />
     <option name="LAST_COMMIT_MESSAGE" value="Ready day and prepare for tomorrow" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/2021/18/main18.js</url>
-          <line>108</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
