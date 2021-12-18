@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready day and prepare for tomorrow">
-      <change afterPath="$PROJECT_DIR$/2021/17/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/18/main18.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2021/18/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/test5.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/18/test6.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/19/main19.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2021/19/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/17/main17.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/17/main17.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2021/17/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/17/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/18/main18.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/18/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2021/18/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +64,7 @@
     <property name="javascript.nodejs.core.library.configured.version" value="16.6.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.6.1" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/18" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/2021/19" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,24 +80,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2021/19" />
       <recent name="$PROJECT_DIR$/2021/18" />
       <recent name="$PROJECT_DIR$/2021/16" />
       <recent name="$PROJECT_DIR$/2021/14" />
       <recent name="$PROJECT_DIR$/2021/13" />
-      <recent name="$PROJECT_DIR$/2021/12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main17.js">
-    <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/12/main12.js" working-dir="$PROJECT_DIR$/2021/12">
-      <method v="2" />
-    </configuration>
-    <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main13.js" working-dir="$PROJECT_DIR$/2021/13">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main19.js">
     <configuration name="main15.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/15/main15.js" working-dir="$PROJECT_DIR$/2021/15">
       <method v="2" />
     </configuration>
@@ -102,20 +101,26 @@
     <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/17/main17.js" working-dir="$PROJECT_DIR$/2021/17">
       <method v="2" />
     </configuration>
+    <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/18/main18.js" working-dir="$PROJECT_DIR$/2021/18">
+      <method v="2" />
+    </configuration>
+    <configuration name="main19.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/19/main19.js" working-dir="$PROJECT_DIR$/2021/19">
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Node.js.main12.js" />
-      <item itemvalue="Node.js.main13.js" />
       <item itemvalue="Node.js.main15.js" />
       <item itemvalue="Node.js.main16.js" />
       <item itemvalue="Node.js.main17.js" />
+      <item itemvalue="Node.js.main18.js" />
+      <item itemvalue="Node.js.main19.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main19.js" />
+        <item itemvalue="Node.js.main18.js" />
         <item itemvalue="Node.js.main17.js" />
         <item itemvalue="Node.js.main16.js" />
         <item itemvalue="Node.js.main15.js" />
-        <item itemvalue="Node.js.main13.js" />
-        <item itemvalue="Node.js.main12.js" />
       </list>
     </recent_temporary>
   </component>
@@ -157,12 +162,7 @@
       <workItem from="1639385166881" duration="155000" />
       <workItem from="1639385338614" duration="10991000" />
       <workItem from="1639630801298" duration="5344000" />
-    </task>
-    <task id="LOCAL−00038" summary="Cleanup">
-      <created>1608130903651</created>
-      <option name="number" value="LOCAL−00038" />
-      <option name="presentableId" value="LOCAL−00038" />
-      <updated>1608130903651</updated>
+      <workItem from="1639808768658" duration="1366000" />
     </task>
     <task id="LOCAL−00039" summary="Prepare for tomorrow">
       <created>1608132938983</created>
@@ -452,7 +452,13 @@
       <option name="presentableId" value="LOCAL−00086" />
       <updated>1639644926277</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL−00087" summary="Ready day and prepare for tomorrow">
+      <created>1639722184890</created>
+      <option name="number" value="LOCAL−00087" />
+      <option name="presentableId" value="LOCAL−00087" />
+      <updated>1639722184890</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -510,5 +516,16 @@
     <MESSAGE value="Cleanup crew" />
     <MESSAGE value="Ready day and prepare for tomorrow" />
     <option name="LAST_COMMIT_MESSAGE" value="Ready day and prepare for tomorrow" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/2021/18/main18.js</url>
+          <line>108</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
