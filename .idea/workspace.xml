@@ -1,15 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready day and prepare for tomorrow">
-      <change afterPath="$PROJECT_DIR$/2022/01/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/01/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/01/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/02/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/mainX.js" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="New Year!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/01/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,13 +141,7 @@
       <workItem from="1639385338614" duration="10991000" />
       <workItem from="1639630801298" duration="5344000" />
       <workItem from="1639808768658" duration="1653000" />
-      <workItem from="1669820607335" duration="1603000" />
-    </task>
-    <task id="LOCAL−00040" summary="Added data for 17">
-      <created>1608182260151</created>
-      <option name="number" value="LOCAL−00040" />
-      <option name="presentableId" value="LOCAL−00040" />
-      <updated>1608182260151</updated>
+      <workItem from="1669820607335" duration="1812000" />
     </task>
     <task id="LOCAL−00041" summary="Added data for 17">
       <created>1608186103495</created>
@@ -443,7 +431,13 @@
       <option name="presentableId" value="LOCAL−00088" />
       <updated>1639822998419</updated>
     </task>
-    <option name="localTasksCounter" value="89" />
+    <task id="LOCAL−00089" summary="New Year!">
+      <created>1669889312152</created>
+      <option name="number" value="LOCAL−00089" />
+      <option name="presentableId" value="LOCAL−00089" />
+      <updated>1669889312152</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -474,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Part1 done" />
     <MESSAGE value="Part2 ready keep on linking!" />
     <MESSAGE value="Med 24-datat" />
     <MESSAGE value="Ready" />
@@ -499,6 +492,7 @@
     <MESSAGE value="Today solved and prepare for tomorrow" />
     <MESSAGE value="Cleanup crew" />
     <MESSAGE value="Ready day and prepare for tomorrow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready day and prepare for tomorrow" />
+    <MESSAGE value="New Year!" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Year!" />
   </component>
 </project>
