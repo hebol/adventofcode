@@ -47,6 +47,7 @@ module.exports = {
     }
     return sum;
   },
+  numericalSort: (a,b)=>a-b,
   sumArray: (array) => { return array.reduce((rest, entry) => rest + parseInt(entry), 0);},
   setupWatchdog: (interval) => {
     theInterval = interval || theInterval;
