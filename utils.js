@@ -73,7 +73,7 @@ module.exports = {
 
       axios.get('https://adventofcode.com/' + year + '/day/' + parseInt(day) + '/input', {
           headers: {
-            Cookie: "session=53616c7465645f5f0796b1144e30c8e87a016951cc82c96bf7753e6e6a8e2bd75f95c44e30eb78a1ba6f81f420996b51"
+            Cookie: "session=53616c7465645f5f45f0706f45ca4b44413c9e6f9ef55c024611a067b941a043c4d6ffa4a62876f5bcab23cccb5230317b280e2d4849affa865559a6adc7b517"
           }
         })
         .then(response => {
