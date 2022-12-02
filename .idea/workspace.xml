@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Surprisingly hard">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Continue cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/02/main.js" afterDir="false" />
     </list>
@@ -141,13 +141,7 @@
       <workItem from="1639385338614" duration="10991000" />
       <workItem from="1639630801298" duration="5344000" />
       <workItem from="1639808768658" duration="1653000" />
-      <workItem from="1669820607335" duration="5337000" />
-    </task>
-    <task id="LOCAL−00044" summary="18 data">
-      <created>1608267732539</created>
-      <option name="number" value="LOCAL−00044" />
-      <option name="presentableId" value="LOCAL−00044" />
-      <updated>1608267732539</updated>
+      <workItem from="1669820607335" duration="5490000" />
     </task>
     <task id="LOCAL−00045" summary="Solved and cleaned up 18">
       <created>1608354017777</created>
@@ -437,7 +431,13 @@
       <option name="presentableId" value="LOCAL−00092" />
       <updated>1669959143662</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL−00093" summary="Continue cleanup">
+      <created>1669959263234</created>
+      <option name="number" value="LOCAL−00093" />
+      <option name="presentableId" value="LOCAL−00093" />
+      <updated>1669959263234</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day 25 data" />
     <MESSAGE value="Day 25 ready" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="First day done!" />
@@ -493,6 +492,7 @@
     <MESSAGE value="smaller..." />
     <MESSAGE value="Extract numerical sort" />
     <MESSAGE value="Surprisingly hard" />
-    <option name="LAST_COMMIT_MESSAGE" value="Surprisingly hard" />
+    <MESSAGE value="Continue cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Continue cleanup" />
   </component>
 </project>
