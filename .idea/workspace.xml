@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Continue cleanup">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Still cleaning?">
+      <change afterPath="$PROJECT_DIR$/2022/03/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/02/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,18 +51,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2022/02",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2022/03",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2022/03" />
       <recent name="$PROJECT_DIR$/2022/02" />
       <recent name="$PROJECT_DIR$/2022/01" />
       <recent name="$PROJECT_DIR$/2022" />
       <recent name="$PROJECT_DIR$/2021/19" />
-      <recent name="$PROJECT_DIR$/2021/18" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -141,13 +141,7 @@
       <workItem from="1639385338614" duration="10991000" />
       <workItem from="1639630801298" duration="5344000" />
       <workItem from="1639808768658" duration="1653000" />
-      <workItem from="1669820607335" duration="5490000" />
-    </task>
-    <task id="LOCAL−00045" summary="Solved and cleaned up 18">
-      <created>1608354017777</created>
-      <option name="number" value="LOCAL−00045" />
-      <option name="presentableId" value="LOCAL−00045" />
-      <updated>1608354017777</updated>
+      <workItem from="1669820607335" duration="6721000" />
     </task>
     <task id="LOCAL−00046" summary="Added start 19">
       <created>1608354066526</created>
@@ -437,7 +431,13 @@
       <option name="presentableId" value="LOCAL−00093" />
       <updated>1669959263234</updated>
     </task>
-    <option name="localTasksCounter" value="94" />
+    <task id="LOCAL−00094" summary="Still cleaning?">
+      <created>1669959440861</created>
+      <option name="number" value="LOCAL−00094" />
+      <option name="presentableId" value="LOCAL−00094" />
+      <updated>1669959440861</updated>
+    </task>
+    <option name="localTasksCounter" value="95" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -468,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day 25 ready" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="First day done!" />
     <MESSAGE value="Second day done, added data read" />
@@ -493,6 +492,7 @@
     <MESSAGE value="Extract numerical sort" />
     <MESSAGE value="Surprisingly hard" />
     <MESSAGE value="Continue cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Continue cleanup" />
+    <MESSAGE value="Still cleaning?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Still cleaning?" />
   </component>
 </project>
