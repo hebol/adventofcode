@@ -16,32 +16,18 @@ const optionMap = {
 }
 
 function countScore(me, op) {
-  let point = 0;
-  switch (me) {
-    case 'X':
-      point = 1;
-      break;
-    case 'Y':
-      point = 2;
-      break;
-    case 'Z':
-      point = 3;
-      break;
-  }
-  return point + scoreMap[op][me.charCodeAt(0) - 88];
+  return me.charCodeAt(0) - 87 + scoreMap[op][me.charCodeAt(0) - 88];
 }
 
-const scores = arrayList.map(line => {
+answer1 = utils.sumArray(arrayList.map(line => {
   const [op, me] = line.split(' ');
   return countScore(me, op);
-});
+}));
 
-const scores2 = arrayList.map(line => {
+answer2 = utils.sumArray(arrayList.map(line => {
   const [op, select] = line.split(' ');
   return countScore(optionMap[op][select.charCodeAt(0) - 88], op);
-})
+}));
 
-answer1 = utils.sumArray(scores);
-answer2 = utils.sumArray(scores2);
 console.log("Answer1:", answer1, "Answer2:", answer2);
 // Answer1: 14375 Answer2: 10274
