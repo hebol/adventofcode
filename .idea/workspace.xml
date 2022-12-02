@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="smaller...">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Extract numerical sort">
+      <change afterPath="$PROJECT_DIR$/2022/02/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/02/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/01/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/02/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +71,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
-    <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/16/main16.js" working-dir="$PROJECT_DIR$/2021/16">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main.js (1)">
     <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/17/main17.js" working-dir="$PROJECT_DIR$/2021/17">
       <method v="2" />
     </configuration>
@@ -83,23 +81,26 @@
     <configuration name="main19.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2021/19/main19.js" working-dir="$PROJECT_DIR$/2021/19">
       <method v="2" />
     </configuration>
+    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/02/main.js" working-dir="$PROJECT_DIR$/2022/02">
+      <method v="2" />
+    </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/01/main.js" working-dir="$PROJECT_DIR$/2022/01">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.main.js" />
-      <item itemvalue="Node.js.main16.js" />
+      <item itemvalue="Node.js.main.js (1)" />
       <item itemvalue="Node.js.main17.js" />
       <item itemvalue="Node.js.main18.js" />
       <item itemvalue="Node.js.main19.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main18.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main17.js" />
-        <item itemvalue="Node.js.main16.js" />
       </list>
     </recent_temporary>
   </component>
@@ -142,13 +143,7 @@
       <workItem from="1639385338614" duration="10991000" />
       <workItem from="1639630801298" duration="5344000" />
       <workItem from="1639808768658" duration="1653000" />
-      <workItem from="1669820607335" duration="1967000" />
-    </task>
-    <task id="LOCAL−00042" summary="Cleanup and fix date test">
-      <created>1608203046686</created>
-      <option name="number" value="LOCAL−00042" />
-      <option name="presentableId" value="LOCAL−00042" />
-      <updated>1608203046686</updated>
+      <workItem from="1669820607335" duration="5223000" />
     </task>
     <task id="LOCAL−00043" summary="Added tomorrows dir">
       <created>1608207210484</created>
@@ -438,7 +433,13 @@
       <option name="presentableId" value="LOCAL−00090" />
       <updated>1669889579443</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL−00091" summary="Extract numerical sort">
+      <created>1669889673102</created>
+      <option name="number" value="LOCAL−00091" />
+      <option name="presentableId" value="LOCAL−00091" />
+      <updated>1669889673102</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -469,7 +470,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Med 24-datat" />
     <MESSAGE value="Ready" />
     <MESSAGE value="Day 25 data" />
     <MESSAGE value="Day 25 ready" />
@@ -494,6 +494,7 @@
     <MESSAGE value="Ready day and prepare for tomorrow" />
     <MESSAGE value="New Year!" />
     <MESSAGE value="smaller..." />
-    <option name="LAST_COMMIT_MESSAGE" value="smaller..." />
+    <MESSAGE value="Extract numerical sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Extract numerical sort" />
   </component>
 </project>
