@@ -35,7 +35,7 @@ function findAlternatives(pos, visited, steps, posHeight) {
     if (newPos.row >= 0 && newPos.row < mapHeight && newPos.col >= 0 && newPos.col < mapWidth) {
       const newHeight = getHeight(newPos);
       let newKey = newPos.row + ',' + newPos.col;
-      if (Math.abs(newHeight - posHeight) <= 1) {
+      if (newHeight + 1 >= posHeight) {
         let explore = false;
         if (!visited[newKey]) {
           visited[newKey] = {};
@@ -55,28 +55,20 @@ function findAlternatives(pos, visited, steps, posHeight) {
 }
 
 function findPath(start, end) {
-  let currentPos = {...start};
-  let currentHeight = 'a'.charCodeAt(0);
   let visited = {};
-  visited[start.row + ',' + start.col] = {steps: 0};
-  findAlternatives(currentPos, visited, 0, currentHeight);
-  console.log(visited);
-  for (let row = 0; row <mapHeight; row++) {
-    let map = '';
+  visited[end.row + ',' + end.col] = {steps: 0};
+  findAlternatives(end, visited, 0, getHeight(end));
+  let minSteps = 99999;
+  for (let row = 0; row < mapHeight; row++) {
     for (let col = 0; col < mapWidth; col++) {
-      map += (visited[row + ',' + col]) ? '.' : ' ';
+      if (arrayList[row][col] === 'a' && visited[row + ',' + col]?.steps) {
+        minSteps = Math.min(minSteps, visited[row + ',' + col].steps);
+      }
     }
-    console.log(map);
   }
 
-  return visited[end.row + ',' + end.col].steps;
+  return {answer2:minSteps, answer1: visited[start.row + ',' + start.col].steps};
 }
 
-console.log(start, end);
-
-const answer1 = findPath(start, end);
-
-let answer2 = -1;
-
-console.log("Answer1:", answer1, "Answer2:", answer2);
-// Answer1:  Answer2
+console.log("Answers:", findPath(start, end));
+// Answers: { answer2: 454, answer1: 456 }
