@@ -36,16 +36,8 @@ function findAlternatives(pos, visited, steps, posHeight) {
       const newHeight = getHeight(newPos);
       let newKey = newPos.row + ',' + newPos.col;
       if (newHeight + 1 >= posHeight) {
-        let explore = false;
-        if (!visited[newKey]) {
-          visited[newKey] = {};
-          explore = true;
-        } else {
-          if (visited[newKey].steps > steps + 1) {
-            explore = true;
-          }
-        }
-        if (explore) {
+        visited[newKey] = visited[newKey] || {};
+        if (!visited[newKey].steps || (visited[newKey].steps > steps + 1)) {
           visited[newKey].steps = steps + 1;
           findAlternatives(newPos, visited, steps + 1, newHeight);
         }

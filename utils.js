@@ -35,13 +35,14 @@ module.exports = {
     const arrayList = stringData.split('\n');
     let sum = [];
     let currentData = [];
+    let index = 0;
     while (arrayList.length > 0) {
       const line = arrayList.shift();
       if (line.length > 0) {
         currentData.push(line);
       }
       if (line.length === 0 || arrayList.length === 0) {
-        sum.push(handler(currentData));
+        sum.push(handler(currentData, index++));
         currentData = [];
       }
     }
