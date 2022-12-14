@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Prepare 14">
-      <change afterPath="$PROJECT_DIR$/2022/14/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="14 ready and prepare 15">
       <change beforePath="$PROJECT_DIR$/2022/14/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/14/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/14/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/14/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/mainX.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/mainX.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,18 +50,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2022/14",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2022/15",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2022/15" />
       <recent name="$PROJECT_DIR$/2022/14" />
       <recent name="$PROJECT_DIR$/2022/13" />
       <recent name="$PROJECT_DIR$/2022/12" />
       <recent name="$PROJECT_DIR$/2022/11" />
-      <recent name="$PROJECT_DIR$/2022/10" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -145,13 +141,7 @@
       <workItem from="1639630801298" duration="5344000" />
       <workItem from="1639808768658" duration="1653000" />
       <workItem from="1669820607335" duration="7317000" />
-      <workItem from="1670044558949" duration="59944000" />
-    </task>
-    <task id="LOCAL−00064" summary="Ready">
-      <created>1608874731225</created>
-      <option name="number" value="LOCAL−00064" />
-      <option name="presentableId" value="LOCAL−00064" />
-      <updated>1608874731225</updated>
+      <workItem from="1670044558949" duration="60116000" />
     </task>
     <task id="LOCAL−00065" summary="Day 25 data">
       <created>1608874839527</created>
@@ -441,7 +431,13 @@
       <option name="presentableId" value="LOCAL−00112" />
       <updated>1670917053668</updated>
     </task>
-    <option name="localTasksCounter" value="113" />
+    <task id="LOCAL−00113" summary="14 ready and prepare 15">
+      <created>1670997021066</created>
+      <option name="number" value="LOCAL−00113" />
+      <option name="presentableId" value="LOCAL−00113" />
+      <updated>1670997021066</updated>
+    </task>
+    <option name="localTasksCounter" value="114" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -472,7 +468,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ready day and prepare for tomorrow" />
     <MESSAGE value="New Year!" />
     <MESSAGE value="smaller..." />
     <MESSAGE value="Extract numerical sort" />
@@ -497,6 +492,7 @@
     <MESSAGE value="With part 2" />
     <MESSAGE value="13 ok" />
     <MESSAGE value="Prepare 14" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prepare 14" />
+    <MESSAGE value="14 ready and prepare 15" />
+    <option name="LAST_COMMIT_MESSAGE" value="14 ready and prepare 15" />
   </component>
 </project>

@@ -5,15 +5,13 @@ let maxX, maxY, minX, minY;
 utils.processLine(line => {
   let x, y;
   line.split(' -> ').forEach(pair => {
-    [newX, newY] = pair.split(',').map(Number);
+    const [newX, newY] = pair.split(',').map(Number);
     if (x && y) {
       const xDiff = newX - x;
       const yDiff = newY - y;
       let steps = Math.abs(xDiff) + Math.abs(yDiff);
-      const xStep = xDiff / steps;
-      const yStep = yDiff / steps;
       for (let i = 0; i < steps; i++) {
-        map[(x+i*xStep) + '-' + (y+i*yStep)] = '#';
+        map[(x+i*xDiff / steps) + '-' + (y+i*yDiff / steps)] = '#';
       }
     }
     map[ newX + '-' + newY] = '#';
