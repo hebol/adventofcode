@@ -103,7 +103,7 @@ module.exports = {
       xDiff, yDiff, steps, dx, dy
     }
   },
-  findBounds: (map, toPoint) => {
+  findMapBounds: (map, toPoint) => {
     let minX, maxX, minY, maxY;
     Object.keys(map).forEach(key => {
       const {x, y} = toPoint(key);
