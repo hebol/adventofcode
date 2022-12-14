@@ -93,4 +93,26 @@ module.exports = {
     }
   },
   splitNumberRow: row => row.split(' ').filter(entry => entry.length).map(value=>parseInt(value)),
-};
+  getPath: (newX, oldX, newY, oldY) => {
+    const xDiff = newX - oldX;
+    const yDiff = newY - oldY;
+    let steps = Math.abs(xDiff) + Math.abs(yDiff);
+    const dx = xDiff / steps;
+    const dy = yDiff / steps;
+    return {
+      xDiff, yDiff, steps, dx, dy
+    }
+  },
+  findBounds: (map, toPoint) => {
+    let minX, maxX, minY, maxY;
+    Object.keys(map).forEach(key => {
+      const {x, y} = toPoint(key);
+      maxX = Math.max(maxX, x) || x;
+      maxY = Math.max(maxY, y) || y;
+      minX = Math.min(minX, x) || x;
+      minY = Math.min(minY, y) || y;
+    })
+    return {minX, maxX, minY, maxY};
+  },
+}
+
