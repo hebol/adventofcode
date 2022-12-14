@@ -93,9 +93,9 @@ module.exports = {
     }
   },
   splitNumberRow: row => row.split(' ').filter(entry => entry.length).map(value=>parseInt(value)),
-  getPath: (newX, oldX, newY, oldY) => {
-    const xDiff = newX - oldX;
-    const yDiff = newY - oldY;
+  getPath: (fromX, toX, fromY, toY) => {
+    const xDiff = toX - fromX;
+    const yDiff = toY - fromY;
     let steps = Math.abs(xDiff) + Math.abs(yDiff);
     const dx = xDiff / steps;
     const dy = yDiff / steps;
