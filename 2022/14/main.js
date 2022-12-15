@@ -12,7 +12,7 @@ utils.processLine(line => {
   line.split(' -> ').forEach(pair => {
     const [newX, newY] = pair.split(',').map(Number);
     if (x && y) {
-      const path = utils.getPath(newX, x, newY, y);
+      const path = utils.getPath(x, newX, y, newY);
       for (let i = 0; i < path.steps; i++) {
         map[toMapKey({x:(x + i * path.dx),y:(y + i * path.dy)})] = '#';
       }
