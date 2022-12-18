@@ -1,53 +1,74 @@
 const utils = require('../../utils');
 
 const map = {}
-let maxX,  minX;
+let max,  min;
 utils.processLine(line => {
   const [x,y,z] = line.split(',').map(Number);
-  map[`${x},${y},${z}`] = true;
-  maxX = Math.max(maxX || x, x);
-  maxX = Math.max(maxX, y);
-  maxX = Math.max(maxX, z);
-  minX = Math.min(minX || x, x);
-  minX = Math.min(minX, y);
-  minX = Math.min(minX, z);
+  map[`${x},${y},${z}`] = '#';
+  max = Math.max(max || x, x);
+  max = Math.max(max, y);
+  max = Math.max(max, z);
+  min = Math.min(min || x, x);
+  min = Math.min(min, y);
+  min = Math.min(min, z);
 },'input.txt')
 
 const directions = [[-1, 0, 0], [1, 0, 0], [0, -1, 0], [0, 1, 0], [0, 0, -1], [0, 0, 1]];
 
-function countFree(aMap) {
+function countFree(aMap, simple) {
   return utils.sumArray(Object.keys(map).map(key => {
-    const [x, y, z] = key.split(',').map(Number);
-    let result = directions.filter(([dx, dy, dz]) => !aMap[`${x + dx},${y + dy},${z + dz}`]).length;
-    if (result) {
-      aMap[key] = true;
+    if (aMap[key] === '#') {
+      const [x, y, z] = key.split(',').map(Number);
+      return directions.filter(([dx, dy, dz]) => !aMap[`${x + dx},${y + dy},${z + dz}`] &&
+        (simple || isValid(x + dx, y + dy, z + dz))).length
+    } else {
+      return 0;
     }
-    return result;
   }));
 }
 
-const answer1 = countFree(map)
+const answer1 = countFree(map, true)
 
 const analyze = []
 const airMap = {};
-for (let i = minX - 1; i <= maxX + 1; i++) {
-  for (let j = minX - 1; j <= maxX + 1; j++) {
-    airMap[`${i},${j},${minX - 1}`] = '.';
-    airMap[`${i},${j},${maxX + 1}`] = '.';
-    airMap[`${i},${minX - 1},${j}`] = '.';
-    airMap[`${i},${maxX + 1},${j}`] = '.';
-    airMap[`${minX - 1},${i},${j}`] = '.';
-    airMap[`${maxX + 1},${i},${j}`] = '.';
+
+function set(x, y, z) {
+  if (!airMap[`${x},${y},${z}`]) {
+    airMap[`${x},${y},${z}`] = '.';
   }
 }
-analyze.push(...Object.keys(airMap));
-const sumMap = {...airMap, ...map};
-
-function isValid(x, y, z) {
-  return x >= minX && x <= maxX && y >= minX && y <= maxX && z >= minX && z <= maxX;
+const printMap = (aMap) => {
+  for (let z = min; z <= max; z++) {
+    console.log('z=', z);
+    for (let x = min; x <= max; x++) {
+      let row = ''
+      for (let y = min; y <= max; y++) {
+        let key = `${x},${y},${z}`;
+        row += aMap[key] ? aMap[key] : ' ';
+      }
+      console.log(row);
+    }
+  }
+  console.log('');
 }
 
-console.log(minX, maxX);
+for (let i = min; i <= max; i++) {
+  for (let j = min; j <= max; j++) {
+    set(i, j, min);
+    set(i, j, max);
+    set(i, min, j);
+    set(i, max, j);
+    set(min, i, j);
+    set(max, i, j);
+  }
+}
+
+const sumMap = {...airMap, ...map};
+analyze.push(...Object.keys(sumMap).filter(key => !(sumMap[key] === '#')));
+
+function isValid(x, y, z) {
+  return x >= min && x <= max && y >= min && y <= max && z >= min && z <= max;
+}
 
 while (analyze.length) {
   const [x,y,z] = analyze.shift().split(',').map(Number);
