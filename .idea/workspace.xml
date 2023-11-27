@@ -1,9 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanu some">
+      <change afterPath="$PROJECT_DIR$/2015/14/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2015/14/main2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/01/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/01/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/mainX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/testX.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/18/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/18/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +47,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="1l2zUSC64Amrmr9JooLaJAdj0H6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -51,18 +65,23 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2022/18",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/01",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/01" />
+      <recent name="$PROJECT_DIR$/2023" />
+      <recent name="$PROJECT_DIR$/2015/14" />
       <recent name="$PROJECT_DIR$/2022/18" />
       <recent name="$PROJECT_DIR$/2022/17" />
-      <recent name="$PROJECT_DIR$/2022/16" />
-      <recent name="$PROJECT_DIR$/2022/15" />
-      <recent name="$PROJECT_DIR$/2022/14" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2022" />
@@ -71,35 +90,35 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.main.js">
-    <configuration name="main.js (3)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/17/main.js" working-dir="$PROJECT_DIR$/2022/17">
+    <configuration name="main2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2015/14/main2.js" working-dir="$PROJECT_DIR$/2015/14">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2015/14/main.js" working-dir="$PROJECT_DIR$/2015/14">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/01/main.js" working-dir="$PROJECT_DIR$/2023/01">
       <method v="2" />
     </configuration>
     <configuration name="main.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/18/main.js" working-dir="$PROJECT_DIR$/2022/18">
       <method v="2" />
     </configuration>
-    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/17/test.js" working-dir="$PROJECT_DIR$/2022/17">
-      <method v="2" />
-    </configuration>
     <configuration name="test.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/18/test.js" working-dir="$PROJECT_DIR$/2022/18">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2022/16/test.js" working-dir="$PROJECT_DIR$/2022/16">
-      <method v="2" />
-    </configuration>
     <list>
-      <item itemvalue="Node.js.main.js (3)" />
-      <item itemvalue="Node.js.test.js" />
-      <item itemvalue="Node.js.test.js (1)" />
+      <item itemvalue="Node.js.main.js (2)" />
+      <item itemvalue="Node.js.main.js (1)" />
+      <item itemvalue="Node.js.main2.js" />
       <item itemvalue="Node.js.test.js (2)" />
       <item itemvalue="Node.js.main.js" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Node.js.main.js" />
+        <item itemvalue="Node.js.main.js (2)" />
+        <item itemvalue="Node.js.main2.js" />
+        <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.test.js (2)" />
-        <item itemvalue="Node.js.test.js (1)" />
-        <item itemvalue="Node.js.main.js (3)" />
-        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -145,6 +164,9 @@
       <workItem from="1669820607335" duration="7317000" />
       <workItem from="1670044558949" duration="67246000" />
       <workItem from="1671204333977" duration="11611000" />
+      <workItem from="1699633013217" duration="967000" />
+      <workItem from="1699968033761" duration="548000" />
+      <workItem from="1701094723604" duration="784000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
