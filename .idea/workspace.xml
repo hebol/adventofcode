@@ -4,17 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanu some">
-      <change afterPath="$PROJECT_DIR$/2015/14/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2015/14/main2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/01/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/01/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/mainX.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/testX.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="prepare for calendar!">
+      <change afterPath="$PROJECT_DIR$/2023/01/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/01/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/01/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/01/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/01/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main.js">
+  <component name="RunManager" selected="Node.js.main.js (2)">
     <configuration name="main2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2015/14/main2.js" working-dir="$PROJECT_DIR$/2015/14">
       <method v="2" />
     </configuration>
@@ -114,8 +109,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main.js (2)" />
+        <item itemvalue="Node.js.main.js" />
         <item itemvalue="Node.js.main2.js" />
         <item itemvalue="Node.js.main.js (1)" />
         <item itemvalue="Node.js.test.js (2)" />
@@ -166,7 +161,7 @@
       <workItem from="1671204333977" duration="11611000" />
       <workItem from="1699633013217" duration="967000" />
       <workItem from="1699968033761" duration="548000" />
-      <workItem from="1701094723604" duration="784000" />
+      <workItem from="1701094723604" duration="4223000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -462,7 +457,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="119" />
+    <option name="localTasksCounter" value="120" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +488,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Surprisingly hard" />
     <MESSAGE value="Continue cleanup" />
     <MESSAGE value="Still cleaning?" />
     <MESSAGE value="Prepare 03" />
@@ -518,6 +512,7 @@
     <MESSAGE value="minor cleanup" />
     <MESSAGE value="18 ready" />
     <MESSAGE value="Cleanu some" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanu some" />
+    <MESSAGE value="prepare for calendar!" />
+    <option name="LAST_COMMIT_MESSAGE" value="prepare for calendar!" />
   </component>
 </project>
