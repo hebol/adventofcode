@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="prepare for calendar!">
-      <change afterPath="$PROJECT_DIR$/2023/01/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/01/test2.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Bah, part">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2023/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/01/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/01/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/01/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,7 +158,7 @@
       <workItem from="1671204333977" duration="11611000" />
       <workItem from="1699633013217" duration="967000" />
       <workItem from="1699968033761" duration="548000" />
-      <workItem from="1701094723604" duration="4223000" />
+      <workItem from="1701094723604" duration="5927000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -457,7 +454,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -488,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Continue cleanup" />
     <MESSAGE value="Still cleaning?" />
     <MESSAGE value="Prepare 03" />
     <MESSAGE value="Day 3 ready!" />
@@ -513,6 +509,7 @@
     <MESSAGE value="18 ready" />
     <MESSAGE value="Cleanu some" />
     <MESSAGE value="prepare for calendar!" />
-    <option name="LAST_COMMIT_MESSAGE" value="prepare for calendar!" />
+    <MESSAGE value="Bah, part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bah, part" />
   </component>
 </project>
