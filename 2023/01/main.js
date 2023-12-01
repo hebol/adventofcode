@@ -3,40 +3,22 @@ let arrayList = utils.readFile('input.txt')
 
 function findNumber(line, includeWords) {
   const numberArray = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
-  let part1;
+  const numbers = [];
 
   for (let i = 0; i < line.length; i++) {
     const substring = line.substring(i);
     const charHere = line.charAt(i);
     if (charHere >= '0' && charHere <= '9') {
-      part1 = charHere;
-      break;
+      numbers.push(charHere);
     }
     if (includeWords) {
       const found = numberArray.find(number => substring.startsWith(number));
       if (found) {
-        part1 = (numberArray.indexOf(found) + 1);
-        break;
+        numbers.push((numberArray.indexOf(found) + 1) + '');
       }
     }
   }
-  let part2;
-  for (let i = 0; i < line.length; i++) {
-    const substring = line.substring(0, line.length - i);
-    const charHere = line.charAt(line.length - i - 1);
-    if (charHere >= '0' && charHere <= '9') {
-      part2 = charHere;
-      break;
-    }
-    if (includeWords) {
-      const found = numberArray.find(number => substring.endsWith(number));
-      if (found) {
-        part2 = (numberArray.indexOf(found) + 1) + '';
-        break;
-      }
-    }
-  }
-  return part1 + part2;
+  return numbers[0] + numbers[numbers.length -1];
 }
 
 let answer1 = arrayList.map(line => findNumber(line, false)).reduce((acc, val) => {
