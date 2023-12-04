@@ -57,12 +57,9 @@ let answer1 = sumArray(foundNumbers.filter(isConnected(arrayList)).map(a => pars
 
 const answer2 = sumArray(findStars(arrayList).map(({row, col}) => {
   const nearNumbers = foundNumbers.filter(({row: numRow, col: numCol, number}) => {
-    const toRight = numRow === row && col === numCol - 1;
-    const toLeft = numRow === row && numCol + number.length === col;
-    const above = numRow + 1 === row && numCol <= col + 1 && numCol + number.length >= col;
-    const below = numRow - 1 === row && numCol <= col + 1 && numCol + number.length >= col;
+    let overlapping = numCol <= col + 1 && numCol + number.length >= col;
 
-    return toRight || toLeft || above || below;
+    return overlapping && row >= numRow - 1 && row <= numRow + 1;
   });
   if (nearNumbers.length === 2) {
     return parseInt(nearNumbers[0].number) * parseInt(nearNumbers[1].number);
