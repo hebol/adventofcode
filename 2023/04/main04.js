@@ -8,7 +8,7 @@ const result = utils.processLine(line => {
     winners: match[3].split(' ').filter(n=>n.length).map(n => parseInt(n)),
   }
   return card.numbers.filter(n => card.winners.includes(n)).length;
-}, 'input.txt');
+}, 'test.txt');
 
 const counts = new Array(result.length).fill(1);
 for ( let i = 0 ; i < result.length; i++) {
