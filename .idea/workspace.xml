@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="part day5">
-      <change afterPath="$PROJECT_DIR$/2023/05/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/05/main05.js" afterDir="false" />
-    </list>
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day5 cleaned up" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,7 +158,7 @@
       <workItem from="1701094723604" duration="7201000" />
       <workItem from="1701496367293" duration="7308000" />
       <workItem from="1701668945012" duration="2179000" />
-      <workItem from="1701753353599" duration="10495000" />
+      <workItem from="1701753353599" duration="10851000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -458,7 +454,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="127" />
+    <option name="localTasksCounter" value="128" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ready 4" />
     <MESSAGE value="Data for 4" />
     <MESSAGE value="Ready 5 and prepare for 6" />
     <MESSAGE value="REady 6 and prepare for 7" />
@@ -514,6 +509,7 @@
     <MESSAGE value="Read 03" />
     <MESSAGE value="Ready 04 and prepare for tomorrow" />
     <MESSAGE value="part day5" />
-    <option name="LAST_COMMIT_MESSAGE" value="part day5" />
+    <MESSAGE value="Day5 cleaned up" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day5 cleaned up" />
   </component>
 </project>
