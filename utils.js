@@ -50,6 +50,7 @@ module.exports = {
   },
   numericalSort: (a,b)=>a-b,
   sumArray: (array) => { return array.reduce((rest, entry) => rest + parseInt(entry), 0);},
+  multiplyArray: (array) => { return array.reduce((rest, entry) => rest * parseInt(entry), 1);},
   setupWatchdog: (interval) => {
     theInterval = interval || theInterval;
     now = new Date();
