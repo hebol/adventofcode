@@ -9,7 +9,7 @@ for (let i = 0; i < times.length; i++) {
   runs.push({time: times[i], distance: distance[i]});
 }
 
-const results = runs.map(run => calculateRun(run.time, run.distance));
+const answer1 = utils.multiplyArray(runs.map(run => calculateRun(run.time, run.distance)));
 
 const time2 = parseInt(arrayList[0].match(/Time:(.*)/)[1].trim().replaceAll(' ', ''));
 const distance2 = parseInt(arrayList[1].match(/Distance:(.*)/)[1].trim().replaceAll(' ', ''));
@@ -24,7 +24,6 @@ function calculateRun(maxTime, winnerDistance) {
   return result;
 }
 
-let answer1 = utils.multiplyArray(results);
 let answer2 = calculateRun(time2, distance2);
 
 console.log("Answer1:", answer1, "Answer2:", answer2);
