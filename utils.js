@@ -115,5 +115,19 @@ module.exports = {
     })
     return {minX, maxX, minY, maxY};
   },
+  minstaGemensammaNamnaren: numList => {
+    function gcd(a, b) {
+      while (b !== 0) {
+        let t = b;
+        b = a % b;
+        a = t;
+      }
+      return a;
+    }
+    function lcm(a, b) {
+      return (a * b) / gcd(a, b);
+    }
+    return numList.reduce((a, b) => lcm(a, b));
+  },
 }
 

@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Small cleanup">
-      <change afterPath="$PROJECT_DIR$/2023/07/input.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready and prepare for tomorrow">
+      <change afterPath="$PROJECT_DIR$/2023/08/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/08/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/07/main07.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/07/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/07/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/08/main08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/08/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/08/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +58,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.main08.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
-    "javascript.nodejs.core.library.typings.version": "18.17.0",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/07",
+    "javascript.nodejs.core.library.typings.version": "18.17.19",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/08",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -73,11 +76,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/08" />
       <recent name="$PROJECT_DIR$/2023/07" />
       <recent name="$PROJECT_DIR$/2023/06" />
       <recent name="$PROJECT_DIR$/2023/05" />
       <recent name="$PROJECT_DIR$/2023/04" />
-      <recent name="$PROJECT_DIR$/2023/03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2022" />
@@ -85,10 +88,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main07.js">
-    <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/04/main04.js" working-dir="$PROJECT_DIR$/2023/04">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main08.js">
     <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/05/main05.js" working-dir="$PROJECT_DIR$/2023/05">
       <method v="2" />
     </configuration>
@@ -98,23 +98,26 @@
     <configuration name="main07.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/07/main07.js" working-dir="$PROJECT_DIR$/2023/07">
       <method v="2" />
     </configuration>
+    <configuration name="main08.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/08/main08.js" working-dir="$PROJECT_DIR$/2023/08">
+      <method v="2" />
+    </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/05/test.js" working-dir="$PROJECT_DIR$/2023/05">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.main08.js" />
       <item itemvalue="Node.js.main06.js" />
       <item itemvalue="Node.js.main07.js" />
       <item itemvalue="Node.js.main05.js" />
       <item itemvalue="Node.js.test.js" />
-      <item itemvalue="Node.js.main04.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main06.js" />
         <item itemvalue="Node.js.main05.js" />
         <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.main04.js" />
       </list>
     </recent_temporary>
   </component>
@@ -167,7 +170,8 @@
       <workItem from="1701668945012" duration="2179000" />
       <workItem from="1701753353599" duration="10851000" />
       <workItem from="1701788408045" duration="1293000" />
-      <workItem from="1701839390528" duration="7981000" />
+      <workItem from="1701839390528" duration="8651000" />
+      <workItem from="1702012415212" duration="2500000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -463,7 +467,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="131" />
+    <option name="localTasksCounter" value="132" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -494,7 +498,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ready 7 and 8...please cleanup 7!" />
     <MESSAGE value="8 cleanup" />
     <MESSAGE value="Prepare for 9" />
     <MESSAGE value="Ready 9 and prepare 10" />
@@ -519,6 +522,7 @@
     <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Ready and prepared for tomorrow" />
     <MESSAGE value="Small cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small cleanup" />
+    <MESSAGE value="Ready and prepare for tomorrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready and prepare for tomorrow" />
   </component>
 </project>
