@@ -1,14 +1,14 @@
 const utils = require('../../utils');
 let arrayList = utils.readFile('input.txt')
 
-const directions = arrayList[0].trim().split('');
+const directions = arrayList[0].split('');
 const map = arrayList.slice(1).reduce((rest, line) => {
   const match = line.match( /(.*) = \((.*), (.*)\)/);
   rest[match[1]] = { left: match[2], right: match[3]};
   return rest;
 }, {});
 
-function travelPath(pos) {
+const travelPath = (pos) => {
   let steps = 0;
   while (pos[2] !== 'Z') {
     const direction = directions[steps++ % directions.length];
