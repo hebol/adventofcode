@@ -12,8 +12,8 @@ let arrayList = utils.processLine(line => {
     results.push(next);
   }
   for (let i = results.length - 1 ; i >= 0 ; i--) {
-    let oldLast = i < results.length - 1 ? results[i + 1][results[i + 1].length - 1] : 0;
-    let oldFirst = i < results.length - 1 ? results[i + 1][0] : 0;
+    const oldLast = i < results.length - 1 ? results[i + 1][results[i + 1].length - 1] : 0;
+    const oldFirst = i < results.length - 1 ? results[i + 1][0] : 0;
     results[i].push( results[i][results[i].length - 1] + oldLast);
     results[i].unshift( results[i][0] - oldFirst);
   }
