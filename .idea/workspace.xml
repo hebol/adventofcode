@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Small cleanup">
-      <change afterPath="$PROJECT_DIR$/2023/09/input.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="cleanup">
+      <change afterPath="$PROJECT_DIR$/2023/10/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/10/test2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/10/test3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/10/test4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/10/test5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/09/main09.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/09/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/09/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/10/main10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/10/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/10/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,13 +62,14 @@
   "keyToString": {
     "Node.js.main08.js.executor": "Run",
     "Node.js.main09.js.executor": "Run",
+    "Node.js.main10.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/09",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/10",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -75,11 +80,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/10" />
       <recent name="$PROJECT_DIR$/2023/09" />
       <recent name="$PROJECT_DIR$/2023/08" />
       <recent name="$PROJECT_DIR$/2023/07" />
       <recent name="$PROJECT_DIR$/2023/06" />
-      <recent name="$PROJECT_DIR$/2023/05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2022" />
@@ -87,10 +92,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main09.js">
-    <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/05/main05.js" working-dir="$PROJECT_DIR$/2023/05">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main10.js">
     <configuration name="main06.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/06/main06.js" working-dir="$PROJECT_DIR$/2023/06">
       <method v="2" />
     </configuration>
@@ -103,20 +105,23 @@
     <configuration name="main09.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/09/main09.js" working-dir="$PROJECT_DIR$/2023/09">
       <method v="2" />
     </configuration>
+    <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/10/main10.js" working-dir="$PROJECT_DIR$/2023/10">
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Node.js.main09.js" />
+      <item itemvalue="Node.js.main10.js" />
       <item itemvalue="Node.js.main08.js" />
       <item itemvalue="Node.js.main06.js" />
       <item itemvalue="Node.js.main07.js" />
-      <item itemvalue="Node.js.main05.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main10.js" />
         <item itemvalue="Node.js.main09.js" />
         <item itemvalue="Node.js.main08.js" />
         <item itemvalue="Node.js.main07.js" />
         <item itemvalue="Node.js.main06.js" />
-        <item itemvalue="Node.js.main05.js" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +176,8 @@
       <workItem from="1701788408045" duration="1293000" />
       <workItem from="1701839390528" duration="8651000" />
       <workItem from="1702012415212" duration="4974000" />
-      <workItem from="1702024963702" duration="2989000" />
+      <workItem from="1702024963702" duration="4983000" />
+      <workItem from="1702193169624" duration="6570000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -467,7 +473,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="135" />
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -498,7 +504,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Prepare for 9" />
     <MESSAGE value="Ready 9 and prepare 10" />
     <MESSAGE value="Ready 10" />
     <MESSAGE value="Ready 11" />
@@ -520,9 +525,10 @@
     <MESSAGE value="Day5 cleaned up" />
     <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Ready and prepared for tomorrow" />
-    <MESSAGE value="Ready and prepare for tomorrow" />
     <MESSAGE value="Some cleanup day 8" />
     <MESSAGE value="Small cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Small cleanup" />
+    <MESSAGE value="Ready and prepare for tomorrow" />
+    <MESSAGE value="cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="cleanup" />
   </component>
 </project>
