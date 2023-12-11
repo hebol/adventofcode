@@ -129,5 +129,10 @@ module.exports = {
     }
     return numList.reduce((a, b) => lcm(a, b));
   },
+  printMap: (aMap, title) => {
+    title && console.log(title);
+    console.log(aMap.join('\n'));
+    console.log('\n');
+  },
 }
 
