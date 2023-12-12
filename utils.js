@@ -134,5 +134,18 @@ module.exports = {
     console.log(aMap.join('\n'));
     console.log('\n');
   },
+  cacheFunction: aFun => {
+    const stored = {};
+
+    return (...args) => {
+      const key = JSON.stringify(args);
+      if (stored.hasOwnProperty(key)) {
+        return stored[key];
+      }
+      const result = aFun(...args);
+      stored[key] = result;
+      return result;
+    };
+  },
 }
 
