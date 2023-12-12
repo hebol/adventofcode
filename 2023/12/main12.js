@@ -30,17 +30,13 @@ const countOptions = utils.cacheFunction((line, numArray) => {
   return countOptions("#" + line.slice(1), numArray) + countOptions("." + line.slice(1), numArray);
 });
 
-const solveLine = (repeat) => {
+const solveLine = (count) => {
   return (line) =>   {
     const [str, numberString] = line.split(" ");
     const numArray = numberString.split(",").map(Number);
 
-    let strExpanded = str;
-    let numsExpanded = numArray;
-    if (repeat) {
-      strExpanded = [str, str, str, str, str].join("?");
-      numsExpanded = [...numArray, ...numArray, ...numArray, ...numArray, ...numArray];
-    }
+    const strExpanded = new Array(count).fill(str).join("?");
+    const numsExpanded = new Array(count).fill(numArray).flat();
 
     return countOptions(strExpanded, numsExpanded);
   }
@@ -48,8 +44,8 @@ const solveLine = (repeat) => {
 
 const arrayLines = utils.readFile("input.txt");
 
-let answer1 = utils.sumArray(arrayLines.map(solveLine(false)));
-let answer2 = utils.sumArray(arrayLines.map(solveLine(true)));
+let answer1 = utils.sumArray(arrayLines.map(solveLine(1)));
+let answer2 = utils.sumArray(arrayLines.map(solveLine(5)));
 
 console.log("Answer1:", answer1, "Answer2:", answer2);
 // Answer1: 6488 Answer2: 815364548481
