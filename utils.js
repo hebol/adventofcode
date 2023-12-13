@@ -147,5 +147,16 @@ module.exports = {
       return result;
     };
   },
+  transposeMap: map => {
+    const result = new Array(map[0].length).fill('').map( () => {
+      return new Array(map.length).fill('')
+    });
+    for (let y = 0; y < map.length; y++) {
+      for (let x = 0; x < map[0].length; x++) {
+        result[x][y] = map[y][x];
+      }
+    }
+    return result;
+  }
 }
 
