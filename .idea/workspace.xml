@@ -4,16 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready and cleaned up">
-      <change afterPath="$PROJECT_DIR$/2023/14/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/15/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/15/main15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/15/test.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/13/main13.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/14/main14.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/14/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/14/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/15/main15.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +72,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/15",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/16",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -91,11 +84,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/16" />
       <recent name="$PROJECT_DIR$/2023/15" />
       <recent name="$PROJECT_DIR$/2023/14" />
       <recent name="$PROJECT_DIR$/2023/13" />
       <recent name="$PROJECT_DIR$/2023/12" />
-      <recent name="$PROJECT_DIR$/2023/11" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2022" />
@@ -194,7 +187,7 @@
       <workItem from="1702359154262" duration="6197000" />
       <workItem from="1702373294431" duration="11481000" />
       <workItem from="1702530072625" duration="11808000" />
-      <workItem from="1702557637865" duration="7451000" />
+      <workItem from="1702557637865" duration="7637000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -490,7 +483,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -521,7 +514,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="New day" />
     <MESSAGE value="With part 2" />
     <MESSAGE value="13 ok" />
     <MESSAGE value="Prepare 14" />
@@ -546,6 +538,7 @@
     <MESSAGE value="Ready and preparing" />
     <MESSAGE value="Cleanup" />
     <MESSAGE value="Ready and cleaned up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready and cleaned up" />
+    <MESSAGE value="Ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready" />
   </component>
 </project>
