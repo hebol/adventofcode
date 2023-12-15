@@ -1,41 +1,23 @@
 const utils = require('../../utils');
 const inputs = utils.readFile('input.txt');
-function where_to(map, dir) {
+function tiltTo(map, dir) {
   let load = 0;
-  for (let y = (dir == "up" ? 0 : map.length - 1); (dir == "up" ? y < map.length : y >= 0); (dir == "up" ? y++ : y--)) {
-    for (let x = (dir == "left" ? 0 : map[y].length - 1); (dir == "left" ? x < map[y].length : x >= 0);(dir == "left" ? x++ : x--)) {
-      (function move(y, x) {
-        let _y, _x;
+  for (let y = (dir == "north" ? 0 : map.length - 1); (dir == "north" ? y < map.length : y >= 0); (dir == "north" ? y++ : y--)) {
+    for (let x = (dir == "west" ? 0 : map[y].length - 1); (dir == "west" ? x < map[y].length : x >= 0);(dir == "west" ? x++ : x--)) {
+      function move(x, y) {
+        let [toX, toY] = { "north": [x, y-1], "south": [x, y+1], "west": [x-1, y], "east": [x+1, y]}[dir];
 
-        switch (dir) {
-          case "up":
-            _y = y - 1;
-            _x = x;
-            break;
-          case "down":
-            _y = y + 1;
-            _x = x;
-            break;
-          case "left":
-            _y = y;
-            _x = x - 1;
-            break;
-          case "right":
-            _y = y;
-            _x = x + 1;
-            break;
+        if (toY >= 0 && toY < map.length && toX >= 0 && toX < map[y].length && map[y][x] === "O" && map[toY][toX] === ".") {
+          map[y]   = map[y].substring(0, x) +     "." + map[y].substring(x + 1);
+          map[toY] = map[toY].substring(0, toX) + "O" + map[toY].substring(toX + 1);
+          move(toX, toY);
         }
-
-        if (_y >= 0 && _y < map.length && _x >= 0 && _x < map[y].length && map[y][x] === "O" && map[_y][_x] === ".") {
-          map[y] = map[y].substring(0, x) + "." + map[y].substring(x + 1);
-          map[_y] = map[_y].substring(0, _x) + "O" + map[_y].substring(_x + 1);
-          move(_y, _x);
-        }
-      })(y, x);
+      }
+      move(x, y);
     }
   }
 
-  if (calcPart1 || dir == "right")
+  if (calcPart1 || dir == "east")
     for (let i = 0, multiplier = 1; i < map.length; i++, multiplier++) {
       load += (map[map.length - 1 - i].match(/O/g) || []).length * multiplier;
     }
@@ -44,21 +26,21 @@ function where_to(map, dir) {
 
 let pattern = [];
 let calcPart1 = true;
-let answer1 = where_to(inputs, "up")[1];
+let answer1 = tiltTo(inputs, "north")[1];
 
 calcPart1 = false;
-let upState, leftState, downState;
+let northState, westState, southState;
 let answer;
 
-let rightState = [inputs];
+let eastState = [inputs];
 
 while (true) {
-  upState    = where_to(rightState[0], "up");
-  leftState  = where_to(upState[0], "left");
-  downState  = where_to(leftState[0], "down");
-  rightState = where_to(downState[0], "right");
+  northState = tiltTo(eastState[0], "north");
+  westState  = tiltTo(northState[0], "west");
+  southState = tiltTo(westState[0], "south");
+  eastState  = tiltTo(southState[0], "east");
 
-  let aMap = rightState[0].join("\n") + "_" + rightState[1].toString();
+  let aMap = eastState[0].join("\n") + "_" + eastState[1].toString();
 
   if (pattern.includes(aMap)) {
     answer = [pattern.indexOf(aMap), pattern.length];
