@@ -14,22 +14,19 @@ let answer1 = sumArray(arrayList.map(doHash));
 
 const slots = new Array(256).fill(0).map(() => []);
 arrayList.forEach(part => {
-  if (part.endsWith('-')){
-    const label = part.slice(0, -1);
-    const slot = doHash(label);
-    slots[slot] = slots[slot].filter(item => item.label !== label);
-  } else {
-    const item = {
-      label: part.slice(0, -2),
-      focal: parseInt(part.slice(-1))
-    };
-    const slot = doHash(item.label);
-    const found = slots[slot].find(i => i.label === item.label);
+  const match = part.match(/(\w+)=?(\d)?-?/);
+  const label = match[1];
+  const slot = doHash(label);
+  if (match[2]) {
+    const item = { label,focal: parseInt(match[2])};
+    const found = slots[slot].find(i => i.label === label);
     if (found) {
       found.focal = item.focal;
     } else {
       slots[slot].push(item);
     }
+  } else {
+    slots[slot] = slots[slot].filter(item => item.label !== label);
   }
 });
 

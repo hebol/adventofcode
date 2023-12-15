@@ -1,113 +1,78 @@
 const utils = require('../../utils');
-const {printMap} = require("../../utils");
-const orgMap = utils.readFile('test.txt').map(line => line.split(''));
-let map = JSON.parse(JSON.stringify(orgMap));
+const inputs = utils.readFile('input.txt');
+function where_to(map, dir) {
+  let load = 0;
+  for (let y = (dir == "up" ? 0 : map.length - 1); (dir == "up" ? y < map.length : y >= 0); (dir == "up" ? y++ : y--)) {
+    for (let x = (dir == "left" ? 0 : map[y].length - 1); (dir == "left" ? x < map[y].length : x >= 0);(dir == "left" ? x++ : x--)) {
+      (function move(y, x) {
+        let _y, _x;
 
-const tiltNorth = utils.cacheFunction(map => {
-  for (let col = 0; col < map[0].length; col++) {
-    let nextMoveTo = undefined;
-    for (let row = 0; row < map.length; row++) {
-      switch (map[row][col]) {
-        case 'O':
-          if (nextMoveTo >= 0) {
-            //console.log('Move', {nextMoveTo, row, col})
-            map[nextMoveTo][col] = 'O';
-            map[row][col] = '.';
-            for (let i = nextMoveTo + 1 ; i < map.length ; i++) {
-              if (map[i][col] === '.') {
-                nextMoveTo = i;
-                //console.log('Found Empty', {nextMoveTo});
-                break;
-              }
-            }
-          }
-          break;
-        case '#':
-          nextMoveTo = undefined;
-          break;
-        case '.':
-          nextMoveTo = nextMoveTo >= 0 ? nextMoveTo : row;
-          //console.log('Found Empty', {nextMoveTo});
-          break;
-      }
+        switch (dir) {
+          case "up":
+            _y = y - 1;
+            _x = x;
+            break;
+          case "down":
+            _y = y + 1;
+            _x = x;
+            break;
+          case "left":
+            _y = y;
+            _x = x - 1;
+            break;
+          case "right":
+            _y = y;
+            _x = x + 1;
+            break;
+        }
+
+        if (_y >= 0 && _y < map.length && _x >= 0 && _x < map[y].length && map[y][x] === "O" && map[_y][_x] === ".") {
+          map[y] = map[y].substring(0, x) + "." + map[y].substring(x + 1);
+          map[_y] = map[_y].substring(0, _x) + "O" + map[_y].substring(_x + 1);
+          move(_y, _x);
+        }
+      })(y, x);
     }
   }
-  return map;
-})
 
-
-const turnRight = utils.cacheFunction(map => {
-  let orgWidth = map[0].length;
-  let orgHeight = map.length;
-  const result = new Array(orgWidth).fill(0).map(() => new Array(orgHeight).fill('.'));
-  for (let row = 0; row < orgHeight; row++) {
-    for (let col = 0; col < orgWidth; col++) {
-      result[col][orgHeight - row - 1] = map[row][col];
+  if (calcPart1 || dir == "right")
+    for (let i = 0, multiplier = 1; i < map.length; i++, multiplier++) {
+      load += (map[map.length - 1 - i].match(/O/g) || []).length * multiplier;
     }
-  }
-  return result;
-});
-
-const aMap = tiltNorth(map);
-const calculateWeight = (aMap) => {
-  let result = 0;
-  const height = aMap.length;
-  for (let col = 0; col < map[0].length; col++) {
-    for (let row = 0; row < map.length; row++) {
-      if (aMap[row][col] === 'O') {
-        result += height - row;
-      }
-    }
-  }
-  return result;
-};
-
-const oldStates = {};
-const foundStates = [];
-let cycleLength;
-const cycle = (aMap, anIndex) => {
-  let key = JSON.stringify(aMap);
-  if (oldStates.hasOwnProperty(key)) {
-    let {anIndex:oldStateIndex, foundMap} = oldStates[key];
-    if (!cycleLength) {
-      if (foundStates.indexOf(oldStateIndex) >= 0) {
-        console.log({foundStates})
-        cycleLength = foundStates.length;
-        utils.printMap(foundMap, 'Found Map')
-      } else {
-        foundStates.push(oldStateIndex);
-      }
-    }
-    return foundMap;
-  } else {
-    for (let i = 0; i < 4; i++) {
-      aMap = tiltNorth(aMap);
-      aMap = turnRight(aMap);
-    }
-    oldStates[key] = {anIndex, foundMap:JSON.parse(JSON.stringify(aMap))};
-  }
-  return aMap;
-};
-
-let targetRounds = 1e9;
-for (let i = 0; i < targetRounds; i++) {
-  if (cycleLength && targetRounds - i > cycleLength) {
-    const stepsLeft = targetRounds - i;
-    let skipSteps = stepsLeft - (stepsLeft % cycleLength);
-    console.log('Skipping', {i, cycleLength, skipSteps})
-      // BROKEN
-    i += skipSteps;
-  }
-  console.log('Cycle: ' + i, calculateWeight(map));
-  if (i % 10000 === 0) {
-    console.log('Cycle', i);
-  }
-  map = cycle(map, i);
+  return [map, load];
 }
 
-let answer1 = calculateWeight(map);
+let pattern = [];
+let calcPart1 = true;
+let answer1 = where_to(inputs, "up")[1];
 
-let answer2 = -1;
+calcPart1 = false;
+let upState, leftState, downState;
+let answer;
+
+let rightState = [inputs];
+
+while (true) {
+  upState    = where_to(rightState[0], "up");
+  leftState  = where_to(upState[0], "left");
+  downState  = where_to(leftState[0], "down");
+  rightState = where_to(downState[0], "right");
+
+  let aMap = rightState[0].join("\n") + "_" + rightState[1].toString();
+
+  if (pattern.includes(aMap)) {
+    answer = [pattern.indexOf(aMap), pattern.length];
+    break;
+  } else {
+    pattern.push(aMap);
+  }
+}
+
+let repeatsFrom = answer[0];
+let cycleLength = answer[1] - repeatsFrom;
+let modulo = (999999999 - repeatsFrom) % cycleLength;
+
+let answer2 = pattern[repeatsFrom + modulo].split("_")[1];
 
 console.log("Answer1:", answer1, "Answer2:", answer2);
-// Answer1:  Answer2:
+//Answer1: 109424 Answer2: 102509
