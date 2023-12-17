@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
+      <change afterPath="$PROJECT_DIR$/2023/16/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/17/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/17/main17.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/17/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/17/test2.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/14/main14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/16/main16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/16/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/16/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,10 +68,13 @@
     "Node.js.main13.js.executor": "Run",
     "Node.js.main14.js.executor": "Run",
     "Node.js.main15.js.executor": "Run",
+    "Node.js.main16.js.executor": "Run",
+    "Node.js.main17.js.executor": "Run",
     "Node.js.mainX.js.executor": "Run",
     "Node.js.test.js (1).executor": "Run",
     "Node.js.test.js (2).executor": "Run",
     "Node.js.test.js.executor": "Run",
+    "Node.js.test2.js (1).executor": "Run",
     "Node.js.test2.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -73,7 +82,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/16",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/17",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -85,48 +94,50 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/17" />
       <recent name="$PROJECT_DIR$/2023/16" />
       <recent name="$PROJECT_DIR$/2023/15" />
       <recent name="$PROJECT_DIR$/2023/14" />
       <recent name="$PROJECT_DIR$/2023/13" />
-      <recent name="$PROJECT_DIR$/2023/12" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/17" />
+      <recent name="$PROJECT_DIR$/2023" />
       <recent name="$PROJECT_DIR$/2022" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main14.js">
+  <component name="RunManager" selected="Node.js.main16.js">
     <configuration name="main14.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/14/main14.js" working-dir="$PROJECT_DIR$/2023/14">
       <method v="2" />
     </configuration>
     <configuration name="main15.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/15/main15.js" working-dir="$PROJECT_DIR$/2023/15">
       <method v="2" />
     </configuration>
-    <configuration name="mainX.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/mainX.js" working-dir="$PROJECT_DIR$/2023">
+    <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/16/main16.js" working-dir="$PROJECT_DIR$/2023/16">
       <method v="2" />
     </configuration>
-    <configuration name="test2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/14/test2.js" working-dir="$PROJECT_DIR$/2023/14">
+    <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main17.js" working-dir="$PROJECT_DIR$/2023/17">
       <method v="2" />
     </configuration>
-    <configuration name="test.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/14/test.js" working-dir="$PROJECT_DIR$/2023/14">
+    <configuration name="test2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/16/test2.js" working-dir="$PROJECT_DIR$/2023/16">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.test2.js (1)" />
+      <item itemvalue="Node.js.main16.js" />
       <item itemvalue="Node.js.main15.js" />
-      <item itemvalue="Node.js.mainX.js" />
-      <item itemvalue="Node.js.test2.js" />
+      <item itemvalue="Node.js.main17.js" />
       <item itemvalue="Node.js.main14.js" />
-      <item itemvalue="Node.js.test.js (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main16.js" />
+        <item itemvalue="Node.js.test2.js (1)" />
+        <item itemvalue="Node.js.main17.js" />
         <item itemvalue="Node.js.main14.js" />
         <item itemvalue="Node.js.main15.js" />
-        <item itemvalue="Node.js.test2.js" />
-        <item itemvalue="Node.js.mainX.js" />
-        <item itemvalue="Node.js.test.js (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +200,8 @@
       <workItem from="1702373294431" duration="11481000" />
       <workItem from="1702530072625" duration="11808000" />
       <workItem from="1702557637865" duration="11088000" />
-      <workItem from="1702627672110" duration="2728000" />
+      <workItem from="1702627672110" duration="2779000" />
+      <workItem from="1702707099195" duration="18018000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -485,7 +497,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="147" />
+    <option name="localTasksCounter" value="148" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
