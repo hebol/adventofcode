@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready&amp;Cleanup">
-      <change afterPath="$PROJECT_DIR$/2023/18/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/18/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/18/main18.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/18/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/18/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
-    </list>
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready&amp;Cleanup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +74,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/18",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/19",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,11 +86,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/19" />
       <recent name="$PROJECT_DIR$/2023/18" />
       <recent name="$PROJECT_DIR$/2023/17" />
       <recent name="$PROJECT_DIR$/2023/16" />
       <recent name="$PROJECT_DIR$/2023/15" />
-      <recent name="$PROJECT_DIR$/2023/14" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2023/17" />
@@ -200,7 +193,7 @@
       <workItem from="1702530072625" duration="11808000" />
       <workItem from="1702557637865" duration="11088000" />
       <workItem from="1702627672110" duration="2779000" />
-      <workItem from="1702707099195" duration="25418000" />
+      <workItem from="1702707099195" duration="25517000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -496,7 +489,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="149" />
+    <option name="localTasksCounter" value="150" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

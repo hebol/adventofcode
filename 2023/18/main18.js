@@ -19,7 +19,7 @@ function calculateArea(isPart2) {
     posArray.push([pos.x, pos.y]);
   }, 'input.txt')
 
-  return utils.perimeterAndPosToArea(perimeter, posArray);
+  return utils.perimeterAndPosArrayToArea(perimeter, posArray);
 }
 
 const answer1 = calculateArea(false);
