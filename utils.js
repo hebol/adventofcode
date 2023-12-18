@@ -161,6 +161,13 @@ module.exports = {
       }
     }
     return result;
+  },
+  perimeterAndPosToArea: (perimeter, posArray) => {
+    let a = 0
+    for (let i = 0 ; i < posArray.length - 1; i++) {
+      a += (posArray[i][1] + posArray[i + 1][1]) * (posArray[i][0] - posArray[i + 1][0])
+    }
+    return perimeter / 2 + Math.abs(a) / 2 + 1;
   }
 }
 
