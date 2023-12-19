@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
-      <change afterPath="$PROJECT_DIR$/2023/19/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/19/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/20/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/19/main19.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/19/main19.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/19/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/19/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/16/mainX.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/20/main20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/19",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/20",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -94,11 +94,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/20" />
       <recent name="$PROJECT_DIR$/2023/19" />
       <recent name="$PROJECT_DIR$/2023/18" />
       <recent name="$PROJECT_DIR$/2023/17" />
       <recent name="$PROJECT_DIR$/2023/16" />
-      <recent name="$PROJECT_DIR$/2023/15" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2023/17" />
@@ -497,7 +497,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="152" />
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
