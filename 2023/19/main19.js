@@ -103,11 +103,8 @@ function countAccepted(ruleName, x, m, a, s, workflows) {
   return c;
 }
 
-const answer2 = countAccepted('in',
-    Array.from({length: 4000}, (_, i) => i + 1),
-    Array.from({length: 4000}, (_, i) => i + 1),
-    Array.from({length: 4000}, (_, i) => i + 1),
-    Array.from({length: 4000}, (_, i) => i + 1));
+let array = Array.from({length: 4000}, (_, i) => i + 1);
+const answer2 = countAccepted('in', array, [...array], [...array], [...array]);
 
 console.log("Answer1:", answer1, "Answer2:", answer2);
 // Answer1: 350678 Answer2: 124831893423809
