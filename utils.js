@@ -162,6 +162,7 @@ module.exports = {
     }
     return result;
   },
+    // Using Pick's Theorem
   perimeterAndPosArrayToArea: (perimeter, posArray) => {
     let a = 0
     for (let i = 0 ; i < posArray.length - 1; i++) {
