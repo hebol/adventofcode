@@ -56,11 +56,7 @@ const processPulse = (receiver, type, sender) => {
     }
     if (module?.op === '&') {
       module.inputs[signal.sender] = signal.type;
-      module.outputValue = true;
-      module.inputs[signal.sender] = signal.type;
-      if (Object.values(module.inputs).filter(value => value === false).length === 0) {
-        module.outputValue = false;
-      }
+      module.outputValue = Object.values(module.inputs).filter(value => value === false).length !== 0;
       sendSignal(module, module.outputValue);
     } else {
       if (module?.op === '%') {
@@ -76,8 +72,10 @@ const processPulse = (receiver, type, sender) => {
 }
 
 let count = 0;
-let serieMap = {...Object.values(moduleMap).find(module => module.outputs[0] === 'rx').inputs};
-Object.keys(serieMap).forEach(key => serieMap[key] = 0);
+let serieMap = Object.keys(Object.values(moduleMap).find(module => module.outputs[0] === 'rx').inputs).reduce((map, key) => {
+  map[key] = 0;
+  return map;
+}, {});
 let answer1;
 while (utils.multiplyArray(Object.values(serieMap)) == 0) {
   processPulse('broadcaster', false, 'button');
