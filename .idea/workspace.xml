@@ -4,8 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
-      <change beforePath="$PROJECT_DIR$/2023/19/main19.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/19/main19.js" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready&amp;Cleanup">
+      <change afterPath="$PROJECT_DIR$/2023/20/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/20/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/20/test2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/20/test2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/20/main20.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/20/main20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/20/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/20/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +71,7 @@
     "Node.js.main17.js.executor": "Run",
     "Node.js.main18.js.executor": "Run",
     "Node.js.main19.js.executor": "Run",
+    "Node.js.main20.js.executor": "Run",
     "Node.js.mainX.js.executor": "Run",
     "Node.js.test.js (1).executor": "Run",
     "Node.js.test.js (2).executor": "Run",
@@ -75,8 +82,8 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "16.6.1",
-    "javascript.nodejs.core.library.typings.version": "16.6.2",
+    "javascript.nodejs.core.library.configured.version": "18.17.0",
+    "javascript.nodejs.core.library.typings.version": "18.17.19",
     "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/20",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -103,11 +110,8 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main19.js">
+  <component name="RunManager" selected="Node.js.main20.js">
     <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/16/main16.js" working-dir="$PROJECT_DIR$/2023/16">
-      <method v="2" />
-    </configuration>
-    <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main17.js" working-dir="$PROJECT_DIR$/2023/17">
       <method v="2" />
     </configuration>
     <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/18/main18.js" working-dir="$PROJECT_DIR$/2023/18">
@@ -116,23 +120,26 @@
     <configuration name="main19.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/19/main19.js" working-dir="$PROJECT_DIR$/2023/19">
       <method v="2" />
     </configuration>
+    <configuration name="main20.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/20/main20.js" working-dir="$PROJECT_DIR$/2023/20">
+      <method v="2" />
+    </configuration>
     <configuration name="test2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/16/test2.js" working-dir="$PROJECT_DIR$/2023/16">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.main20.js" />
       <item itemvalue="Node.js.main18.js" />
       <item itemvalue="Node.js.main19.js" />
       <item itemvalue="Node.js.test2.js (1)" />
       <item itemvalue="Node.js.main16.js" />
-      <item itemvalue="Node.js.main17.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main20.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
         <item itemvalue="Node.js.main16.js" />
         <item itemvalue="Node.js.test2.js (1)" />
-        <item itemvalue="Node.js.main17.js" />
       </list>
     </recent_temporary>
   </component>
