@@ -76,7 +76,7 @@ module.exports = {
 
       axios.get('https://adventofcode.com/' + year + '/day/' + parseInt(day) + '/input', {
           headers: {
-            Cookie: "session=53616c7465645f5f748a0a80f85813598a2965237e05107b746e445b4f7038a1f7e31fc95b3736f3d3e3554e54532167d6db1c2b43f77974db5856413bf68edc"
+            Cookie: "session=53616c7465645f5f2b7535b78f059d444ee6d2c7f3596e365b2f8b8ae4cbb75090342801946f4fa3765d163ced4467e8c9acb78b817471ec3c67cc4b70374fc5"
           }
         })
         .then(response => {
@@ -169,6 +169,28 @@ module.exports = {
       a += (posArray[i][1] + posArray[i + 1][1]) * (posArray[i][0] - posArray[i + 1][0])
     }
     return perimeter / 2 + Math.abs(a) / 2 + 1;
-  }
+  },
+  gaussianElimination: (A, b) => {
+    let n = A.length;
+
+    for (let i = 0; i < n; i++) {
+      let diag = A[i][i];
+      for (let j = 0; j < n; j++) {
+        A[i][j] /= diag;
+      }
+      b[i] /= diag;
+
+      for (let j = 0; j < n; j++) {
+        if (i !== j) {
+          let factor = A[j][i];
+          for (let k = 0; k < n; k++) {
+            A[j][k] -= factor * A[i][k];
+          }
+          b[j] -= factor * b[i];
+        }
+      }
+    }
+    return b;
+  },
 }
 
