@@ -192,5 +192,11 @@ module.exports = {
     }
     return b;
   },
+  arrayToMap: (array, key) => {
+    return array.reduce((map, entry) => {
+      map[entry[key]] = entry;
+      return map;
+    }, {});
+  },
 }
 
