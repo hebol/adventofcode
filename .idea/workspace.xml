@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready, cleanup and prepare">
-      <change afterPath="$PROJECT_DIR$/2023/22/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/23/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/24/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/24/main24.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/24/part2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/24/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/25/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/25/main25.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2023/25/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/22/main22.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/22/main22.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/22/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/22/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/23/main23.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/23/main23.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/23/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/23/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +80,11 @@
     "Node.js.main20.js.executor": "Run",
     "Node.js.main21.js.executor": "Run",
     "Node.js.main22.js.executor": "Run",
+    "Node.js.main23.js.executor": "Run",
+    "Node.js.main24.js.executor": "Run",
+    "Node.js.main25.js.executor": "Run",
     "Node.js.mainX.js.executor": "Run",
+    "Node.js.part2.js.executor": "Run",
     "Node.js.test.js (1).executor": "Run",
     "Node.js.test.js (2).executor": "Run",
     "Node.js.test.js.executor": "Run",
@@ -84,7 +96,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/22",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/25",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -96,11 +108,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2023/25" />
+      <recent name="$PROJECT_DIR$/2023/24" />
+      <recent name="$PROJECT_DIR$/2023/23" />
       <recent name="$PROJECT_DIR$/2023/22" />
       <recent name="$PROJECT_DIR$/2023/21" />
-      <recent name="$PROJECT_DIR$/2023/20" />
-      <recent name="$PROJECT_DIR$/2023/19" />
-      <recent name="$PROJECT_DIR$/2023/18" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2023/17" />
@@ -110,36 +122,36 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main22.js">
-    <configuration name="main19.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/19/main19.js" working-dir="$PROJECT_DIR$/2023/19">
+  <component name="RunManager" selected="Node.js.main24.js">
+    <configuration name="main24.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/24/main24.js" working-dir="$PROJECT_DIR$/2023/24">
       <method v="2" />
     </configuration>
-    <configuration name="main20.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/20/main20.js" working-dir="$PROJECT_DIR$/2023/20">
+    <configuration name="main25.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/25/main25.js" working-dir="$PROJECT_DIR$/2023/25">
       <method v="2" />
     </configuration>
-    <configuration name="main21.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/21/main21.js" working-dir="$PROJECT_DIR$/2023/21">
+    <configuration name="part2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/24/part2.js" working-dir="$PROJECT_DIR$/2023/24">
       <method v="2" />
     </configuration>
-    <configuration name="main22.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/22/main22.js" working-dir="$PROJECT_DIR$/2023/22">
+    <configuration name="test2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/24/test2.js" working-dir="$PROJECT_DIR$/2023/24">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/21/test.js" working-dir="$PROJECT_DIR$/2023/21">
+    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/23/test.js" working-dir="$PROJECT_DIR$/2023/23">
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.main21.js" />
-      <item itemvalue="Node.js.main22.js" />
-      <item itemvalue="Node.js.test.js" />
-      <item itemvalue="Node.js.main20.js" />
-      <item itemvalue="Node.js.main19.js" />
+      <item itemvalue="Node.js.main24.js" />
+      <item itemvalue="Node.js.main25.js" />
+      <item itemvalue="Node.js.part2.js" />
+      <item itemvalue="Node.js.test.js (1)" />
+      <item itemvalue="Node.js.test2.js" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.main22.js" />
-        <item itemvalue="Node.js.main21.js" />
-        <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Node.js.main20.js" />
-        <item itemvalue="Node.js.main19.js" />
+        <item itemvalue="Node.js.main24.js" />
+        <item itemvalue="Node.js.part2.js" />
+        <item itemvalue="Node.js.main25.js" />
+        <item itemvalue="Node.js.test2.js" />
+        <item itemvalue="Node.js.test.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -206,7 +218,7 @@
       <workItem from="1702707099195" duration="33629000" />
       <workItem from="1703009705232" duration="103000" />
       <workItem from="1703055768074" duration="889000" />
-      <workItem from="1703061393975" duration="23583000" />
+      <workItem from="1703061393975" duration="47585000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -502,7 +514,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="160" />
+    <option name="localTasksCounter" value="161" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

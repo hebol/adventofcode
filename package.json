@@ -12,6 +12,8 @@
   "dependencies": {
     "axios": "^1.6.2",
     "crypto": "^1.0.1",
-    "moment": "^2.29.1"
+    "moment": "^2.29.1",
+    "promise-path": "^1.4.4",
+    "z3-solver": "^4.12.4"
   }
 }
