@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let [translator,...image] = utils.readFile('input.txt');
+let [translator,...image] = utils.readFile('input2.txt');
 let answer1, answer2;
 
 function displayImage(title, anImage) {

@@ -1,6 +1,6 @@
 const utils = require('../utils');
 
-const [orgData] = utils.readFile('input.txt');
+const [orgData] = utils.readFile('input2.txt');
 
 function pickup(node) {
   const result = node.next;

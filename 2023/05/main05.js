@@ -17,7 +17,7 @@ const maps = utils.processMultiLine((lines, index) => {
     }
     return map;
   }
-}, 'input.txt');
+}, 'input2.txt');
 maps.shift(); // Empty map at the beginning since seeds are read there
 
 const getValueFromMap = (value, map) => {

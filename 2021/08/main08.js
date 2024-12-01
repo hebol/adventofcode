@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-const arrayList = utils.readFile('input.txt');
+const arrayList = utils.readFile('input2.txt');
 
 let answer1 = 0, answer2;
 

@@ -1,6 +1,6 @@
 const utils = require('../../utils');
 const {sumArray} = require("../../utils");
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 
 function getCharAt(col, row, aMap) {
   return row >=  0 && row < aMap.length && col >= 0 && col < aMap[row].length ? aMap[row][col] : '.';

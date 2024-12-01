@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 
 const times = arrayList[0].match(/Time:(.*)/)[1].trim().split(/\s+/).map(Number);
 const distance = arrayList[1].match(/Distance:(.*)/)[1].trim().split(/\s+/).map(Number);

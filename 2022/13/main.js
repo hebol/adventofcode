@@ -67,7 +67,7 @@ function compare(left, right) {
 
 //console.log(compare([[[]]],[[]]));
 
-let fileName = 'input.txt';
+let fileName = 'input2.txt';
 const result = utils.processMultiLine((list, index) => {
   const left = parseList(list[0]);
   const right = parseList(list[1]);

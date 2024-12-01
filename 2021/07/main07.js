@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let array = utils.readFile('input.txt')[0].split(',').map(x=>parseInt(x));
+let array = utils.readFile('input2.txt')[0].split(',').map(x=>parseInt(x));
 const posMap = array.reduce((rest,val) => {
     let count = rest[val] || 0;
     rest[val] = ++count;

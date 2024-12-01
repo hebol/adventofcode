@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 
 const directions = arrayList[0].split('');
 const map = arrayList.slice(1).reduce((rest, line) => {

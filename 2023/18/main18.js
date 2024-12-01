@@ -17,7 +17,7 @@ function calculateArea(isPart2) {
     pos.x += len * dirs[dir].x;
     pos.y += len * dirs[dir].y;
     posArray.push([pos.x, pos.y]);
-  }, 'input.txt')
+  }, 'input2.txt')
 
   return utils.perimeterAndPosArrayToArea(perimeter, posArray);
 }

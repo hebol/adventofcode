@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let heightMap = utils.readFile('input.txt').map(line => line.split('').map(char => parseInt(char)));
+let heightMap = utils.readFile('input2.txt').map(line => line.split('').map(char => parseInt(char)));
 let height = heightMap.length;
 let width = heightMap[0].length;
 let answer1, answer2 = -1;

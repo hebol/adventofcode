@@ -22,7 +22,7 @@ utils.processLine(line => {
     map[toMapKey({x,y})] = '#';
   });
 
-},'input.txt');
+},'input2.txt');
 
 let {minX, maxX, maxY} = utils.findMapBounds(map, toMapPoint);
 

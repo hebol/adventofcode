@@ -44,7 +44,7 @@ function doProcess(dir, steps, stepsProcessor, turner) {
 utils.processLine(line => {
   const match = line.match(/([A-Z])([0-9]+)/)
   doProcess(match[1], parseInt(match[2]), doProcess, turn);
-}, 'input.txt');
+}, 'input2.txt');
 
 console.log('Answer1', Math.abs(x)+Math.abs(y));
 
@@ -73,6 +73,6 @@ utils.processLine(line => {
     }
     return direction;
   });
-}, 'input.txt');
+}, 'input2.txt');
 
 console.log('Answer2', Math.abs(x2)+Math.abs(y2));

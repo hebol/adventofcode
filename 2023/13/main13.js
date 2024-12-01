@@ -29,7 +29,7 @@ const getResult = (lines, maxErrors = 0) => {
   return findMirror(map, maxErrors) + 100 * findMirror(utils.transposeMap(map), maxErrors);
 }
 
-let filename = "input.txt";
+let filename = "input2.txt";
 let answer1 = utils.sumArray(utils.processMultiLine(lines => getResult(lines, 0), filename));
 let answer2 = utils.sumArray(utils.processMultiLine(lines => getResult(lines, 1), filename));
 

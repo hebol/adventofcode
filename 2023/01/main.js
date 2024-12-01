@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 
 function findNumber(line, includeWords) {
   const numberArray = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];

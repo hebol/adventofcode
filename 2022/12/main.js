@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 const mapHeight = arrayList.length;
 const mapWidth = arrayList[0].length;
 

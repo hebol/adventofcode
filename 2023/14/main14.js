@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-const inputs = utils.readFile('input.txt').map(row => row.split(''));
+const inputs = utils.readFile('input2.txt').map(row => row.split(''));
 function tiltTo(map, dir, doCalc) {
   let load = 0;
   for (let y = (dir === "north" ? 0 : map.length - 1); (dir === "north" ? y < map.length : y >= 0); (dir === "north" ? y++ : y--)) {

@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let dayFishList = utils.readFile('input.txt')[0].split(',').reduce((rest,day) => {
+let dayFishList = utils.readFile('input2.txt')[0].split(',').reduce((rest,day) => {
     rest[day] += 1;
     return rest;
 }, Array(9).fill(0))

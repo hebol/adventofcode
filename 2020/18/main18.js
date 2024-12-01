@@ -69,11 +69,11 @@ function processData(data, advanced) {
 
 const answer1 = utils.processLine(line => {
   return processData(line.replaceAll(' ', ''), false)[0];
-}, 'input.txt').reduce((rest, part) => rest + part, 0);
+}, 'input2.txt').reduce((rest, part) => rest + part, 0);
 
 const answer2 = utils.processLine(line => {
   return processData(line.replaceAll(' ', ''), true)[0];
-}, 'input.txt').reduce((rest, part) => rest + part, 0);
+}, 'input2.txt').reduce((rest, part) => rest + part, 0);
 
 //{ answer1: 23507031841020, answer2: 218621700997826 }
 console.log({answer1, answer2});

@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt').map(row => {
+let arrayList = utils.readFile('input2.txt').map(row => {
   const [total, x1, y1, x2, y2] = row.match(/(\d+),(\d+) -> (\d+),(\d+)/);
   return {x1:parseInt(x1),y1:parseInt(y1), x2:parseInt(x2), y2:parseInt(y2)};
 });

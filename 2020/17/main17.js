@@ -10,7 +10,7 @@ utils.processLine(line => {
     }
   }
   y += 1;
-}, 'input.txt');
+}, 'input2.txt');
 
 const originalState = currentState.slice();
 

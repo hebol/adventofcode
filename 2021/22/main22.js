@@ -3,7 +3,7 @@ let cubeData = utils.processLine(line=>{
     const data = line.match(/([^ ]+) x=(-?\d+)..(-?\d+),y=(-?\d+)..(-?\d+),z=(-?\d+)..(-?\d+)/);
     let [fromX, toX, fromY, toY, fromZ, toZ] = data.slice(2).map(Number);
     return { op: data[1],fromX, toX, fromY, toY, fromZ, toZ};
-}, 'input.txt').reverse();
+}, 'input2.txt').reverse();
 
 let answer1, answer2 = -1;
 

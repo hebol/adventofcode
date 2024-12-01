@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let map = utils.readFile('input.txt')
+let map = utils.readFile('input2.txt')
 
 let startPos;
 map.forEach((row, index) => {

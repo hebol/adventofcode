@@ -5,7 +5,7 @@ function dist(p1, p2) {
 }
 
 //const row = 10, maxSearch = 20, file = 'test.txt';
-const row = 2000000, maxSearch = 4000000, file = 'input.txt';
+const row = 2000000, maxSearch = 4000000, file = 'input2.txt';
 
 const beacons = utils.processLine(line => {
   const pattern = /Sensor at x=(-?\d+), y=(-?\d+): closest beacon is at x=(-?\d+), y=(-?\d+)/

@@ -30,7 +30,7 @@ utils.processMultiLine(parts => {
   };
   calculateSideNumbers(tile);
   tiles.push(tile);
-}, 'input.txt');
+}, 'input2.txt');
 
 const printTile = tile => {
   console.log('Tile' + tile.number);

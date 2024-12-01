@@ -104,7 +104,7 @@ function part1(input, times = 2022) {
   return height;
 }
 
-console.log(part2(utils.readFile('input.txt')[0]));
+console.log(part2(utils.readFile('input2.txt')[0]));
 
 function part2(input) {
   return part1(input, 1000000000000);

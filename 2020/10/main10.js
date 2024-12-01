@@ -4,7 +4,7 @@ const lines = [];
 
 utils.processLine(line => {
   lines.push(parseInt(line));
-}, 'input.txt');
+}, 'input2.txt');
 
 lines.sort((a,b) => a-b);
 

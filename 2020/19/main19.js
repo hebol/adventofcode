@@ -4,7 +4,7 @@ let parsingRules = true;
 const rules = {};
 const evaluatedRules = {};
 const data = [];
-utils.readFileNoFilter('input.txt').forEach( line => {
+utils.readFileNoFilter('input2.txt').forEach( line => {
   if (parsingRules) {
     if (line.trim().length === 0) {
       parsingRules = false;

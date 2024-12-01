@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 
 const playOrder = arrayList[0].split(",");
 const boardCount = (arrayList.length - 1) / 5

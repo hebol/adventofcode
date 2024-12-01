@@ -1,6 +1,6 @@
 const utils = require('../utils');
 
-const [departure, times] = utils.readFile('input.txt');
+const [departure, times] = utils.readFile('input2.txt');
 
 const timeList = times.split(',').map(entry => parseInt(entry));
 

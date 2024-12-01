@@ -5,7 +5,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
+      <change afterPath="$PROJECT_DIR$/2024/01/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/01/main01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/01/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/mainX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/02/main02.js" beforeDir="false" afterPath="$PROJECT_DIR$/2019/02/main02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/2019/05/main05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/08/main08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/09/main09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/10/main10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/12/main12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/13/main13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/14/main14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/15/main15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/16/main16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/17/main17.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/17/main17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/18/main18.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/19/main19.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/19/main19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/20/main20.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/20/main20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/21/main21.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/21/main21.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/22/main22.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/22/main22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/23/main23.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/23/main23.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/24/main24.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/24/main24.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2020/25/main25.js" beforeDir="false" afterPath="$PROJECT_DIR$/2020/25/main25.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/01/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/02/main02.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/02/main02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/03/main03.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/03/main03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/04/main04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/05/main05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/06/main06.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/06/main06.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/07/main07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/08/main08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/09/main09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/10/main10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/11/main11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/12/main12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/13/main13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/14/main14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/16/main16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/17/main17.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/17/main17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/18/main18.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/19/main2.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/19/main2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/20/main20.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/20/main20.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2021/22/main22.js" beforeDir="false" afterPath="$PROJECT_DIR$/2021/22/main22.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/01/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/02/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/03/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/03/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/04/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/04/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/05/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/05/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/06/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/06/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/07/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/07/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/08/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/08/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/09/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/09/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/10/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/10/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/11/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/11/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/12/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/12/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/13/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/13/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/14/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/14/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/15/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/15/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/16/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/16/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/17/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/17/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/18/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2022/18/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/01/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/01/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/02/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/02/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/03/main03.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/03/main03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/05/main05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/06/main06.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/06/main06.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/07/main07.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/07/main07.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/08/main08.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/08/main08.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/09/main09.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/09/main09.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/10/main10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/11/main11.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/12/main12.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/13/main13.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/13/main13.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/14/main14.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/14/main14.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/15/main15.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/15/main15.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/16/main16.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/17/main17.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/17/main17.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2023/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/18/main18.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2023/19/main19.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/19/main19.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +108,12 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "hebol"
+  }
+}]]></component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
       <filtered-out-file-type name="LOCAL_BRANCH" />
@@ -35,6 +122,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/hebol/adventofcode.git",
+    "accountId": "179937ab-2f62-454e-a425-616df51eb312"
+  }
+}]]></component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -53,6 +146,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Node.js.main01.js.executor": "Run",
     "Node.js.main08.js.executor": "Run",
     "Node.js.main09.js.executor": "Run",
     "Node.js.main10.js.executor": "Run",
@@ -75,9 +169,9 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "16.6.1",
-    "javascript.nodejs.core.library.typings.version": "16.6.2",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/20",
+    "javascript.nodejs.core.library.configured.version": "20.11.1",
+    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2024/01",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,11 +183,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2024/01" />
+      <recent name="$PROJECT_DIR$/2024" />
       <recent name="$PROJECT_DIR$/2023/20" />
       <recent name="$PROJECT_DIR$/2023/19" />
       <recent name="$PROJECT_DIR$/2023/18" />
-      <recent name="$PROJECT_DIR$/2023/17" />
-      <recent name="$PROJECT_DIR$/2023/16" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2023/17" />
@@ -103,11 +197,11 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main19.js">
-    <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/16/main16.js" working-dir="$PROJECT_DIR$/2023/16">
+  <component name="RunManager" selected="Node.js.main01.js">
+    <configuration name="main01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/01/main01.js" working-dir="$PROJECT_DIR$/2024/01">
       <method v="2" />
     </configuration>
-    <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="main17.js" working-dir="$PROJECT_DIR$/2023/17">
+    <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/16/main16.js" working-dir="$PROJECT_DIR$/2023/16">
       <method v="2" />
     </configuration>
     <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/18/main18.js" working-dir="$PROJECT_DIR$/2023/18">
@@ -116,25 +210,32 @@
     <configuration name="main19.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/19/main19.js" working-dir="$PROJECT_DIR$/2023/19">
       <method v="2" />
     </configuration>
-    <configuration name="test2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/16/test2.js" working-dir="$PROJECT_DIR$/2023/16">
+    <configuration name="mainX.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/01/mainX.js" working-dir="$PROJECT_DIR$/2024/01">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.main01.js" />
+      <item itemvalue="Node.js.mainX.js" />
       <item itemvalue="Node.js.main18.js" />
       <item itemvalue="Node.js.main19.js" />
-      <item itemvalue="Node.js.test2.js (1)" />
       <item itemvalue="Node.js.main16.js" />
-      <item itemvalue="Node.js.main17.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main01.js" />
+        <item itemvalue="Node.js.mainX.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
         <item itemvalue="Node.js.main16.js" />
-        <item itemvalue="Node.js.test2.js (1)" />
-        <item itemvalue="Node.js.main17.js" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-WS-242.20224.426" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -197,7 +298,8 @@
       <workItem from="1702557637865" duration="11088000" />
       <workItem from="1702627672110" duration="2779000" />
       <workItem from="1702707099195" duration="33629000" />
-      <workItem from="1703009705232" duration="103000" />
+      <workItem from="1703009705232" duration="277000" />
+      <workItem from="1733045304807" duration="2134000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -493,7 +595,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="156" />
+    <option name="localTasksCounter" value="157" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

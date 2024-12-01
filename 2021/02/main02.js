@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 const cmdList = arrayList.map(entry => {
   [cmd, val] = entry.split(' ');
   return {cmd, value: parseInt(val)};

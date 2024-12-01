@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let opcodes = utils.readFile('input.txt')[0].split(',').map(entry => parseInt(entry));
+let opcodes = utils.readFile('input2.txt')[0].split(',').map(entry => parseInt(entry));
 
 let answer1, answer2;
 // Answer1:  Answer2

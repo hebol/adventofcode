@@ -8,7 +8,7 @@ utils.processMultiLine(lines => {
   const isTrue  = parseInt(lines[4].substring(28));
   const isFalse = parseInt(lines[5].substring(29));
   monkeys.push({operation, test, isTrue, isFalse, inspectCount:0, orgItems});
-},'input.txt')
+},'input2.txt')
 
 const base = monkeys.reduce((prev, monkey) => prev * monkey.test, 1);
 

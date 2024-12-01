@@ -5,7 +5,7 @@ let handsRaw = utils.processMultiLine(lines => {
     name: lines.shift(),
     cards: lines.map(entry => parseInt(entry))
   };
-}, 'input.txt');
+}, 'input2.txt');
 
 function playGame(hands, isRecursive) {
   const priorStates = {};

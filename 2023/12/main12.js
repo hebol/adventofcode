@@ -42,7 +42,7 @@ const solveLine = (count) => {
   }
 }
 
-const arrayLines = utils.readFile("input.txt");
+const arrayLines = utils.readFile("input2.txt");
 
 let answer1 = utils.sumArray(arrayLines.map(solveLine(1)));
 let answer2 = utils.sumArray(arrayLines.map(solveLine(5)));

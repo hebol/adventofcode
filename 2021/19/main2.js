@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const input = fs.readFileSync('./input.txt', 'utf8').trimEnd();
+const input = fs.readFileSync('./input2.txt', 'utf8').trimEnd();
 
 const rots = [
   ([x, y, z]) => [x, y, z],

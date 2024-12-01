@@ -43,7 +43,7 @@ const cards = utils.processLine(line => {
   result.typeIndex = types.indexOf(result.type);
   result.typeIndexJ = types.indexOf(result.typeJ);
   return result;
-}, 'input.txt');
+}, 'input2.txt');
 
 const sorter = (specialJ) => {
   const aCardOrder = specialJ ? cardOrderJ : cardOrder;

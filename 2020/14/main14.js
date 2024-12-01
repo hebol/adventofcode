@@ -31,7 +31,7 @@ utils.processLine( line => {
     const memMatch = line.match(/mem\[(\d+)] = (\d+)/)
     memory[parseInt(memMatch[1])] = processValues(parseInt(memMatch[2]));
   }
-}, 'input.txt');
+}, 'input2.txt');
 
 //17934269678453
 console.log('Answer 1', Object.values(memory).reduce((rest, val) => rest + parseInt(val)));
@@ -69,6 +69,6 @@ utils.processLine( line => {
       memory[decodedAddress] = value;
     }
   }
-}, 'input.txt');
+}, 'input2.txt');
 
 console.log('Answer 2', Object.values(memory).reduce((rest, val) => rest + parseInt(val)));

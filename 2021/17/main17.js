@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let [,fromX, toX, fromY, toY] = utils.readFile('input.txt')[0]
+let [,fromX, toX, fromY, toY] = utils.readFile('input2.txt')[0]
     .match(/target area: x=(\d+)..(\d+), y=(-\d+)..(-\d+)/).map(x=>parseInt(x))
 
 let answer1, answer2;

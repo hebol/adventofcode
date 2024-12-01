@@ -11,7 +11,7 @@ utils.processLine(line => {
   min = Math.min(min || x, x);
   min = Math.min(min, y);
   min = Math.min(min, z);
-},'input.txt')
+},'input2.txt')
 
 const directions = [[-1, 0, 0], [1, 0, 0], [0, -1, 0], [0, 1, 0], [0, 0, -1], [0, 0, 1]];
 

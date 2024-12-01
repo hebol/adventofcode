@@ -9,7 +9,7 @@ const speakNumber = num => {
 }
 
 const spokenCount = () => spokenNumbers;
-const startNumbers = utils.readFile('input.txt').pop().split(',').map(entry => parseInt(entry));
+const startNumbers = utils.readFile('input2.txt').pop().split(',').map(entry => parseInt(entry));
 
 console.log('Start', startNumbers);
 

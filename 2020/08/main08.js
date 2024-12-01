@@ -16,7 +16,7 @@ const code = {
 utils.processLine(line => {
   const match = line.match(/^([a-z]{3}) ([+\-][0-9]+)$/);
   code.lines.push({op: match[1], arg: parseInt(match[2])});
-}, 'input.txt');
+}, 'input2.txt');
 code.orgLines = JSON.stringify(code.lines);
 
 console.log('There are', code.lines.length, 'rows');

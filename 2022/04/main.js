@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 
 const answer1 = arrayList.filter(line => {
   const [[start1, end1], [start2, end2]] = line.split(',').map(pair => pair.split('-').map(n => parseInt(n)));

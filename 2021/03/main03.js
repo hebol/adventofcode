@@ -1,6 +1,6 @@
 const utils = require('../../utils');
 
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 
 const getFactors = ((anArray, evenValue) => {
     const countArray = Array(arrayList[0].length).fill(0);

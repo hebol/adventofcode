@@ -2,7 +2,7 @@ const utils = require('../utils');
 
 const rules = {}
 
-let array = utils.readFile('input.txt');
+let array = utils.readFile('input2.txt');
 let rawRules = array.slice(0, array.indexOf('your ticket:'));
 const yourTicket = array[array.indexOf('your ticket:') + 1].split(',');
 const nearby = array.slice(array.indexOf('your ticket:') + 3).map(entry => entry.split(',').map(text => parseInt(text)));

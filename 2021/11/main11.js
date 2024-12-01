@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFile('input.txt').map(x=>x.split('').map(y=>parseInt(y)));
+let arrayList = utils.readFile('input2.txt').map(x=>x.split('').map(y=>parseInt(y)));
 
 const flashCell = (row, col, array) => {
     array[row][col] = -1;

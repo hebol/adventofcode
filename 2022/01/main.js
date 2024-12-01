@@ -4,7 +4,7 @@ let answer1 = -1, answer2 = -1;
 let partSum = 0;
 const sums = [];
 
-utils.readFileNoFilter('input.txt').forEach((line) => {
+utils.readFileNoFilter('input2.txt').forEach((line) => {
   if (line.length) {
     partSum += parseInt(line);
   } else {

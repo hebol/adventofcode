@@ -1,7 +1,7 @@
 const utils = require('../../utils');
 utils.checkDataInputFileExists();
 /*
-let arrayList = utils.readFile('input.txt')
+let arrayList = utils.readFile('input2.txt')
 let lastValue = null;
 
 let increasedSingle = arrayList.reduce((rest, value)=>{

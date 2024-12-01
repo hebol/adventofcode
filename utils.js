@@ -74,9 +74,10 @@ module.exports = {
     const year = parts.pop();
     if (!fs.existsSync('input.txt')) {
 
-      axios.get('https://adventofcode.com/' + year + '/day/' + parseInt(day) + '/input', {
+      let url = 'https://adventofcode.com/' + year + '/day/' + parseInt(day) + '/input';
+      axios.get(url, {
           headers: {
-            Cookie: "session=53616c7465645f5f748a0a80f85813598a2965237e05107b746e445b4f7038a1f7e31fc95b3736f3d3e3554e54532167d6db1c2b43f77974db5856413bf68edc"
+            Cookie: "session=53616c7465645f5f663fbd54ca32d821ff337d04d046e1686f904610bfe8fcf8e6ddbbcd12a1e346eff2583c24b8dc76c9dc668d0c3939a1462f8730b2cce6f1"
           }
         })
         .then(response => {
@@ -86,7 +87,7 @@ module.exports = {
           })
         })
         .catch(error => {
-          console.log('Error reading day', {year, day}, error.message);
+          console.log('Error reading day', {year, day, url}, error.message);
         });
     } else {
       console.log('Data exists for', {year, day});

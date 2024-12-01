@@ -19,7 +19,7 @@ let arrayList = utils.processLine(line => {
   }
 
   return {first: results[0][0], last: results[0][results[0].length - 1]};
-}, 'input.txt');
+}, 'input2.txt');
 
 let answer1 = utils.sumArray(arrayList.map(({first}) => first));
 let answer2 = utils.sumArray(arrayList.map(({last}) => last));

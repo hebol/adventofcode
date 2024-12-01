@@ -13,7 +13,7 @@ const movesList = utils.processLine(line => {
     moves.push(dir);
   }
   return moves;
-}, 'input.txt');
+}, 'input2.txt');
 
 const tiles = {};
 

@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let message = utils.readFile('input.txt')[0];
+let message = utils.readFile('input2.txt')[0];
 
 let answer1 = -1, answer2 = -1;
 

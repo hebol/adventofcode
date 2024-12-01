@@ -4,7 +4,7 @@ const lines = [];
 
 utils.processLine(line => {
   lines.push(parseInt(line));
-}, 'input.txt');
+}, 'input2.txt');
 
 console.log('There are', lines.length, 'rows');
 

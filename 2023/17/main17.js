@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let map = utils.readFile('input.txt').map(row=>row.split('').map(Number));
+let map = utils.readFile('input2.txt').map(row=>row.split('').map(Number));
 
 const dirLeftMap = {'east': 'north', 'north': 'west', 'west': 'south', 'south': 'east'};
 const dirRightMap = {'east': 'south', 'north': 'east', 'west': 'north', 'south': 'west'};

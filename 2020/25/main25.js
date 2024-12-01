@@ -1,6 +1,6 @@
 const utils = require('../utils');
 
-const [cardPub, doorPub] = utils.readFile('input.txt').map(entry => parseInt(entry));
+const [cardPub, doorPub] = utils.readFile('input2.txt').map(entry => parseInt(entry));
 
 function calcLoopCount(pub) {
   let result = 1;

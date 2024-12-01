@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFileNoFilter('input.txt')
+let arrayList = utils.readFileNoFilter('input2.txt')
 let answer1 = -1, answer2 = -1;
 
 const breakLine = arrayList.indexOf('');

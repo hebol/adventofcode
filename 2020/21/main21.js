@@ -12,7 +12,7 @@ const dataList = utils.processLine(line => {
     ingredients[ing] = (ingredients[ing] || 0) + 1;
   });
   return data;
-}, 'input.txt')
+}, 'input2.txt')
 
 dataList.forEach(data => {
   data.allergens.forEach(all => {

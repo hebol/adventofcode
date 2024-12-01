@@ -1,5 +1,5 @@
 const {sumArray, readFile} = require("../../utils");
-let arrayList = readFile('input.txt')[0].split(',');
+let arrayList = readFile('input2.txt')[0].split(',');
 
 const doHash = (item) => {
   return item.split('').reduce((acc, c) => {

@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-//let arrayList = utils.readFile('input.txt')
+//let arrayList = utils.readFile('input2.txt')
 utils.checkDataInputFileExists();
 
 let answer1, answer2;

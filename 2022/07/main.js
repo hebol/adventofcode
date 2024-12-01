@@ -35,7 +35,7 @@ utils.processLine(line => {
       nodes[currentDirectory].size += parseInt(parts[1]);
     }
   }
-}, 'input.txt')
+}, 'input2.txt')
 
 const sumChildren = (node) => {
   node.total = utils.sumArray(Object.values(Object.values(node.children).map(child => sumChildren(child)))) + node.size;

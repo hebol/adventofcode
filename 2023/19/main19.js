@@ -1,5 +1,5 @@
 const utils = require('../../utils');
-let arrayList = utils.readFileNoFilter('input.txt')
+let arrayList = utils.readFileNoFilter('input2.txt')
 const index = arrayList.findIndex(entry => entry.trim().length === 0);
 
 const rules = arrayList.slice(0, index).map(entry => {

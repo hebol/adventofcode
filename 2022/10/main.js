@@ -8,7 +8,7 @@ utils.processLine(line => {
     xVal.push(x);
     x += parseInt(val);
   }
-},'input.txt')
+},'input2.txt')
 
 const posArray = [20, 60, 100, 140, 180, 220];
 

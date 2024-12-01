@@ -16,7 +16,7 @@ const utils = require('../../utils');
 const valves = utils.processLine(line => {
   const [, id, rate, destination] = line.match(/^Valve ([^\s]+) has flow rate=(\d+); tunnels? leads? to valves? (.+)$/,);
   return { id, rate: +rate, destination: destination.split(', ') };
-  },'input.txt')
+  },'input2.txt')
   .reduce((obj, valve) => ({ ...obj, [valve.id]: valve }), {});
 
 Object.values(valves).forEach(valve => {
