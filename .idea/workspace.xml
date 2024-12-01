@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready, cleanup and prepare">
-      <change afterPath="$PROJECT_DIR$/2023/23/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/24/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/24/main24.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/24/part2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/24/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/25/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/25/main25.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2023/25/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/23/main23.js" beforeDir="false" afterPath="$PROJECT_DIR$/2023/23/main23.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2023/23/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2023/23/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/02/main02.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/02/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +87,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "18.17.0",
     "javascript.nodejs.core.library.typings.version": "18.17.19",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2023/25",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2024/02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,11 +99,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2024/02" />
       <recent name="$PROJECT_DIR$/2023/25" />
       <recent name="$PROJECT_DIR$/2023/24" />
       <recent name="$PROJECT_DIR$/2023/23" />
       <recent name="$PROJECT_DIR$/2023/22" />
-      <recent name="$PROJECT_DIR$/2023/21" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2023/17" />
