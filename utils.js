@@ -12,6 +12,10 @@ let theInterval = 10000;
 let now = new Date();
 
 module.exports = {
+  readRawFile: (name) => {
+    const rawData = fs.readFileSync(name || './input.txt');
+    return String(rawData);
+  },
   readFile: (name) => {
     const rawData = fs.readFileSync(name || './input.txt');
     const stringData = String(rawData);
