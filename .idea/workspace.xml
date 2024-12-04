@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 2 ready">
-      <change afterPath="$PROJECT_DIR$/2024/03/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/03/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/04/main04.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/04/test.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 3 ready">
+      <change afterPath="$PROJECT_DIR$/2024/04/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/03/main03.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/03/main03.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/03/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/03/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/04/main04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/04/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/04/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +70,7 @@
   "keyToString": {
     "Node.js.main02.js.executor": "Run",
     "Node.js.main03.js.executor": "Run",
+    "Node.js.main04.js.executor": "Run",
     "Node.js.main08.js.executor": "Run",
     "Node.js.main09.js.executor": "Run",
     "Node.js.main10.js.executor": "Run",
@@ -132,14 +129,14 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main03.js">
+  <component name="RunManager" selected="Node.js.main04.js">
     <configuration name="main02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/02/main02.js" working-dir="$PROJECT_DIR$/2024/02">
       <method v="2" />
     </configuration>
     <configuration name="main03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/03/main03.js" working-dir="$PROJECT_DIR$/2024/03">
       <method v="2" />
     </configuration>
-    <configuration name="main24.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2023/24/main24.js" working-dir="$PROJECT_DIR$/2023/24">
+    <configuration name="main04.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/04/main04.js" working-dir="$PROJECT_DIR$/2024/04">
       <method v="2" />
     </configuration>
     <configuration name="test2.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/02/test2.js" working-dir="$PROJECT_DIR$/2024/02">
@@ -149,19 +146,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.main04.js" />
       <item itemvalue="Node.js.main03.js" />
       <item itemvalue="Node.js.test.js" />
       <item itemvalue="Node.js.main02.js" />
       <item itemvalue="Node.js.test2.js (1)" />
-      <item itemvalue="Node.js.main24.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main04.js" />
         <item itemvalue="Node.js.main03.js" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.main02.js" />
         <item itemvalue="Node.js.test2.js (1)" />
-        <item itemvalue="Node.js.main24.js" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +233,8 @@
       <workItem from="1703009705232" duration="103000" />
       <workItem from="1703055768074" duration="889000" />
       <workItem from="1703061393975" duration="47585000" />
-      <workItem from="1733216915509" duration="2678000" />
+      <workItem from="1733216915509" duration="6368000" />
+      <workItem from="1733292458892" duration="2873000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -532,7 +530,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="162" />
+    <option name="localTasksCounter" value="163" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -563,7 +561,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Cleanu some" />
     <MESSAGE value="prepare for calendar!" />
     <MESSAGE value="Bah, part" />
     <MESSAGE value="Solved" />
@@ -588,6 +585,7 @@
     <MESSAGE value="Some cleanup" />
     <MESSAGE value="Ready, cleanup and prepare" />
     <MESSAGE value="Day 2 ready" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 2 ready" />
+    <MESSAGE value="Day 3 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 3 ready" />
   </component>
 </project>
