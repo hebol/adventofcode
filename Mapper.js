@@ -12,7 +12,26 @@ class Mapper {
     }
     return this.map[y][x];
   }
-  findMultiple( aFun) {
+  set(x, y, c) {
+    if (x < 0 || x >= this.width || y < 0 || y >= this.height) {
+      return undefined;
+    }
+    const oldC = this.map[y][x];
+    this.map[y][x] = c;
+    return oldC;
+  }
+  print (title, aSecondMap)  {
+    const aMap = aSecondMap || this.map;
+    title && console.log(title);
+    if (typeof aMap[0] === 'string') {
+      console.log(aMap.join('\n'));
+    } else {
+      console.log(aMap.map(row => row.join('')).join('\n'));
+    }
+    console.log('\n');
+  }
+
+findMultiple( aFun) {
     let result = [];
     for (let x = 0; x < this.width; x++) {
       for (let y = 0; y < this.height; y++) {

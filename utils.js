@@ -134,15 +134,6 @@ module.exports = {
     }
     return numList.reduce((a, b) => lcm(a, b));
   },
-  printMap: (aMap, title) => {
-    title && console.log(title);
-    if (typeof aMap[0] === 'string') {
-      console.log(aMap.join('\n'));
-    } else {
-      console.log(aMap.map(row => row.join('')).join('\n'));
-    }
-    console.log('\n');
-  },
   cacheFunction: aFun => {
     const stored = {};
 

@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Extracted MApper">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup crew...again!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/04/main04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,9 @@
 }</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -232,7 +236,7 @@
       <workItem from="1703055768074" duration="889000" />
       <workItem from="1703061393975" duration="47585000" />
       <workItem from="1733216915509" duration="6368000" />
-      <workItem from="1733292458892" duration="7392000" />
+      <workItem from="1733292458892" duration="7708000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -528,7 +532,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="165" />
+    <option name="localTasksCounter" value="166" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -559,8 +563,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Solved" />
-    <MESSAGE value="Read 03" />
     <MESSAGE value="Ready 04 and prepare for tomorrow" />
     <MESSAGE value="part day5" />
     <MESSAGE value="Day5 cleaned up" />
@@ -584,6 +586,8 @@
     <MESSAGE value="Day 3 ready" />
     <MESSAGE value="Day 4 ready" />
     <MESSAGE value="Extracted MApper" />
-    <option name="LAST_COMMIT_MESSAGE" value="Extracted MApper" />
+    <MESSAGE value="Cleanup crew..." />
+    <MESSAGE value="Cleanup crew...again!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup crew...again!" />
   </component>
 </project>
