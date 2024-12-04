@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Extracted MApper">
-      <change afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2024/04/main04.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/04/main04.js" afterDir="false" />
     </list>
@@ -233,7 +232,7 @@
       <workItem from="1703055768074" duration="889000" />
       <workItem from="1703061393975" duration="47585000" />
       <workItem from="1733216915509" duration="6368000" />
-      <workItem from="1733292458892" duration="4764000" />
+      <workItem from="1733292458892" duration="7392000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -529,7 +528,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
