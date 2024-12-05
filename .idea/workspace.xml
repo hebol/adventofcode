@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Prettier map!">
-      <change afterPath="$PROJECT_DIR$/2024/05/input.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="part solution">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2024/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/05/main05.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/05/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/05/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -240,7 +238,7 @@
       <workItem from="1703061393975" duration="47585000" />
       <workItem from="1733216915509" duration="6368000" />
       <workItem from="1733292458892" duration="11009000" />
-      <workItem from="1733375007748" duration="1019000" />
+      <workItem from="1733375007748" duration="4394000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -536,7 +534,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -567,7 +565,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="part day5" />
     <MESSAGE value="Day5 cleaned up" />
     <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Ready and prepared for tomorrow" />
@@ -592,6 +589,7 @@
     <MESSAGE value="Cleanup crew..." />
     <MESSAGE value="Cleanup crew...again!" />
     <MESSAGE value="Prettier map!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Prettier map!" />
+    <MESSAGE value="part solution" />
+    <option name="LAST_COMMIT_MESSAGE" value="part solution" />
   </component>
 </project>
