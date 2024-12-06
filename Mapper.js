@@ -13,14 +13,26 @@ class Mapper {
     map.height = height;
     return map;
   }
+  clone() {
+    const map = new Mapper();
+    map.map = this.map.map(row => [...row]);
+    map.width = this.width;
+    map.height = this.height;
+    return map;
+  }
   get(x, y) {
-    if (x < 0 || x >= this.width || y < 0 || y >= this.height) {
+    if (!this.isValidPos(x, y)) {
       return undefined;
     }
     return this.map[y][x];
   }
+
+  isValidPos(x, y) {
+    return !(x < 0 || x >= this.width || y < 0 || y >= this.height);
+  }
+
   set(x, y, c) {
-    if (x < 0 || x >= this.width || y < 0 || y >= this.height) {
+    if (!this.isValidPos(x, y)) {
       return undefined;
     }
     const oldC = this.map[y][x];

@@ -4,9 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="part solution">
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 6 ready">
+      <change afterPath="$PROJECT_DIR$/2024/06/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/07/main07.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/07/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/05/main05.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/05/main05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/06/main06.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/06/main06.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2024/06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/06/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +79,7 @@
     "Node.js.main03.js.executor": "Run",
     "Node.js.main04.js.executor": "Run",
     "Node.js.main05.js.executor": "Run",
+    "Node.js.main06.js.executor": "Run",
     "Node.js.main08.js.executor": "Run",
     "Node.js.main09.js.executor": "Run",
     "Node.js.main10.js.executor": "Run",
@@ -106,7 +112,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.10.0",
     "javascript.nodejs.core.library.typings.version": "20.10.8",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2024/05",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2024/07",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -118,11 +124,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2024/07" />
+      <recent name="$PROJECT_DIR$/2024/06" />
       <recent name="$PROJECT_DIR$/2024/05" />
       <recent name="$PROJECT_DIR$/2024/04" />
       <recent name="$PROJECT_DIR$/2024/03" />
-      <recent name="$PROJECT_DIR$/2024/02" />
-      <recent name="$PROJECT_DIR$/2023/25" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -132,7 +138,7 @@
       <recent name="$PROJECT_DIR$/01" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main05.js">
+  <component name="RunManager" selected="Node.js.main06.js">
     <configuration name="Mapper.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/Mapper.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
@@ -145,23 +151,23 @@
     <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/05/main05.js" working-dir="$PROJECT_DIR$/2024/05">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/03/test.js" working-dir="$PROJECT_DIR$/2024/03">
+    <configuration name="main06.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/06/main06.js" working-dir="$PROJECT_DIR$/2024/06">
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.main06.js" />
       <item itemvalue="Node.js.main05.js" />
       <item itemvalue="Node.js.Mapper.js" />
       <item itemvalue="Node.js.main04.js" />
       <item itemvalue="Node.js.main03.js" />
-      <item itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main06.js" />
         <item itemvalue="Node.js.main05.js" />
         <item itemvalue="Node.js.Mapper.js" />
         <item itemvalue="Node.js.main04.js" />
         <item itemvalue="Node.js.main03.js" />
-        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +244,8 @@
       <workItem from="1703061393975" duration="47585000" />
       <workItem from="1733216915509" duration="6368000" />
       <workItem from="1733292458892" duration="11009000" />
-      <workItem from="1733375007748" duration="4394000" />
+      <workItem from="1733375007748" duration="4706000" />
+      <workItem from="1733461541232" duration="1930000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -534,7 +541,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="169" />
+    <option name="localTasksCounter" value="170" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,8 +572,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Day5 cleaned up" />
-    <MESSAGE value="Prepare for tomorrow" />
     <MESSAGE value="Ready and prepared for tomorrow" />
     <MESSAGE value="Some cleanup day 8" />
     <MESSAGE value="Small cleanup" />
@@ -590,6 +595,8 @@
     <MESSAGE value="Cleanup crew...again!" />
     <MESSAGE value="Prettier map!" />
     <MESSAGE value="part solution" />
-    <option name="LAST_COMMIT_MESSAGE" value="part solution" />
+    <MESSAGE value="Day 5 ready" />
+    <MESSAGE value="Day 6 ready" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 ready" />
   </component>
 </project>
