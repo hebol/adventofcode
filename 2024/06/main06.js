@@ -1,11 +1,10 @@
 const Mapper = require('../../Mapper');
 
 const walkMap = (map) => {
-  const startPos = map.findMultiple(c => c === '^')[0];
   const dirs = [{dx:0, dy:-1}, {dx:1, dy:0},{dx:0, dy:1},{dx:-1, dy:0}];
   const alreadyWalked = {};
   let currentDir = 0;
-  let {x, y} = startPos;
+  let {x, y} = map.findMultiple(c => c === '^')[0];
 
   const getKey = () => {
     return x+','+y+','+currentDir;
@@ -40,13 +39,14 @@ const walkMap = (map) => {
 }
 
 let mapper = new Mapper('input.txt');
-let answer1 = walkMap(mapper).findMultiple(c => c === 'X').length;
+const startPos = mapper.findMultiple(c => c === '^')[0];
+let map1 = walkMap(mapper.clone());
+let answer1 = map1.findMultiple(c => c === 'X').length;
 let answer2 = 0;
 
-const startPos = mapper.findMultiple(c => c === '^')[0];
 for (let x = 0 ; x < mapper.width ; x++) {
   for (let y = 0 ; y < mapper.height ; y++) {
-    if ((x !== startPos.x || y !== startPos.y) && (mapper.get(x, y) === '.')) {
+    if ((x !== startPos.x || y !== startPos.y) && (map1.get(x, y) === 'X')) {
       const map = mapper.clone();
       map.set(x, y, '#');
       if (!walkMap(map)) {

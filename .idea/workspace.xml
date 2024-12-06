@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 6 ready">
-      <change afterPath="$PROJECT_DIR$/2024/06/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/07/main07.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/07/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2024/06/main06.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/06/main06.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/06/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +240,7 @@
       <workItem from="1733216915509" duration="6368000" />
       <workItem from="1733292458892" duration="11009000" />
       <workItem from="1733375007748" duration="4706000" />
-      <workItem from="1733461541232" duration="1930000" />
+      <workItem from="1733461541232" duration="3078000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -541,7 +536,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="170" />
+    <option name="localTasksCounter" value="171" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
