@@ -7,7 +7,7 @@ const walkMap = (map) => {
   let {x, y} = map.findMultiple(c => c === '^')[0];
 
   const getKey = () => {
-    return x+','+y+','+currentDir;
+    return x + ',' + y + ',' + currentDir;
   }
   const markPos = () => {
     let key = getKey();
