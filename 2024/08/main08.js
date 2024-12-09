@@ -23,7 +23,7 @@ const calculateEchos = allowMultiple => {
         let c = allowMultiple ? 0 : 1;
         while (map.isValidPos(x + c * dx, y + c * dy)) {
           echos[(x + c * dx) + ',' + (y + c * dy)] = true;
-          if ( !allowMultiple) {
+          if (!allowMultiple) {
             break;
           }
           c++;
