@@ -5,13 +5,13 @@ const map = new Mapper('input.txt').transform(Number);
 
 const starts = map.findMultiple((c) => c === 0);
 
-const th = starts.map(({x, y}) => {
+const th = starts.map(({x: startX, y: startY}) => {
   const directions = map.getOrtoDir();
   let availablePos = {};
-  availablePos[x + ',' + y] = 1;
+  availablePos[startX + ',' + startY] = 1;
 
   function arrayToObject(anArray) {
-    return anArray.reduce((acc, [x, y,r]) => {
+    return anArray.reduce((acc, [x, y, r]) => {
       acc[x + ',' + y] = (acc[x + ',' + y] || 0) + r;
       return acc;
     }, {});

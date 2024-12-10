@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="ready and prepare for next">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
       <change beforePath="$PROJECT_DIR$/2024/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/10/main10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,7 +243,7 @@
       <workItem from="1733461541232" duration="3874000" />
       <workItem from="1733549599774" duration="3168000" />
       <workItem from="1733636785977" duration="10969000" />
-      <workItem from="1733808286372" duration="6744000" />
+      <workItem from="1733808286372" duration="7010000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -541,7 +539,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="176" />
+    <option name="localTasksCounter" value="177" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -595,8 +593,8 @@
     <MESSAGE value="part solution" />
     <MESSAGE value="Day 5 ready" />
     <MESSAGE value="Day 6 ready" />
-    <MESSAGE value="Cleanup" />
     <MESSAGE value="ready and prepare for next" />
-    <option name="LAST_COMMIT_MESSAGE" value="ready and prepare for next" />
+    <MESSAGE value="Cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
   </component>
 </project>
