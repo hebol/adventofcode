@@ -1,9 +1,9 @@
 const utils = require('../../utils');
 const Mapper = require("../../Mapper");
 
-const map = new Mapper('input.txt');
+const map = new Mapper('input.txt').transform(Number);
 
-const starts = map.findMultiple((c) => parseInt(c) === 0);
+const starts = map.findMultiple((c) => c === 0);
 
 const th = starts.map(({x, y}) => {
   const directions = map.getOrtoDir();
@@ -24,7 +24,7 @@ const th = starts.map(({x, y}) => {
     availablePos = objectToArray(availablePos);
     availablePos = availablePos.map(([x,y, r]) => {
       return directions.map(([dx,dy]) => [x+dx, y+dy, r]).filter(([x,y]) => map.isValidPos(x,y));
-    }).flat().filter(([x,y]) => parseInt(map.get(x, y)) === current);
+    }).flat().filter(([x,y]) => map.get(x, y) === current);
     availablePos = arrayToObject(availablePos);
   }
   return objectToArray(availablePos).map(([,,r]) => r);

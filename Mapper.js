@@ -31,6 +31,15 @@ class Mapper {
     return !(x < 0 || x >= this.width || y < 0 || y >= this.height);
   }
 
+  transform(aFun) {
+    for (let x = 0; x < this.width; x++) {
+      for (let y = 0; y < this.height; y++) {
+        this.set(x, y, aFun(this.get(x, y), x, y));
+      }
+    }
+    return this;
+  }
+
   set(x, y, c) {
     if (!this.isValidPos(x, y)) {
       return undefined;
@@ -66,6 +75,7 @@ class Mapper {
 
     console.log(horizontalBorder);
     console.log('\n');
+    return this;
   }
 
   findMultiple( aFun) {

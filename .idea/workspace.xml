@@ -5,15 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="ready and prepare for next">
-      <change afterPath="$PROJECT_DIR$/2024/10/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/10/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/10/test22.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/10/test3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/11/main11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/11/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2024/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/10/main10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/10/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/10/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -251,7 +245,7 @@
       <workItem from="1733461541232" duration="3874000" />
       <workItem from="1733549599774" duration="3168000" />
       <workItem from="1733636785977" duration="10969000" />
-      <workItem from="1733808286372" duration="6122000" />
+      <workItem from="1733808286372" duration="6744000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -547,7 +541,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="175" />
+    <option name="localTasksCounter" value="176" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
