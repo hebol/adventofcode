@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Cleanup">
-      <change afterPath="$PROJECT_DIR$/2024/11/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready and prepare for tomorrow">
       <change beforePath="$PROJECT_DIR$/2024/11/main11.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/11/main11.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/11/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/11/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,64 +66,64 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Node.js.Mapper.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main02.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main03.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main04.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main05.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main06.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main07.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main08.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main09.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main10.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main11.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main12.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main13.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main14.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main15.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main16.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main17.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main18.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main19.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main20.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main21.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main22.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main23.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main24.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.main25.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.mainX.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.part2.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test.js (1).executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test.js (2).executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test2.js (1).executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.test2.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.10.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.10.8&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/martin/WebstormProjects/adventofcode/2024/11&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/Users/martin/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Node.js.Mapper.js.executor": "Run",
+    "Node.js.main02.js.executor": "Run",
+    "Node.js.main03.js.executor": "Run",
+    "Node.js.main04.js.executor": "Run",
+    "Node.js.main05.js.executor": "Run",
+    "Node.js.main06.js.executor": "Run",
+    "Node.js.main07.js.executor": "Run",
+    "Node.js.main08.js.executor": "Run",
+    "Node.js.main09.js.executor": "Run",
+    "Node.js.main10.js.executor": "Run",
+    "Node.js.main11.js.executor": "Run",
+    "Node.js.main12.js.executor": "Run",
+    "Node.js.main13.js.executor": "Run",
+    "Node.js.main14.js.executor": "Run",
+    "Node.js.main15.js.executor": "Run",
+    "Node.js.main16.js.executor": "Run",
+    "Node.js.main17.js.executor": "Run",
+    "Node.js.main18.js.executor": "Run",
+    "Node.js.main19.js.executor": "Run",
+    "Node.js.main20.js.executor": "Run",
+    "Node.js.main21.js.executor": "Run",
+    "Node.js.main22.js.executor": "Run",
+    "Node.js.main23.js.executor": "Run",
+    "Node.js.main24.js.executor": "Run",
+    "Node.js.main25.js.executor": "Run",
+    "Node.js.mainX.js.executor": "Run",
+    "Node.js.part2.js.executor": "Run",
+    "Node.js.test.js (1).executor": "Run",
+    "Node.js.test.js (2).executor": "Run",
+    "Node.js.test.js.executor": "Run",
+    "Node.js.test2.js (1).executor": "Run",
+    "Node.js.test2.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "javascript.nodejs.core.library.configured.version": "20.10.0",
+    "javascript.nodejs.core.library.typings.version": "20.10.8",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2024/12",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Users/martin/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2024/12" />
       <recent name="$PROJECT_DIR$/2024/11" />
       <recent name="$PROJECT_DIR$/2024/10" />
       <recent name="$PROJECT_DIR$/2024/09" />
       <recent name="$PROJECT_DIR$/2024/08" />
-      <recent name="$PROJECT_DIR$/2024/07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -247,7 +244,7 @@
       <workItem from="1733549599774" duration="3168000" />
       <workItem from="1733636785977" duration="10969000" />
       <workItem from="1733808286372" duration="9222000" />
-      <workItem from="1733865614529" duration="2033000" />
+      <workItem from="1733865614529" duration="2115000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -543,7 +540,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="178" />
+    <option name="localTasksCounter" value="179" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,7 +573,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Some cleanup day 8" />
     <MESSAGE value="Small cleanup" />
-    <MESSAGE value="Ready and prepare for tomorrow" />
     <MESSAGE value="cleanup" />
     <MESSAGE value="Finally ready and some cleanup...still much to do" />
     <MESSAGE value="Ready and preparing" />
@@ -599,6 +595,7 @@
     <MESSAGE value="Day 6 ready" />
     <MESSAGE value="ready and prepare for next" />
     <MESSAGE value="Cleanup" />
-    <option name="LAST_COMMIT_MESSAGE" value="Cleanup" />
+    <MESSAGE value="Ready and prepare for tomorrow" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready and prepare for tomorrow" />
   </component>
 </project>

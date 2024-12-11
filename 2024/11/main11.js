@@ -1,10 +1,9 @@
 const utils = require('../../utils');
-let start = utils.readRawFile('input.txt').split(' ').map(Number).reduce((acc, entry) => {
+let current = utils.readRawFile('input.txt').split(' ').map(Number).reduce((acc, entry) => {
   acc[entry] = 1;
   return acc;
 }, {})
 
-let current = {...start}
 const processEntry = (key) => {
   if (key === 0) {
     return [1];
