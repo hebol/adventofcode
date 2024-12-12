@@ -5,6 +5,7 @@ class Mapper {
     this.map = filename ? utils.readFile(filename).map(line => line.split('')) : [[]];
     this.width = this.map[0].length;
     this.height = this.map.length;
+    this.visited = {}
   }
   static byDimensions(width, height, c = '.') {
     const map = new Mapper();
@@ -18,6 +19,7 @@ class Mapper {
     map.map = this.map.map(row => [...row]);
     map.width = this.width;
     map.height = this.height;
+    map.visited = {...this.visited};
     return map;
   }
   get(x, y) {
@@ -90,7 +92,7 @@ class Mapper {
     return result;
   }
   getAllDir() {
-    return [[0, 1, 'S'], [0, -1, 'N'], [1, 0, 'E'], [1, 1, 'SE'], [1, -1, 'NE'], [-1,0, 'W'], [-1, 1, 'SW'], [-1, -1, 'NW']];
+    return [[0, -1, 'N'], [1, -1, 'NE'], [1, 0, 'E'], [1, 1, 'SE'], [0, 1, 'S'], [-1, 1, 'SW'], [-1,0, 'W'], [-1, -1, 'NW']];
   }
   getDiagonalDir() {
     return [[1, 1, 'SE'], [1, -1, 'NE'], [-1, 1, 'SW'], [-1, -1, 'NW']];
@@ -98,6 +100,12 @@ class Mapper {
   getOrtoDir() {
     return [[0, 1, 'S'], [0, -1, 'N'], [1, 0, 'E'], [-1,0, 'W']];
   }
+  hasVisited = (x, y) => {
+    return this.visited[x + ',' + y];
+  };
+  setVisited = (x, y) => {
+    this.visited[x + ',' + y] = true;
+  };
 }
 
 module.exports = Mapper;
