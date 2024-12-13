@@ -5,14 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Ready and prepare">
-      <change afterPath="$PROJECT_DIR$/2024/12/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/12/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/13/main13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/13/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2024/13/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/12/main12.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/12/main12.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/12/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/12/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +134,7 @@
       <recent name="$PROJECT_DIR$/2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main12.js">
+  <component name="RunManager" selected="Node.js.main13.js">
     <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/10/main10.js" working-dir="$PROJECT_DIR$/2024/10">
       <method v="2" />
     </configuration>
@@ -150,26 +144,26 @@
     <configuration name="main12.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/12/main12.js" working-dir="$PROJECT_DIR$/2024/12">
       <method v="2" />
     </configuration>
-    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/12/test.js" working-dir="$PROJECT_DIR$/2024/12">
+    <configuration name="main13.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/13/main13.js" working-dir="$PROJECT_DIR$/2024/13">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/10/test.js" working-dir="$PROJECT_DIR$/2024/10">
+    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/12/test.js" working-dir="$PROJECT_DIR$/2024/12">
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Node.js.main11.js" />
       <item itemvalue="Node.js.main12.js" />
+      <item itemvalue="Node.js.main13.js" />
       <item itemvalue="Node.js.test.js (1)" />
       <item itemvalue="Node.js.main10.js" />
-      <item itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main13.js" />
         <item itemvalue="Node.js.main12.js" />
         <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
-        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
@@ -251,7 +245,7 @@
       <workItem from="1733549599774" duration="3168000" />
       <workItem from="1733636785977" duration="10969000" />
       <workItem from="1733808286372" duration="9222000" />
-      <workItem from="1733865614529" duration="15326000" />
+      <workItem from="1733865614529" duration="18001000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -547,7 +541,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="180" />
+    <option name="localTasksCounter" value="181" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
