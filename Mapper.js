@@ -7,6 +7,13 @@ class Mapper {
     this.height = this.map.length;
     this.visited = {}
   }
+  static byArray(array) {
+    const map = new Mapper();
+    map.map = array.map(line => line.split(''));
+    map.width = map.map[0].length;
+    map.height = map.map.length;
+    return map;
+  }
   static byDimensions(width, height, c = '.') {
     const map = new Mapper();
     map.map = Array(height).fill().map(() => Array(width).fill(c));
@@ -91,14 +98,24 @@ class Mapper {
     }
     return result;
   }
+  find( aFun) {
+    for (let x = 0; x < this.width; x++) {
+      for (let y = 0; y < this.height; y++) {
+        if (aFun(this.get(x, y), x, y)) {
+          return {x, y};
+        }
+      }
+    }
+    return undefined;
+  }
   static getAllDir() {
     return [[0, -1, 'N'], [1, -1, 'NE'], [1, 0, 'E'], [1, 1, 'SE'], [0, 1, 'S'], [-1, 1, 'SW'], [-1,0, 'W'], [-1, -1, 'NW']];
   }
   getDiagonalDir() {
     return [[1, 1, 'SE'], [1, -1, 'NE'], [-1, 1, 'SW'], [-1, -1, 'NW']];
   }
-  getOrtoDir() {
-    return [[0, 1, 'S'], [0, -1, 'N'], [1, 0, 'E'], [-1,0, 'W']];
+  static getOrtoDir() {
+    return [[0, -1, 'N'], [1, 0, 'E'], [0, 1, 'S'], [-1,0, 'W']];
   }
   hasVisited = (x, y) => {
     return this.visited[x + ',' + y];
