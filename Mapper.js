@@ -117,6 +117,9 @@ class Mapper {
   static getOrtoDir() {
     return [[0, -1, 'N'], [1, 0, 'E'], [0, 1, 'S'], [-1,0, 'W']];
   }
+  static getOrtoDirMap() {
+    return {N: [0, -1], E: [1, 0], S: [0, 1], W: [-1, 0]};
+  }
   hasVisited = (x, y) => {
     return this.visited[x + ',' + y];
   };
