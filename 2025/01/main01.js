@@ -20,7 +20,7 @@ array.reduce((acc, item) => {
     if (acc !== 0) {
       answer2++;
     }
-    result = result < 0 ? result + 100 : result - 100;
+    result = (result + 100) % 100;
   } else {
     if (result === 0) {
       answer2++;

@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="17 ready, prepare for 18">
-      <change afterPath="$PROJECT_DIR$/2024/16/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/16/test2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/18/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/19/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/19/main19.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/19/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2024/19/test2.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Second day ready and somewhat clean">
+      <change afterPath="$PROJECT_DIR$/2025/02/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/03/main03.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/03/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/16/main16.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/16/main16.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/16/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/16/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/18/main18.js" beforeDir="false" afterPath="$PROJECT_DIR$/2024/18/main18.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/18/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2024/18/test.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mapper.js" beforeDir="false" afterPath="$PROJECT_DIR$/Mapper.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/01/main01.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/01/main01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/02/main02.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/02/main02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/02/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/02/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +63,7 @@
   &quot;associatedIndex&quot;: 7
 }</component>
   <component name="ProjectId" id="1l2zUSC64Amrmr9JooLaJAdj0H6" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+  <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -81,6 +75,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Node.js.Mapper.js.executor": "Run",
+    "Node.js.main01.js.executor": "Run",
     "Node.js.main02.js.executor": "Run",
     "Node.js.main03.js.executor": "Run",
     "Node.js.main04.js.executor": "Run",
@@ -117,9 +112,9 @@
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "20.11.1",
-    "javascript.nodejs.core.library.typings.version": "20.11.30",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2024/19",
+    "javascript.nodejs.core.library.configured.version": "24.2.0",
+    "javascript.nodejs.core.library.typings.version": "24.2.1",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2025/03",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,11 +126,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2025/03" />
       <recent name="$PROJECT_DIR$/2024/19" />
       <recent name="$PROJECT_DIR$/2024/18" />
       <recent name="$PROJECT_DIR$/2024/17" />
       <recent name="$PROJECT_DIR$/2024/15" />
-      <recent name="$PROJECT_DIR$/2024/14" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2024/13" />
@@ -145,11 +140,14 @@
       <recent name="$PROJECT_DIR$/2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main19.js">
-    <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/16/main16.js" working-dir="$PROJECT_DIR$/2024/16">
+  <component name="RunManager" selected="Node.js.main02.js">
+    <configuration name="main01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/01/main01.js" working-dir="$PROJECT_DIR$/2025/01">
       <method v="2" />
     </configuration>
-    <configuration name="main17.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/17/main17.js" working-dir="$PROJECT_DIR$/2024/17">
+    <configuration name="main02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/02/main02.js" working-dir="$PROJECT_DIR$/2025/02">
+      <method v="2" />
+    </configuration>
+    <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/16/main16.js" working-dir="$PROJECT_DIR$/2024/16">
       <method v="2" />
     </configuration>
     <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/18/main18.js" working-dir="$PROJECT_DIR$/2024/18">
@@ -158,23 +156,20 @@
     <configuration name="main19.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/19/main19.js" working-dir="$PROJECT_DIR$/2024/19">
       <method v="2" />
     </configuration>
-    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/15/test.js" working-dir="$PROJECT_DIR$/2024/15">
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Node.js.main01.js" />
+      <item itemvalue="Node.js.main02.js" />
       <item itemvalue="Node.js.main16.js" />
-      <item itemvalue="Node.js.main17.js" />
       <item itemvalue="Node.js.main18.js" />
       <item itemvalue="Node.js.main19.js" />
-      <item itemvalue="Node.js.test.js (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main02.js" />
+        <item itemvalue="Node.js.main01.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
         <item itemvalue="Node.js.main16.js" />
-        <item itemvalue="Node.js.main17.js" />
-        <item itemvalue="Node.js.test.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +578,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ready and preparing" />
     <MESSAGE value="Ready and cleaned up" />
     <MESSAGE value="Ready" />
     <MESSAGE value="Whoops" />
@@ -608,7 +602,8 @@
     <MESSAGE value="New days data" />
     <MESSAGE value="Solved and prepared" />
     <MESSAGE value="17 ready, prepare for 18" />
-    <option name="LAST_COMMIT_MESSAGE" value="17 ready, prepare for 18" />
+    <MESSAGE value="Second day ready and somewhat clean" />
+    <option name="LAST_COMMIT_MESSAGE" value="Second day ready and somewhat clean" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -617,7 +612,6 @@
           <condition expression="key==='3,11,N'" language="JavaScript" />
           <url>file://$PROJECT_DIR$/2024/16/main16.js</url>
           <line>43</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
