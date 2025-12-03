@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Second day ready and somewhat clean">
-      <change afterPath="$PROJECT_DIR$/2025/02/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/03/main03.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/03/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/01/main01.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/01/main01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/02/main02.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/02/main02.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/02/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/02/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/03/main03.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/03/main03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/03/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/03/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +105,7 @@
     "Node.js.test2.js.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
@@ -140,14 +137,14 @@
       <recent name="$PROJECT_DIR$/2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main02.js">
+  <component name="RunManager" selected="Node.js.main03.js">
     <configuration name="main01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/01/main01.js" working-dir="$PROJECT_DIR$/2025/01">
       <method v="2" />
     </configuration>
     <configuration name="main02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/02/main02.js" working-dir="$PROJECT_DIR$/2025/02">
       <method v="2" />
     </configuration>
-    <configuration name="main16.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/16/main16.js" working-dir="$PROJECT_DIR$/2024/16">
+    <configuration name="main03.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/03/main03.js" working-dir="$PROJECT_DIR$/2025/03">
       <method v="2" />
     </configuration>
     <configuration name="main18.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2024/18/main18.js" working-dir="$PROJECT_DIR$/2024/18">
@@ -157,26 +154,26 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Node.js.main03.js" />
       <item itemvalue="Node.js.main01.js" />
       <item itemvalue="Node.js.main02.js" />
-      <item itemvalue="Node.js.main16.js" />
       <item itemvalue="Node.js.main18.js" />
       <item itemvalue="Node.js.main19.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main03.js" />
         <item itemvalue="Node.js.main02.js" />
         <item itemvalue="Node.js.main01.js" />
         <item itemvalue="Node.js.main19.js" />
         <item itemvalue="Node.js.main18.js" />
-        <item itemvalue="Node.js.main16.js" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.112" />
+        <option value="bundled-js-predefined-d6986cc7102b-a71380e98a7c-JavaScript-WS-252.28238.10" />
       </set>
     </attachedChunks>
   </component>
@@ -252,6 +249,7 @@
       <workItem from="1733636785977" duration="10969000" />
       <workItem from="1733808286372" duration="9222000" />
       <workItem from="1733865614529" duration="29795000" />
+      <workItem from="1764757997381" duration="386000" />
     </task>
     <task id="LOCAL−00070" summary="renamed files and some minor cleanup">
       <created>1638451772748</created>
@@ -547,7 +545,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="184" />
+    <option name="localTasksCounter" value="185" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -616,5 +614,13 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="github-copilot-workspace">
+    <instructionFileLocations>
+      <option value=".github/instructions" />
+    </instructionFileLocations>
+    <promptFileLocations>
+      <option value=".github/prompts" />
+    </promptFileLocations>
   </component>
 </project>
