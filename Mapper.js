@@ -87,6 +87,18 @@ class Mapper {
     return this;
   }
 
+  count(aChar) {
+    let result = 0;
+    for (let x = 0; x < this.width; x++) {
+      for (let y = 0; y < this.height; y++) {
+        if (this.get(x, y) === aChar) {
+          result++;
+        }
+      }
+    }
+    return result;
+  }
+
   findMultiple( aFun) {
     let result = [];
     for (let x = 0; x < this.width; x++) {
