@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="04 ready, not cleaned up">
-      <change afterPath="$PROJECT_DIR$/2025/05/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/05/main05.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/05/test.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/06/main06.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/06/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/06/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/03/main03.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/03/main03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/06/main06.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/06/main06.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/06/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,12 +45,12 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/hebol/adventofcode.git",
-    "accountId": "179937ab-2f62-454e-a425-616df51eb312"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/hebol/adventofcode.git&quot;,
+    &quot;accountId&quot;: &quot;179937ab-2f62-454e-a425-616df51eb312&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -112,8 +111,8 @@
     "RunOnceActivity.git.unshallow": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "20.11.1",
-    "javascript.nodejs.core.library.typings.version": "20.11.30",
+    "javascript.nodejs.core.library.configured.version": "24.2.0",
+    "javascript.nodejs.core.library.typings.version": "24.2.1",
     "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2025/06",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -140,10 +139,7 @@
       <recent name="$PROJECT_DIR$/2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main05.js">
-    <configuration name="main01.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/01/main01.js" working-dir="$PROJECT_DIR$/2025/01">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Node.js.main06.js">
     <configuration name="main02.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/02/main02.js" working-dir="$PROJECT_DIR$/2025/02">
       <method v="2" />
     </configuration>
@@ -156,20 +152,23 @@
     <configuration name="main05.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/05/main05.js" working-dir="$PROJECT_DIR$/2025/05">
       <method v="2" />
     </configuration>
+    <configuration name="main06.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/06/main06.js" working-dir="$PROJECT_DIR$/2025/06">
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Node.js.main06.js" />
       <item itemvalue="Node.js.main04.js" />
       <item itemvalue="Node.js.main05.js" />
       <item itemvalue="Node.js.main03.js" />
-      <item itemvalue="Node.js.main01.js" />
       <item itemvalue="Node.js.main02.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main06.js" />
+        <item itemvalue="Node.js.main03.js" />
         <item itemvalue="Node.js.main05.js" />
         <item itemvalue="Node.js.main04.js" />
-        <item itemvalue="Node.js.main03.js" />
         <item itemvalue="Node.js.main02.js" />
-        <item itemvalue="Node.js.main01.js" />
       </list>
     </recent_temporary>
   </component>
