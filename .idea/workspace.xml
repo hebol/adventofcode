@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="04 ready, not cleaned up">
-      <change afterPath="$PROJECT_DIR$/2025/06/input.txt" afterDir="false" />
+    <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Day 6 ready but no cleanup">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/03/main03.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/03/main03.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2025/06/main06.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/06/main06.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2025/06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2025/06/test.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +110,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "24.2.0",
     "javascript.nodejs.core.library.typings.version": "24.2.1",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2025/06",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2025/07",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -125,11 +122,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2025/07" />
       <recent name="$PROJECT_DIR$/2025/06" />
       <recent name="$PROJECT_DIR$/2025/05" />
       <recent name="$PROJECT_DIR$/2025/04" />
       <recent name="$PROJECT_DIR$/2025/03" />
-      <recent name="$PROJECT_DIR$/2024/19" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2024/13" />
@@ -548,7 +545,7 @@
       <option name="presentableId" value="LOCAL−00118" />
       <updated>1671365722152</updated>
     </task>
-    <option name="localTasksCounter" value="186" />
+    <option name="localTasksCounter" value="187" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +576,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Ready" />
     <MESSAGE value="Whoops" />
     <MESSAGE value="Ready&amp;Cleanup" />
     <MESSAGE value="prepare" />
@@ -604,7 +600,8 @@
     <MESSAGE value="17 ready, prepare for 18" />
     <MESSAGE value="Second day ready and somewhat clean" />
     <MESSAGE value="04 ready, not cleaned up" />
-    <option name="LAST_COMMIT_MESSAGE" value="04 ready, not cleaned up" />
+    <MESSAGE value="Day 6 ready but no cleanup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 6 ready but no cleanup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
