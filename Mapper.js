@@ -5,6 +5,7 @@ class Mapper {
     this.map = filename ? utils.readFile(filename).map(line => line.split('')) : [[]];
     this.width = this.map[0].length;
     this.height = this.map.length;
+    this.counts = {};
     this.visited = {}
   }
   static byArray(array) {
@@ -27,6 +28,7 @@ class Mapper {
     map.width = this.width;
     map.height = this.height;
     map.visited = {...this.visited};
+    map.counts = {...this.counts};
     return map;
   }
   get(x, y) {
@@ -120,6 +122,25 @@ class Mapper {
     }
     return undefined;
   }
+
+  addCount(x,y, c){
+    const key = `${x},${y}`;
+    this.counts[key] = (this.counts[key] || 0) + c;
+  }
+
+  getCount(x, y) {
+    const key = `${x},${y}`;
+    return this.counts[key] || 0;
+  }
+
+  getColsForRow(row) {
+    return Object.keys(this.counts).filter(key => key.endsWith(`,${row}`)).map(key => parseInt(key.split(',')[0]));
+  }
+
+  getCountsForRow(row) {
+    return Object.keys(this.counts).filter(key => key.endsWith(`,${row}`)).map(key => this.counts[key]).reduce((a, b) => a + b, 0);
+  }
+
   static getAllDir() {
     return [[0, -1, 'N'], [1, -1, 'NE'], [1, 0, 'E'], [1, 1, 'SE'], [0, 1, 'S'], [-1, 1, 'SW'], [-1,0, 'W'], [-1, -1, 'NW']];
   }
