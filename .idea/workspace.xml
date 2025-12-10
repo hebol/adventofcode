@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e293dce-da4d-41da-9845-97aa762ef830" name="Default Changelist" comment="Some cleanup, prepare for tomorrow">
+      <change afterPath="$PROJECT_DIR$/2025/11/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/12/mainX.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/12/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/main12.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2025/10/main10.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/10/main10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2025/mainX.js" beforeDir="false" afterPath="$PROJECT_DIR$/2025/11/main11.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +115,7 @@
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "20.11.1",
     "javascript.nodejs.core.library.typings.version": "20.11.30",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2025/10",
+    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2025/12",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,11 +127,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2025/12" />
+      <recent name="$PROJECT_DIR$/2025/11" />
       <recent name="$PROJECT_DIR$/2025/10" />
       <recent name="$PROJECT_DIR$/2025/09" />
       <recent name="$PROJECT_DIR$/2025/08" />
-      <recent name="$PROJECT_DIR$/2025/07" />
-      <recent name="$PROJECT_DIR$/2025/06" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2024/13" />
@@ -618,7 +623,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/2025/10/main10.js</url>
           <line>3</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>

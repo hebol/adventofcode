@@ -59,7 +59,6 @@ let answer2 = utils.sumArray(arrayList.map(a => {
   const start = new Array(a.code.length).fill(0).join(',');
   const targetNum = a.code.slice(0);
   const target = a.code.join(',');
-  console.log(`Will solve ${a.code.join(',')}`);
 
   const processed = {};
   processed[target] = true;
@@ -69,7 +68,6 @@ let answer2 = utils.sumArray(arrayList.map(a => {
   let count = 0;
   while (!solved) {
     count++;
-    console.log(`Round ${count}, states:`, states);
     const newStates = new Set();
     for (const state of states) {
       for (const button of a.buttons) {
@@ -92,5 +90,5 @@ let answer2 = utils.sumArray(arrayList.map(a => {
 }));
 
 console.log("Answer1:", answer1, "Answer2:", answer2);
-// Answer1:  Answer2:
+// Answer1: 396 Answer2: 15688
 
