@@ -72,59 +72,59 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Node.js.Mapper.js.executor": "Run",
-    "Node.js.main01.js.executor": "Run",
-    "Node.js.main02.js.executor": "Run",
-    "Node.js.main03.js.executor": "Run",
-    "Node.js.main04.js.executor": "Run",
-    "Node.js.main05.js.executor": "Run",
-    "Node.js.main06.js.executor": "Run",
-    "Node.js.main07.js.executor": "Run",
-    "Node.js.main08.js.executor": "Run",
-    "Node.js.main09.js.executor": "Run",
-    "Node.js.main10.js.executor": "Run",
-    "Node.js.main11.js.executor": "Run",
-    "Node.js.main12.js.executor": "Run",
-    "Node.js.main13.js.executor": "Run",
-    "Node.js.main14.js.executor": "Run",
-    "Node.js.main15.js.executor": "Run",
-    "Node.js.main16.js.executor": "Debug",
-    "Node.js.main17.js.executor": "Run",
-    "Node.js.main18.js.executor": "Run",
-    "Node.js.main19.js.executor": "Run",
-    "Node.js.main20.js.executor": "Run",
-    "Node.js.main21.js.executor": "Run",
-    "Node.js.main22.js.executor": "Run",
-    "Node.js.main23.js.executor": "Run",
-    "Node.js.main24.js.executor": "Run",
-    "Node.js.main25.js.executor": "Run",
-    "Node.js.mainX.js.executor": "Run",
-    "Node.js.part2.js.executor": "Run",
-    "Node.js.test.js (1).executor": "Run",
-    "Node.js.test.js (2).executor": "Run",
-    "Node.js.test.js.executor": "Run",
-    "Node.js.test2.js (1).executor": "Run",
-    "Node.js.test2.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "javascript.nodejs.core.library.configured.version": "20.11.1",
-    "javascript.nodejs.core.library.typings.version": "20.11.30",
-    "last_opened_file_path": "/Users/martin/WebstormProjects/adventofcode/2025/12",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "/Users/martin/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Node.js.Mapper.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main01.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main02.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main03.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main04.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main05.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main06.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main07.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main08.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main09.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main10.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main11.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main12.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main13.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main14.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main15.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main16.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.main17.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main18.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main19.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main20.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main21.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main22.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main23.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main24.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.main25.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.mainX.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.part2.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js (2).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test2.js (1).executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.test2.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;20.11.1&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.11.30&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/martin/WebstormProjects/adventofcode/2025/12&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/martin/Applications/WebStorm.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/2025/12" />
@@ -141,7 +141,7 @@
       <recent name="$PROJECT_DIR$/2022" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.main10.js">
+  <component name="RunManager" selected="Node.js.main11.js">
     <configuration name="main08.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/08/main08.js" working-dir="$PROJECT_DIR$/2025/08">
       <method v="2" />
     </configuration>
@@ -151,26 +151,26 @@
     <configuration name="main10.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/10/main10.js" working-dir="$PROJECT_DIR$/2025/10">
       <method v="2" />
     </configuration>
+    <configuration name="main11.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/11/main11.js" working-dir="$PROJECT_DIR$/2025/11">
+      <method v="2" />
+    </configuration>
     <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/09/test.js" working-dir="$PROJECT_DIR$/2025/09">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/2025/08/test.js" working-dir="$PROJECT_DIR$/2025/08">
-      <method v="2" />
-    </configuration>
     <list>
+      <item itemvalue="Node.js.main11.js" />
       <item itemvalue="Node.js.main10.js" />
       <item itemvalue="Node.js.main09.js" />
       <item itemvalue="Node.js.test.js (1)" />
       <item itemvalue="Node.js.main08.js" />
-      <item itemvalue="Node.js.test.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.main11.js" />
         <item itemvalue="Node.js.main10.js" />
         <item itemvalue="Node.js.main09.js" />
         <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="Node.js.main08.js" />
-        <item itemvalue="Node.js.test.js" />
       </list>
     </recent_temporary>
   </component>
